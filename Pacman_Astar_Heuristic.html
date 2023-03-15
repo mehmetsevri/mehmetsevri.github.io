@@ -1,16 +1,26 @@
 <!DOCTYPE html>
-<!-- saved from url=(0141)file:///C:/Users/ms/OneDrive%20-%20gazi.edu.tr/Masa%C3%BCst%C3%BC/Verilen%20Dersler/Yapay%20Zeka/%C3%96devler/HW_2_Astar/Pacman_Astar.html#Q4 -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<!-- saved from url=(0150)file:///C:/Users/ms/OneDrive%20-%20gazi.edu.tr/Masa%C3%BCst%C3%BC/Verilen%20Dersler/Yapay%20Zeka/%C3%96devler/HW_1_DFS_BFS_UCS/Pacman_DFS_BFS_UCS.html -->
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="https://inst.eecs.berkeley.edu/~cs188/fa18/pacman-favicon.ico" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      href="https://inst.eecs.berkeley.edu/~cs188/fa18/pacman-favicon.ico"
+      type="image/x-icon"
+    />
     <title></title>
-    <link rel="stylesheet" href="./Pacman_Astar_Heuristic_files/bootstrap.min.css">
-    <link rel="stylesheet" href="./Pacman_Astar_Heuristic_files/style.css" type="text/css" media="all">
-    <script src="./Pacman_Astar_Heuristic_files/jquery.min.js.indir"></script>
-    <script src="./Pacman_Astar_Heuristic_files/bootstrap.min.js.indir"></script>
+    <link rel="stylesheet" href="./Pacman_Astar_files/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="./Pacman_Astar_files/style.css"
+      type="text/css"
+      media="all"
+    />
+    <script src="./Pacman_Astar_files/jquery.min.js.indir"></script>
+    <script src="./Pacman_Astar_files/bootstrap.min.js.indir"></script>
   </head>
   <body data-new-gr-c-s-check-loaded="14.1098.0" data-gr-ext-installed="">
     <div class="container">
@@ -20,61 +30,65 @@
             Homework Project 1: Search (due 20.03.2023 at 23:59)
           </h1>
 
-          <hr>
+          <hr />
           <h2>Table of Contents</h2>
           <ul>
             <li>
-              <a href="file:///C:/Users/ms/OneDrive%20-%20gazi.edu.tr/Masa%C3%BCst%C3%BC/Verilen%20Dersler/Yapay%20Zeka/%C3%96devler/HW_1_DFS_BFS_UCS/Pacman_DFS_BFS_UCS.html#Introduction">Introduction</a>
+              <a href="#Introduction">Introduction</a>
             </li>
             <li>
-              <a href="file:///C:/Users/ms/OneDrive%20-%20gazi.edu.tr/Masa%C3%BCst%C3%BC/Verilen%20Dersler/Yapay%20Zeka/%C3%96devler/HW_1_DFS_BFS_UCS/Pacman_DFS_BFS_UCS.html#Welcome">Welcome</a>
+              <a href="#Welcome">Welcome</a>
             </li>
             <!--
             <li>
               <a
-                href="file:///C:/Users/ms/OneDrive%20-%20gazi.edu.tr/Masa%C3%BCst%C3%BC/Verilen%20Dersler/Yapay%20Zeka/%C3%96devler/HW_1_DFS_BFS_UCS/Pacman_DFS_BFS_UCS.html#Q1"
+                href="#Q1"
                 >Q1: Depth First Search</a
               >
             </li>
             <li>
               <a
-                href="file:///C:/Users/ms/OneDrive%20-%20gazi.edu.tr/Masa%C3%BCst%C3%BC/Verilen%20Dersler/Yapay%20Zeka/%C3%96devler/HW_1_DFS_BFS_UCS/Pacman_DFS_BFS_UCS.html#Q2"
+                href="#Q2"
                 >Q2: Breadth First Search</a
               >
             </li>
             <li>
               <a
-                href="file:///C:/Users/ms/OneDrive%20-%20gazi.edu.tr/Masa%C3%BCst%C3%BC/Verilen%20Dersler/Yapay%20Zeka/%C3%96devler/HW_1_DFS_BFS_UCS/Pacman_DFS_BFS_UCS.html#Q3"
+                href="#Q3"
                 >Q3: Uniform Cost Search</a
               >
             </li>-->
             <li>
-              <a href="file:///C:/Users/ms/OneDrive%20-%20gazi.edu.tr/Masa%C3%BCst%C3%BC/Verilen%20Dersler/Yapay%20Zeka/%C3%96devler/HW_2_Astar/Pacman_Astar.html#Q4">Q4: A* Search</a>
+              <a href="#Q4">Q4: A* Search</a>
             </li>
             <li>
-              <a href="file:///C:/Users/ms/OneDrive%20-%20gazi.edu.tr/Masa%C3%BCst%C3%BC/Verilen%20Dersler/Yapay%20Zeka/%C3%96devler/HW_2_Astar/Pacman_Astar.html#Q5">Q5: Corners Problem: Representation</a>
+              <a href="#Q5">Q5: Corners Problem: Representation</a>
             </li>
             <li>
-              <a href="file:///C:/Users/ms/OneDrive%20-%20gazi.edu.tr/Masa%C3%BCst%C3%BC/Verilen%20Dersler/Yapay%20Zeka/%C3%96devler/HW_2_Astar/Pacman_Astar.html#Q6">Q6: Corners Problem: Heuristic</a>
+              <a href="#Q6">Q6: Corners Problem: Heuristic</a>
             </li>
             <li>
-              <a href="file:///C:/Users/ms/OneDrive%20-%20gazi.edu.tr/Masa%C3%BCst%C3%BC/Verilen%20Dersler/Yapay%20Zeka/%C3%96devler/HW_2_Astar/Pacman_Astar.html#Q7">Q7: Eating All The Dots: Heuristic</a>
+              <a href="#Q7">Q7: Eating All The Dots: Heuristic</a>
             </li>
             <li>
-              <a href="file:///C:/Users/ms/OneDrive%20-%20gazi.edu.tr/Masa%C3%BCst%C3%BC/Verilen%20Dersler/Yapay%20Zeka/%C3%96devler/HW_2_Astar/Pacman_Astar.html#Q8">Q8: Suboptimal Search</a>
+              <a href="#Q8">Q8: Suboptimal Search</a>
             </li>
             <li>
-              <a href="file:///C:/Users/ms/OneDrive%20-%20gazi.edu.tr/Masa%C3%BCst%C3%BC/Verilen%20Dersler/Yapay%20Zeka/%C3%96devler/HW_1_DFS_BFS_UCS/Pacman_DFS_BFS_UCS.html#Submission">Submission</a>
+              <a href="#Submission">Submission</a>
             </li>
           </ul>
         </div>
-        <hr>
+        <hr />
         <div class="project">
           <div class="text-center">
-            <img src="./Pacman_Astar_Heuristic_files/maze.png" alt="Pacman maze" width="400">
+            <img
+              src="./Pacman_Astar_files/maze.png"
+              alt="Pacman maze"
+              width="400"
+            />
             <p>
-              All those colored walls,<br>
-              Mazes give Pacman the blues,<br>
+              All those colored walls,<br />
+              Mazes give Pacman the blues,<br />
               So teach him to search.
             </p>
           </div>
@@ -100,7 +114,7 @@
             which you will need to read and understand in order to complete the
             assignment, and some of which you can ignore. You can download all
             the code and supporting files as a
-            <a href="file:///C:/Users/ms/OneDrive%20-%20gazi.edu.tr/Masa%C3%BCst%C3%BC/Verilen%20Dersler/Yapay%20Zeka/%C3%96devler/HW_1_DFS_BFS_UCS/search.zip">zip archive</a>.
+            <a href="search.zip">zip archive</a>.
           </p>
           <table class="table table-bordered">
             <tbody>
@@ -231,12 +245,14 @@
             <strong>Discussion:</strong> Please be careful not to post spoilers.
           </p>
         </div>
-        <hr>
+        <hr />
 
         <div class="project">
           <h2><a id="Welcome"></a>Welcome to Pacman</h2>
           <p>
-            After downloading the code (<code><a href="file:///C:/Users/ms/OneDrive%20-%20gazi.edu.tr/Masa%C3%BCst%C3%BC/Verilen%20Dersler/Yapay%20Zeka/%C3%96devler/HW_1_DFS_BFS_UCS/search.zip">search.zip</a></code>), unzipping it, and changing to the directory, you should be able
+            After downloading the code (<code
+              ><a href="search.zip">search.zip</a></code
+            >), unzipping it, and changing to the directory, you should be able
             to play a game of Pacman by typing the following at the command
             line:
           </p>
@@ -276,7 +292,7 @@
             <code>bash commands.txt</code>.
           </p>
         </div>
-        <hr>
+        <hr />
         <!--
         <div class="project">
           <h2>
@@ -446,7 +462,9 @@ python pacman.py -l tinyMaze -p SearchAgent -a fn=tinyMazeSearch</pre
             Manhattan distance heuristic (implemented already as
             <code>manhattanHeuristic</code> in <code>searchAgents.py</code>).
           </p>
-          <pre>python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic</pre>
+          <pre>
+python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic</pre
+          >
           <p>
             You should see that A* finds the optimal solution slightly faster
             than uniform cost search (about 549 vs. 620 search nodes expanded in
@@ -455,7 +473,7 @@ python pacman.py -l tinyMaze -p SearchAgent -a fn=tinyMazeSearch</pre
             various search strategies?
           </p>
         </div>
-        <hr>
+        <hr />
         <div class="project">
           <h2>
             <a id="Q5"></a>Question 5 (20 points): Finding All the Corners
@@ -475,8 +493,10 @@ python pacman.py -l tinyMaze -p SearchAgent -a fn=tinyMazeSearch</pre
             <code>tinyCorners</code> takes 28 steps.
           </p>
           <p>
-            <i>Note: Make sure to complete Question 2 before working on Question
-              5, because Question 5 builds upon your answer for Question 2.</i>
+            <i
+              >Note: Make sure to complete Question 2 before working on Question
+              5, because Question 5 builds upon your answer for Question 2.</i
+            >
           </p>
           <p>
             Implement the <code>CornersProblem</code> search problem in
@@ -485,8 +505,12 @@ python pacman.py -l tinyMaze -p SearchAgent -a fn=tinyMazeSearch</pre
             whether all four corners have been reached. Now, your search agent
             should solve:
           </p>
-          <pre>python pacman.py -l tinyCorners -p SearchAgent -a fn=bfs,prob=CornersProblem</pre>
-          <pre>python pacman.py -l mediumCorners -p SearchAgent -a fn=bfs,prob=CornersProblem</pre>
+          <pre>
+python pacman.py -l tinyCorners -p SearchAgent -a fn=bfs,prob=CornersProblem</pre
+          >
+          <pre>
+python pacman.py -l mediumCorners -p SearchAgent -a fn=bfs,prob=CornersProblem</pre
+          >
           <p>
             To receive full credit, you need to define an abstract state
             representation that <em>does not</em> encode irrelevant information
@@ -506,22 +530,28 @@ python pacman.py -l tinyMaze -p SearchAgent -a fn=tinyMazeSearch</pre
             required.
           </p>
         </div>
-        <hr>
+        <hr />
         <div class="project">
           <h2>
             <a id="Q6"></a>Question 6 (20 points): Corners Problem: Heuristic
           </h2>
           <p>
-            <i>Note: Make sure to complete Question 4 before working on Question
-              6, because Question 6 builds upon your answer for Question 4.</i>
+            <i
+              >Note: Make sure to complete Question 4 before working on Question
+              6, because Question 6 builds upon your answer for Question 4.</i
+            >
           </p>
           <p>
             Implement a non-trivial, consistent heuristic for the
             <code>CornersProblem</code> in <code>cornersHeuristic</code>.
           </p>
-          <pre>python pacman.py -l mediumCorners -p AStarCornersAgent -z 0.5</pre>
+          <pre>
+python pacman.py -l mediumCorners -p AStarCornersAgent -z 0.5</pre
+          >
           <p><em>Note:</em> <code>AStarCornersAgent</code> is a shortcut for</p>
-          <pre>-p SearchAgent -a fn=aStarSearch,prob=CornersProblem,heuristic=cornersHeuristic</pre>
+          <pre>
+-p SearchAgent -a fn=aStarSearch,prob=CornersProblem,heuristic=cornersHeuristic</pre
+          >
           <p>
             <em><b>Admissibility vs. Consistency:</b></em> Remember, heuristics
             are just functions that take search states and return numbers that
@@ -593,7 +623,7 @@ python pacman.py -l tinyMaze -p SearchAgent -a fn=tinyMazeSearch</pre
             receive <em>no</em> credit, so be careful!
           </p>
         </div>
-        <hr>
+        <hr />
         <div class="project">
           <h2><a id="Q7"></a>Question 7 (20 points): Eating All The Dots</h2>
           <p>
@@ -616,8 +646,10 @@ python pacman.py -l tinyMaze -p SearchAgent -a fn=tinyMazeSearch</pre
           <pre>python pacman.py -l testSearch -p AStarFoodSearchAgent</pre>
           <p>
             <em>Note:</em><code> AStarFoodSearchAgent</code> is a shortcut for
-            <code>-p SearchAgent -a
-              fn=astar,prob=FoodSearchProblem,heuristic=foodHeuristic</code>.
+            <code
+              >-p SearchAgent -a
+              fn=astar,prob=FoodSearchProblem,heuristic=foodHeuristic</code
+            >.
           </p>
           <p>
             You should find that UCS starts to slow down even for the seemingly
@@ -626,8 +658,10 @@ python pacman.py -l tinyMaze -p SearchAgent -a fn=tinyMazeSearch</pre
             search nodes.
           </p>
           <p>
-            <i>Note: Make sure to complete Question 4 before working on Question
-              7, because Question 7 builds upon your answer for Question 4.</i>
+            <i
+              >Note: Make sure to complete Question 4 before working on Question
+              7, because Question 7 builds upon your answer for Question 4.</i
+            >
           </p>
           <p>
             Fill in <code>foodHeuristic</code> in
@@ -682,7 +716,7 @@ python pacman.py -l tinyMaze -p SearchAgent -a fn=tinyMazeSearch</pre
             very impressed, or your heuristic is inconsistent.
           </p>
         </div>
-        <hr>
+        <hr />
         <div class="project">
           <h2><a id="Q8"></a>Question 8 (20 points): Suboptimal Search</h2>
           <p>
@@ -699,7 +733,9 @@ python pacman.py -l tinyMaze -p SearchAgent -a fn=tinyMazeSearch</pre
             <code>searchAgents.py</code>. Our agent solves this maze
             (suboptimally!) in under a second with a path cost of 350:
           </p>
-          <pre>python pacman.py -l bigSearch -p ClosestDotSearchAgent -z .5 </pre>
+          <pre>
+python pacman.py -l bigSearch -p ClosestDotSearchAgent -z .5 </pre
+          >
           <p>
             <em>Hint:</em> The quickest way to complete
             <code>findPathToClosestDot</code> is to fill in the
@@ -715,13 +751,13 @@ python pacman.py -l tinyMaze -p SearchAgent -a fn=tinyMazeSearch</pre
             eating all the dots.
           </p>
         </div>
-        <hr>
+        <hr />
 
         <div class="project">
           <h2><a id="Submission"></a>Submission</h2>
           <p>
             In order to submit your project, please upload the following files
-            to <b>Google Classrom</b>:<br><br>
+            to <b>Google Classrom</b>:<br /><br />
             Project Report that explain to your Codes
             <code>name_surname.pdf</code>, <code>search.py</code> and
             <code>searchAgents.py</code>. Please <b>do not</b> upload the files
@@ -731,6 +767,5 @@ python pacman.py -l tinyMaze -p SearchAgent -a fn=tinyMazeSearch</pre
         </div>
       </div>
     </div>
-  
-
-</body></html>
+  </body>
+</html>
