@@ -1,0 +1,8 @@
+# Yerelde kalan, yayınlanmayan dosyalar
+_tema-onerileri/
+.claude/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+desktop.ini

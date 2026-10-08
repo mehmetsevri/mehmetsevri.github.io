@@ -1,178 +1,586 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="tr" data-theme="light" class="no-js">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mehmet Sevri - Academic Portfolio</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700">
-  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-  <style>
-    body { font-family: 'Source Sans Pro', sans-serif; }
-    .hero {
-      background: url('images/bg.jpg') no-repeat center center fixed;
-      background-size: cover;
-      color: #fff;
-      padding: 120px 0;
-      text-align: center;
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mehmet Sevri — Dr. Öğr. Üyesi | Yapay Zeka &amp; Siber Güvenlik</title>
+<meta name="description" content="Dr. Öğr. Üyesi Mehmet Sevri — Recep Tayyip Erdoğan Üniversitesi Bilgisayar Mühendisliği Bölüm Başkanı ve AISEC Lab Direktörü. Yapay zekâ, derin öğrenme, web uygulama güvenliği, açıklanabilir yapay zekâ ve sağlıkta yapay zekâ.">
+<meta name="author" content="Mehmet Sevri">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f4f5f9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0a0c14" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://mehmetsevri.github.io/">
+<link rel="alternate" hreflang="tr" href="https://mehmetsevri.github.io/?lang=tr">
+<link rel="alternate" hreflang="en" href="https://mehmetsevri.github.io/?lang=en">
+<link rel="alternate" hreflang="x-default" href="https://mehmetsevri.github.io/">
+
+<meta property="og:type" content="profile">
+<meta property="og:site_name" content="Mehmet Sevri">
+<meta property="og:title" content="Mehmet Sevri — Dr. Öğr. Üyesi | Yapay Zeka &amp; Siber Güvenlik">
+<meta property="og:description" content="Recep Tayyip Erdoğan Üniversitesi Bilgisayar Mühendisliği Bölüm Başkanı ve AISEC Lab Direktörü. Yapay zekâ, siber güvenlik, açıklanabilir yapay zekâ ve sağlıkta yapay zekâ.">
+<meta property="og:url" content="https://mehmetsevri.github.io/">
+<meta property="og:image" content="https://mehmetsevri.github.io/assets/img/og-image.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Dr. Mehmet Sevri — Dr. Öğr. Üyesi, Bilgisayar Mühendisliği, RTEÜ · AI · Cybersecurity · AISEC Lab">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="profile:first_name" content="Mehmet">
+<meta property="profile:last_name" content="Sevri">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@msevri">
+<meta name="twitter:creator" content="@msevri">
+<meta name="twitter:title" content="Mehmet Sevri — Dr. Öğr. Üyesi | Yapay Zeka &amp; Siber Güvenlik">
+<meta name="twitter:description" content="Bilgisayar Mühendisliği Bölüm Başkanı ve AISEC Lab Direktörü · Yapay zekâ, siber güvenlik ve sağlıkta yapay zekâ.">
+<meta name="twitter:image" content="https://mehmetsevri.github.io/assets/img/og-image.jpg">
+<meta name="twitter:image:alt" content="Dr. Mehmet Sevri — AI · Cybersecurity · AISEC Lab">
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+<script>
+/* theme + language before first paint (a ?lang= override is remembered); reveal safety net */
+(function(){var d=document.documentElement,t=null,l=null,q=null,m=window.matchMedia;
+d.className=d.className.replace(/\bno-js\b/,'js');
+try{t=localStorage.getItem('ms-theme');l=localStorage.getItem('ms-lang');}catch(e){}
+try{q=new URLSearchParams(location.search).get('lang');}catch(e){}
+if(q==='en'||q==='tr'){l=q;try{localStorage.setItem('ms-lang',q);}catch(e){}}
+if(t!=='light'&&t!=='dark')t=(m&&m('(prefers-color-scheme: dark)').matches)?'dark':'light';
+d.setAttribute('data-theme',t);
+try{document.querySelectorAll('meta[name="theme-color"]').forEach(function(x){x.setAttribute('content',t==='dark'?'#0a0c14':'#f4f5f9');});}catch(e){}
+if(l==='en'){d.lang='en';d.classList.add('i18n-pending');}
+if('IntersectionObserver' in window&&!(m&&m('(prefers-reduced-motion: reduce)').matches))d.classList.add('has-js');
+setTimeout(function(){d.classList.add('reveal-all');d.classList.remove('i18n-pending');},2000);})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- fonts load without blocking rendering (display=swap); the page is fully usable with system fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@500;600;700&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@500;600;700&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap"></noscript>
+<link rel="stylesheet" href="assets/css/main.css?v=39cfbc7df7">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://mehmetsevri.github.io/#person",
+      "name": "Mehmet Sevri",
+      "givenName": "Mehmet",
+      "familyName": "Sevri",
+      "honorificPrefix": "Dr.",
+      "jobTitle": ["Dr. Öğr. Üyesi (Assistant Professor)", "Head of the Department of Computer Engineering", "Director, AISEC Lab"],
+      "description": "Assistant Professor and Head of the Department of Computer Engineering at Recep Tayyip Erdoğan University; Director of the Artificial Intelligence and Cyber Security Research Lab (AISEC Lab).",
+      "url": "https://mehmetsevri.github.io/",
+      "image": "https://mehmetsevri.github.io/assets/img/profile-square.webp",
+      "email": "mailto:mehmet.sevri@erdogan.edu.tr",
+      "telephone": "+90 464 223 7518",
+      "affiliation": { "@id": "https://mehmetsevri.github.io/#rteu" },
+      "worksFor": { "@id": "https://mehmetsevri.github.io/#rteu" },
+      "alumniOf": [
+        { "@type": "CollegeOrUniversity", "name": "Gazi University" },
+        { "@type": "CollegeOrUniversity", "name": "Karadeniz Technical University" }
+      ],
+      "award": "First Prize, Best Doctoral Thesis Competition – Gazi University (2024)",
+      "knowsAbout": ["Artificial Intelligence", "Deep Learning", "Web Application Security", "Cybersecurity", "Explainable AI (XAI)", "AI in Healthcare", "Large Language Models", "Pattern Recognition & Image Processing", "Algorithms"],
+      "sameAs": [
+        "https://avesis.erdogan.edu.tr/mehmet.sevri",
+        "https://scholar.google.com/citations?user=P3Xb43EAAAAJ",
+        "https://orcid.org/0000-0002-1551-9476",
+        "https://www.scopus.com/authid/detail.uri?authorId=57350018000",
+        "https://publons.com/researcher/AHB-4270-2022",
+        "https://github.com/mehmetsevri",
+        "https://tr.linkedin.com/in/msevri",
+        "https://twitter.com/msevri"
+      ]
+    },
+    {
+      "@type": "CollegeOrUniversity",
+      "@id": "https://mehmetsevri.github.io/#rteu",
+      "name": "Recep Tayyip Erdoğan Üniversitesi",
+      "alternateName": "Recep Tayyip Erdoğan University",
+      "url": "https://www.erdogan.edu.tr/",
+      "address": { "@type": "PostalAddress", "streetAddress": "Fener Mah., Zihni Derin Yerleşkesi", "postalCode": "53100", "addressLocality": "Rize", "addressCountry": "TR" }
+    },
+    {
+      "@type": "ResearchOrganization",
+      "@id": "https://mehmetsevri.github.io/#aisec",
+      "name": "Artificial Intelligence and Cyber Security Research Lab (AISEC)",
+      "alternateName": ["AISEC Lab", "Yapay Zeka ve Siber Güvenlik Araştırma Laboratuvarı"],
+      "url": "https://avesis.erdogan.edu.tr/arastirma-grubu/aisec",
+      "logo": "https://mehmetsevri.github.io/assets/img/lab/aisec-logo.png",
+      "parentOrganization": { "@id": "https://mehmetsevri.github.io/#rteu" },
+      "email": "mailto:mehmet.sevri@erdogan.edu.tr",
+      "knowsAbout": ["Machine Learning", "Deep Learning", "Natural Language Processing", "Network Security", "Intrusion Detection", "Data Privacy", "Threat Analysis", "AI in Health", "AI in Energy", "Transport & Smart Cities"],
+      "member": [
+        { "@type": "OrganizationRole", "roleName": "Lab Director", "member": { "@id": "https://mehmetsevri.github.io/#person" } },
+        { "@type": "Person", "name": "Tuğçem Partal" },
+        { "@type": "Person", "name": "Kevser Nur Çoğalmış" },
+        { "@type": "Person", "name": "Ömer Emin Çınar" },
+        { "@type": "Person", "name": "Rukiye Akıncı Hazır" },
+        { "@type": "Person", "name": "Çiğdem Sazak Turgut" },
+        { "@type": "Person", "name": "Evşen Yetim" },
+        { "@type": "Person", "name": "Rana Salihoğlu" },
+        { "@type": "Person", "name": "Joseph Bamidele Awotunde" },
+        { "@type": "Person", "name": "Muhammed Beşir Velioğlu" },
+        { "@type": "Person", "name": "Emirhan Toprak" },
+        { "@type": "Person", "name": "Hikmethan Kolay" },
+        { "@type": "Person", "name": "Ahmet Kerem Memioğlu" }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://mehmetsevri.github.io/#website",
+      "url": "https://mehmetsevri.github.io/",
+      "name": "Mehmet Sevri",
+      "inLanguage": ["tr", "en"],
+      "about": { "@id": "https://mehmetsevri.github.io/#person" }
     }
-    .hero img { margin-bottom: 20px; }
-    .section-title { margin-top: 40px; margin-bottom: 20px; }
-    .pub-list li { margin-bottom: 10px; }
-    footer { background: #f8f9fa; padding: 20px 0; }
-  </style>
+  ]
+}
+</script>
 </head>
+
 <body>
-  <header class="hero">
-    <img src="images/avatar.jpg" class="rounded-circle" width="180" alt="Mehmet Sevri">
-    <h1>Mehmet Sevri, Ph.D.</h1>
-    <p>Assistant Professor @ <a href="https://avesis.erdogan.edu.tr/mehmet.sevri" class="text-white">Recep Tayyip Erdoğan University</a></p>
-    <p><a href="mailto:mehmetsevri@gmail.com" class="text-white"><i class="fa fa-envelope"></i> mehmetsevri@gmail.com</a></p>
-    <p>
-      <a href="https://tr.linkedin.com/in/msevri" class="text-white mr-2"><i class="fa fa-linkedin"></i></a>
-      <a href="https://twitter.com/msevri" class="text-white mr-2"><i class="fa fa-twitter"></i></a>
-      <a href="https://scholar.google.com/citations?user=P3Xb43EAAAAJ&hl=en" class="text-white mr-2"><i class="fa fa-graduation-cap"></i></a>
-      <a href="https://github.com/mehmetsevri" class="text-white"><i class="fa fa-github"></i></a>
-    </p>
-  </header>
-  <main class="container">
-    <section id="about">
-      <h2 class="section-title">About</h2>
-      <p>I am an Assistant Professor at the Department of Computer Engineering, Recep Tayyip Erdoğan University. My research focuses on web application security and deep learning, combining academic insight with industrial experience.</p>
-    </section>
+<a class="skip" href="#main" data-i18n="skip">İçeriğe geç</a>
 
-    <section id="education">
-      <h2 class="section-title">Education</h2>
-      <ul class="pub-list">
-        <li>Ph.D. in Information Systems, Gazi University, 2016–2022</li>
-        <li>M.Sc. in Information Systems, Gazi University, 2013–2016</li>
-        <li>B.Sc. in Computer Engineering, Karadeniz Technical University, 2005–2011</li>
-        <li>International Bachelor in Natural Science (Computer Science), Roskilde University, 2008–2009</li>
-      </ul>
-    </section>
-    <section id="theses">
-      <h2 class="section-title">Theses</h2>
-      <ul class="pub-list">
-        <li><strong>Ph.D.</strong> – Securing Web Applications Using Deep Learning Methods, Gazi University, 2022</li>
-        <li><strong>M.Sc.</strong> – An AI-Based Security Module for Detecting Web Attacks, Gazi University, 2016</li>
-      </ul>
-    </section>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="gAB" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:#6366f1"/><stop offset="1" style="stop-color:#10b981"/></linearGradient>
+    <linearGradient id="gBeam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:#10b981;stop-opacity:.55"/><stop offset="1" style="stop-color:#10b981;stop-opacity:0"/></linearGradient>
+    <linearGradient id="gBeamA" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:#6366f1;stop-opacity:.5"/><stop offset="1" style="stop-color:#6366f1;stop-opacity:0"/></linearGradient>
+    <linearGradient id="gBand" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:#10b981;stop-opacity:.35"/><stop offset="1" style="stop-color:#10b981;stop-opacity:.02"/></linearGradient>
+    <radialGradient id="gGlow"><stop offset="0" style="stop-color:#6366f1;stop-opacity:.45"/><stop offset="1" style="stop-color:#6366f1;stop-opacity:0"/></radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+</svg>
 
-    <section id="publications">
-      <h2 class="section-title">Selected Publications</h2>
-      <ul class="pub-list">
-        <li>Hacer Karacan &amp; Mehmet Sevri, "A Novel Data Augmentation Technique and Deep Learning Model for Web Application Security," <em>IEEE Access</em>, vol. 9, 2021.</li>
-        <li>Mehmet Sevri, Hacer Karacan, "Two Stage Deep Learning Based Stacked Ensemble Model for Web Application Security," <em>KSII Transactions on Internet and Information Systems</em>, vol. 16, no. 2, 2022.</li>
-        <li>Elvan İşeri, Mehmet Sevri, et al., "A New Objective Diagnostic Tool for ADHD: Development of the Web-Based Auditory-Focused Continuous Performance Test," <em>Journal of the American Academy of Child and Adolescent Psychiatry</em>, 2022.</li>
-        <li>Ahmet Özaslan, Mehmet Sevri, et al., "A New Objective Diagnostic Tool for Attention-Deficit Hyperactivity Disorder (ADHD)," <em>European Child &amp; Adolescent Psychiatry</em>, under review.</li>
-        <li>Mehmet Sevri, H. Karacan, M.A. Akcayol, "Crime Analysis Based on Association Rules Using Apriori Algorithm," <em>International Journal of Information and Electronics Engineering</em>, vol. 7, pp. 99–102, 2017.</li>
-      </ul>
-      <h3>Selected Conference Papers</h3>
-      <ul class="pub-list">
-        <li>Mehmet Sevri, H. Karacan, "Explainable Artificial Intelligence (XAI) for Deep Learning Based Intrusion Detection Systems," <em>ICAIAME</em>, Baku, 2022.</li>
-        <li>Mehmet Sevri, H. Karacan, "Bidirectional LSTM based Intrusion Detection System for Web Applications," <em>A2CS'19</em>, Adana, 2019.</li>
-        <li>M.E. Al, Mehmet Sevri, B. Dökmetaş, N. Akçam, "Student Information Platform, Gazi University Example," <em>Multicongress</em>, 2019.</li>
-        <li>Mehmet Sevri, H. Karacan, "Deep Learning Based Web Application Security," <em>ICATCES</em>, 2019.</li>
-        <li>Mehmet Sevri, M.A. Koşan, H. Karacan, "Secure Multiparty Computation and Blockchain-Smart Contract Based Election System," <em>ICAME</em>, 2018.</li>
-        <li>M.A. Koşan, Mehmet Sevri, H. Karacan, "Comparison of Classification Algorithms used in Intrusion Detection Systems," <em>ICAME</em>, 2018.</li>
-        <li>Mehmet Sevri, A.İ. Kocatepe, H. Karacan, E.S. Arı, "Blockchain Technology and Its Use as a Notarial System," <em>International Advanced Researches and Engineering Congress</em>, 2017.</li>
-        <li>M.A. Koşan, Mehmet Sevri, H. Karacan, "Spy Attacks and Protection Methods in Android Smart Phones," <em>International Advanced Researches and Engineering Congress</em>, 2017.</li>
-        <li>A.İ. Kocatepe, Mehmet Sevri, H. Karacan, "Utilizing Linear Feedback Shift Registers for Selective-Random Memory Addressing," <em>International Advanced Researches and Engineering Congress</em>, 2017.</li>
-        <li>Mehmet Sevri, M.A. Koşan, H. Karacan, "Applying Deep Learning to Cybersecurity Field and Its Advantages," <em>International Advanced Researches and Engineering Congress</em>, 2017.</li>
-        <li>Mehmet Sevri, H. Karacan, "Using Data Mining Algorithms to Identify Gifted Students and Comparing Classification Models," <em>International Talented and Gifted Conference</em>, 2017.</li>
-        <li>Mehmet Sevri, H. Karacan, M.A. Akcayol, "Crime Analysis Based on Association Rules Using Apriori Algorithm," <em>ICEEE</em>, Ankara, 2017.</li>
-        <li>Mehmet Sevri, N. Topaloğlu, "The State of Cyber Security Education in Turkey," <em>ICEMST</em>, 2016.</li>
-        <li>Mehmet Sevri, S. Hakyemez, "Usability and Performance Analysis of the Ministry of Education Web Site," <em>ICEMST</em>, 2016.</li>
-        <li>Mehmet Sevri, N. Topaloğlu, "The Latest Trend of Malware Ransomware and Its Possible Future," <em>ICRES</em>, 2016.</li>
-        <li>Mehmet Sevri, N. Topaloğlu, "Classification of Web Attacks with Machine Learning Algorithms: An Application," <em>ICRES</em>, 2016.</li>
-        <li>Mehmet Sevri, N. Topaloğlu, "An Infrastructure Model to Detect and Prevent Web Attacks," <em>GCACSE</em>, Rome, 2016.</li>
-        <li>M. Orakçı, B. Ciylan, İ. Kök, Mehmet Sevri, "Use of Data Mining Techniques and Machine Learning Algorithms in Crime Analysis," <em>Academic Informatics Conference</em>, 2016.</li>
-        <li>Mehmet Sevri, N. Topaloğlu, "Unconscious DNS Changes and Their Risks," <em>Academic Informatics</em>, 2015.</li>
-      </ul>
-      <h3>Book</h3>
-      <ul class="pub-list">
-        <li>Mehmet Sevri, H. Karacan, "Explainable Artificial Intelligence (XAI) for Deep Learning Based Intrusion Detection Systems," in <em>Engineering Cyber-Physical Systems and Critical Infrastructures</em>, Springer, 2023.</li>
-      </ul>
-    </section>
-
-
-    </section>
-    <section id="projects">
-      <h2 class="section-title">Projects</h2>
+<header class="hdr">
+  <div class="wrap hdr-in">
+    <a class="brand" href="#home" data-i18n-aria="brandAria" aria-label="Mehmet Sevri — Ana Sayfa">
+      <span class="mono" aria-hidden="true">MS</span>
+      <span class="brand-txt"><b>Mehmet Sevri</b><small data-i18n="brandSub">Dr. Öğr. Üyesi · RTEÜ · AISEC Lab</small></span>
+    </a>
+    <nav class="nav" data-i18n-aria="navAria" aria-label="Ana menü">
       <ul>
+        <li><a href="#home" data-i18n="nHome">Ana Sayfa</a></li>
+        <li><a href="#about" data-i18n="nAbout">Hakkımda</a></li>
+        <li data-js><a href="#research" data-i18n="nResearch">Araştırma</a></li>
+        <li data-js><a href="#publications" data-i18n="nPubs">Yayınlar</a></li>
+        <li data-js><a href="#projects" data-i18n="nProjects">Projeler</a></li>
+        <li data-js><a href="#patents" data-i18n="nPatents">Patentler</a></li>
+        <li data-js><a href="#teaching" data-i18n="nTeaching">Dersler</a></li>
+        <li><a href="#lab" data-i18n="nLab">AISEC Lab</a></li>
+        <li><a href="#contact" data-i18n="nContact">İletişim</a></li>
+      </ul>
+    </nav>
+    <div class="ctrls">
+      <div class="seg" role="group" data-i18n-aria="langAria" aria-label="Dil seçimi" data-js>
+        <button type="button" class="seg-b" data-lang="tr" aria-pressed="true" lang="tr" title="Türkçe">TR</button>
+        <button type="button" class="seg-b" data-lang="en" aria-pressed="false" lang="en" title="English">EN</button>
+      </div>
+      <button type="button" class="icon-btn" id="themeBtn" aria-label="Koyu temaya geç" data-js>
+        <svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7z"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6"/></svg>
+      </button>
+      <button type="button" class="icon-btn burger" id="menuBtn" data-js aria-expanded="false" aria-controls="mnav" aria-label="Menüyü aç">
+        <svg class="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h10"/></svg>
+        <svg class="i-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="mnav" id="mnav" hidden>
+    <nav class="wrap" data-i18n-aria="mnavAria" aria-label="Mobil menü">
+      <ul>
+        <li><a href="#home"><i data-ic="home"></i><span data-i18n="nHome">Ana Sayfa</span></a></li>
+        <li><a href="#about"><i data-ic="user"></i><span data-i18n="nAbout">Hakkımda</span></a></li>
+        <li><a href="#research"><i data-ic="spark"></i><span data-i18n="nResearch">Araştırma</span></a></li>
+        <li><a href="#publications"><i data-ic="doc"></i><span data-i18n="nPubs">Yayınlar</span></a></li>
+        <li><a href="#projects"><i data-ic="folder"></i><span data-i18n="nProjects">Projeler</span></a></li>
+        <li><a href="#patents"><i data-ic="bulb"></i><span data-i18n="nPatents">Patentler</span></a></li>
+        <li><a href="#teaching"><i data-ic="cap"></i><span data-i18n="nTeaching">Dersler</span></a></li>
+        <li><a href="#lab"><i data-ic="lab"></i><span data-i18n="nLab">AISEC Lab</span></a></li>
+        <li><a href="#contact"><i data-ic="mail"></i><span data-i18n="nContact">İletişim</span></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-        <li>TÜBİTAK 1812 – Principal Investigator –  "AI-Based Energy Production Prediction for Canal-Type Hydroelectric Plants".</li>
-        <li>TÜBİTAK 1001 – Principal Investigator –  "Development of a New AI Decision Support System for the Detection and Management of Preeclampsia."</li>
-        <li>TÜBİTAK 1005 – Researcher – "Development of a Web-Based Auditory-Focused Continuous Performance Test for ADHD Diagnosis" (Completed).</li>
-        <li>KOSGEB – Engineer: "Annotation and Prioritization of Human Genome Data Using Next-Generation Sequencing Analysis Methods" (Completed).</li>
-        <li>TÜBİTAK 1001 – Researcher – Project 323K425: "Developing Psychological Resilience of Adolescents Affected by the February 6 Earthquake Using Virtual Reality" (Under Evaluation).</li>
-        <li>Higher Education Institutions Supported Project – Researcher: BAPSIS_7345, Teknofest - Health AI Competition Finalist Team Project.</li>
-        <li>2024–2027: Development of an AI Decision Support System for Preeclampsia Detection and Management (TÜBİTAK, PI with B. Yılmaz et&nbsp;al.).</li>
-        <li>2025: Smart Infrastructure Maintenance and Inspection Drone (University Funded, PI with B. Aydın et&nbsp;al.).</li>
-        <li>2025: RecyTech AI-Powered Smart Recycling and Sustainable Waste Management (University Funded, PI with M. Güneyli et&nbsp;al.).</li>
-        <li>2025: Pharmavent AI-Enhanced Prescription and Drug Management Mobile Application (University Funded, PI with M.B. Velioğlu et&nbsp;al.).</li>
-        <li>2024–2025: SafeScript AI-Based Smart Medication Management and Prescription System (University Funded, PI with E. Kıran et&nbsp;al.).</li>
-        <li>2020–2022: Web-Based Auditory-Focused Continuous Performance Test for ADHD Diagnosis (TÜBİTAK, Researcher with E. İşeri et&nbsp;al.).</li>
-        <li>BAPSIS_7345 Teknofest Health AI Finalist Team Project (Researcher).</li>
-        <li>Intelligent Tutoring Systems for Distance Education (University Research Fund, Completed).</li>
-        <li>Blockchain-Based Secure Medical Record Sharing (University Research Fund, Ongoing).</li>
+<main id="main" tabindex="-1">
+<noscript>
+  <div class="wrap nojs">
+    <h2>Dr. Mehmet Sevri</h2>
+    <p>Dr. Öğr. Üyesi · Bilgisayar Mühendisliği Bölüm Başkanı · AISEC Lab Direktörü — Recep Tayyip Erdoğan Üniversitesi<br>Assistant Professor · Head of the Department of Computer Engineering · Director, AISEC Lab — Recep Tayyip Erdoğan University</p>
+    <p>E-posta / Email: <a href="mailto:mehmet.sevri@erdogan.edu.tr">mehmet.sevri@erdogan.edu.tr</a> · <a href="mailto:mehmetsevri@gmail.com">mehmetsevri@gmail.com</a> · Tel: <a href="tel:+904642237518">+90 464 223 7518</a> (1245)</p>
+    <p>Fener Mah., Zihni Derin Yerleşkesi, Mühendislik ve Mimarlık Fakültesi, Bilgisayar Mühendisliği Bölümü, 53100 Merkez/Rize</p>
+    <p><a href="https://avesis.erdogan.edu.tr/mehmet.sevri">AVESIS</a> · <a href="https://scholar.google.com/citations?user=P3Xb43EAAAAJ">Google Scholar</a> · <a href="https://orcid.org/0000-0002-1551-9476">ORCID</a> · <a href="https://www.scopus.com/authid/detail.uri?authorId=57350018000">Scopus</a> · <a href="https://publons.com/researcher/AHB-4270-2022">Publons / WoS</a> · <a href="https://github.com/mehmetsevri">GitHub</a> · <a href="https://tr.linkedin.com/in/msevri">LinkedIn</a> · <a href="https://twitter.com/msevri">X</a> · <a href="https://avesis.erdogan.edu.tr/arastirma-grubu/aisec">AISEC Lab</a></p>
+    <p><small>Sayfanın tüm içeriği (yayınlar, projeler, laboratuvar) için JavaScript gereklidir. / JavaScript is required for the full content.</small></p>
+  </div>
+</noscript>
+
+<!-- ================= HERO (Neural Noir) ================= -->
+<section id="home" class="hero" aria-labelledby="hero-name">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <canvas id="net" aria-hidden="true"></canvas>
+  <div class="wrap hero-in">
+    <div class="hero-text">
+      <p class="h-kicker reveal"><span class="pulse" aria-hidden="true"></span><span id="hKicker">Yapay Zekâ · Siber Güvenlik · Sağlıkta YZ</span></p>
+      <h1 id="hero-name" class="h-name reveal" style="--i:1"><span>Mehmet</span> <span class="h-grad">Sevri</span></h1>
+      <p class="h-title reveal" style="--i:2"><span id="hTitle">Dr. Öğr. Üyesi</span><span class="sep" aria-hidden="true">/</span><span id="hDept">Bilgisayar Mühendisliği Bölümü</span></p>
+      <p class="h-uni reveal" style="--i:3" id="hUni">Mühendislik ve Mimarlık Fakültesi · Recep Tayyip Erdoğan Üniversitesi</p>
+      <div class="h-typed reveal" style="--i:4" aria-hidden="true" data-js><span class="prm">~/research $</span><span class="tx" id="typed">Yapay Zekâ</span><span class="caret"></span></div>
+      <p class="h-tag reveal" style="--i:5" id="hTag">Derin öğrenmeyi güvenli, açıklanabilir ve insan odaklı sistemlere dönüştürüyoruz: web uygulama güvenliğinden sağlıkta karar desteğe.</p>
+      <ul class="h-roles reveal" style="--i:6" id="hRoles" data-i18n-aria="rolesH" aria-label="Güncel Görevler">
+        <li class="h-role">Bilgisayar Mühendisliği Bölüm Başkanı</li>
+        <li class="h-role">AISEC Lab Direktörü</li>
+        <li class="h-role">Bilgisayar Bilimleri Anabilim Dalı Başkanı</li>
+        <li class="h-role">RENEWASOFT Yönetim Kurulu Başkanı</li>
       </ul>
-    </section>
-    <section id="patents">
-      <h2 class="section-title">Patents</h2>
-      <ul class="pub-list">
-        <li>2024 – System and Method for Identifying Vehicles with Active RFID Tags Placed on License Plates (Application No: 2024/018939).</li>
-        <li>2024 – RFID-Based Smart Mirror with Outfit Recommendation System (Application No: 2024/018960).</li>
-        <li>2024 – Signal and Coverage Optimization with AI-Controlled Dynamic Antenna Modem (Application No: 2024/018955).</li>
-        <li>2024 – Remaining Useful Life Prediction for Unmanned Aerial Vehicles Using Machine Learning on Sensor and Camera Data (Application No: 2024/019089).</li>
-        <li>2024 – AI-Driven Smart Pest Tracking and Spraying Robot (Application No: 2024/018832).</li>
-        <li>2022 – Explainable Deep Learning Based Web Application Firewall Method and System (Application No: PCT/TR2022/051479).</li>
-        <li>2021 – Explainable Deep Learning Web Application Firewall Method and System (Application No: 2021/020072).</li>
-      </ul>
-    </section>
-    <section id="courses">
-      <h2 class="section-title">Courses Taught</h2>
-      <ul>
-        <li>Scientific Research Techniques and Publication Ethics (Ph.D.)</li>
-        <li>Algorithms and Programming I</li>
-        <li>Algorithms and Programming II</li>
-        <li>System Programming</li>
-        <li>Applied Bioinformatics</li>
-        <li>Deep Learning</li>
-        <li>Web and Mobile Programming</li>
-        <li>Artificial Intelligence</li>
-        <li>Operating Systems</li>
-      </ul>
-    </section>
-    <section id="training">
-      <h2 class="section-title">Courses &amp; Training Provided</h2>
-      <ul>
-        <li>2024 – Using Artificial Intelligence Tools in Academic Research (Short Course, Continuing Education Center)</li>
-        <li>2021–2022 – BELTEK Web Designer Course (Continuing Education Center)</li>
-        <li>2021–2022 – White Hat Hacker (Certificate Program)</li>
-        <li>2021–2022 – Cyber Security Specialist (Certificate Program)</li>
-        <li>2018 – BELTEK C++ Programming Course</li>
-      </ul>
-    </section>
-    <section id="awards">
-      <h2 class="section-title">Awards</h2>
-      <ul>
-        <li>January 2024 – First Prize in Best Doctoral Thesis Competition, Gazi University</li>
-      </ul>
-    </section>
-    <section id="contact">
-      <h2 class="section-title">Contact</h2>
-      <address>
-        Fener Mah., Zihni Derin Yerleşkesi, Mühendislik ve Mimarlık Fakültesi, Bilgisayar Mühendisliği Bölümü, Merkez, Rize, Turkey<br>
-        Phone: +90 (464) 2237518 - 1245<br>
-        Email: <a href="mailto:mehmetsevri@gmail.com">mehmetsevri@gmail.com</a>
-      </address>
-    </section>
-  </main>
-  <footer class="text-center">
-    <small>&copy; 2024 Mehmet Sevri</small>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+      <ul class="h-chips reveal" style="--i:7" data-js id="hChips" data-i18n-aria="areasH" aria-label="Araştırma Alanları"></ul>
+      <div class="h-cta reveal" style="--i:8">
+        <a class="hbtn hbtn-pri" href="#collab"><i data-ic="spark"></i><span data-i18n="ctaCollab">Birlikte Çalışalım</span></a>
+        <a class="hbtn hbtn-ghost" href="#publications"><span data-i18n="ctaPubs">Yayınları Keşfet</span><i data-ic="arrow"></i></a>
+      </div>
+    </div>
+    <div class="h-vis reveal" style="--i:2">
+      <div class="portrait">
+        <div class="p-halo" aria-hidden="true"></div>
+        <div class="p-orbit" aria-hidden="true"><i></i><i></i><i></i></div>
+        <div class="p-ring" aria-hidden="true"></div>
+        <div class="p-disc" aria-hidden="true"></div>
+        <div class="p-clip"><img src="assets/img/profile-square.webp" width="640" height="640" alt="Dr. Mehmet Sevri’nin portresi" data-i18n-alt="portraitAlt" fetchpriority="high" decoding="async"></div>
+      </div>
+    </div>
+  </div>
+  <a class="h-scroll" href="#glance" aria-hidden="true" tabindex="-1"><span class="mouse"></span><span data-i18n="heroScroll">Kaydır</span></a>
+</section>
+
+<!-- ================= AT A GLANCE (Bento) ================= -->
+<section id="glance" class="glance" aria-labelledby="glance-h">
+  <div class="wrap">
+    <h2 id="glance-h" class="sr-only" data-i18n="glanceH">Bir bakışta</h2>
+    <div class="bento glance-grid">
+      <div class="tile t-roles reveal" style="--i:0" data-js>
+        <h3 class="tile-h"><span class="ic"><i data-ic="briefcase"></i></span><span data-i18n="rolesH">Güncel Görevler</span></h3>
+        <ul class="roles" id="gRoles"></ul>
+      </div>
+      <div class="tile t-pubs metric lift reveal" style="--i:1">
+        <div class="m-top"><span class="m-ico"><i data-ic="doc"></i></span><span data-i18n="mPubs">Yayın</span></div>
+        <div class="m-row">
+          <div class="m-num grad-text"><span class="count" id="gPubN" data-to="34">34</span></div>
+          <div class="spark" id="pubSpark" data-js></div>
+        </div>
+        <p class="m-sub" data-i18n="mPubsSub">Makale, bildiri ve kitap bölümü · yıllara göre</p>
+      </div>
+      <div class="tile t-lab lift reveal" style="--i:2" id="gLab" data-js></div>
+      <div class="tile t-proj metric lift reveal" style="--i:3">
+        <div class="m-top"><span class="m-ico"><i data-ic="folder"></i></span><span data-i18n="mProj">Proje</span></div>
+        <div class="m-num"><span class="count" id="gPrjN" data-to="9">9</span></div>
+        <p class="m-sub" data-i18n="mProjSub">TÜBİTAK · SSB · BAP</p>
+      </div>
+      <div class="tile t-ip metric lift reveal" style="--i:4">
+        <div class="m-top"><span class="m-ico"><i data-ic="bulb"></i></span><span data-i18n="mPat">Patent başvurusu</span></div>
+        <div class="m-num"><span class="count" id="gPatN" data-to="7">7</span></div>
+        <p class="m-sub" id="gPatSub">1 PCT başvurusu dahil</p>
+      </div>
+      <div class="tile t-wos metric lift reveal" style="--i:5">
+        <div class="m-top"><span class="m-ico"><i data-ic="globe"></i></span><span data-i18n="mWos">WoS dizinli makale</span></div>
+        <div class="m-num"><span class="count" id="gWosN" data-to="5">5</span></div>
+        <p class="m-sub" data-i18n="mWosSub">SCI-E · SSCI · ESCI</p>
+      </div>
+      <div class="tile t-sco metric lift reveal" style="--i:6">
+        <div class="m-top"><span class="m-ico"><i data-ic="layers"></i></span><span data-i18n="mSco">Scopus dizinli makale</span></div>
+        <div class="m-num"><span class="count" id="gScoN" data-to="5">5</span></div>
+        <p class="m-sub" data-i18n="mScoSub">Uluslararası dergi makalesi</p>
+      </div>
+      <div class="tile t-award lift reveal" style="--i:7" id="gAward" data-js></div>
+      <article class="tile t-paper lift reveal" style="--i:8" id="gPaper" data-js></article>
+      <article class="tile t-act lift reveal" style="--i:9" id="gProject" data-js></article>
+      <div class="tile t-areas reveal" style="--i:10" data-js>
+        <h3 class="tile-h"><span class="ic"><i data-ic="spark"></i></span><span data-i18n="areasH">Araştırma Alanları</span></h3>
+        <ul class="chips" id="gChips"></ul>
+      </div>
+      <div class="tile t-course lift reveal" style="--i:11">
+        <span class="eyebrow" data-i18n="courseEyebrow">Ders Sitesi</span>
+        <svg class="course-art" viewBox="0 0 260 118" aria-hidden="true" focusable="false" id="courseArt" data-js></svg>
+        <h3 id="gCourseT">Algoritmalar ve Programlama I</h3>
+        <p data-i18n="courseP">Ders içerikleri ve uygulamalar için web tabanlı ders sitesi.</p>
+        <a class="more-link stretch" href="courses/algoritmalar-programlama-1/"><span data-i18n="courseBtn">Ders sitesine git</span><i data-ic="arrow"></i></a>
+      </div>
+      <div class="tile t-join reveal" style="--i:12">
+        <div class="jbg" aria-hidden="true"></div><div class="jgrid" aria-hidden="true"></div>
+        <div class="j-in">
+          <div>
+            <span class="eyebrow" data-i18n="joinEyebrow">AISEC Lab · Araştırma Ekibi</span>
+            <h3 data-i18n="joinH">Ekibe katıl, birlikte üretelim.</h3>
+            <p data-i18n="joinP">Lisans ve lisansüstü öğrenciler, araştırmacılar ve sanayi ortakları için kapımız açık: yapay zekâ, güvenlik ve sağlık odaklı projelerde birlikte çalışalım.</p>
+            <div class="cta-row">
+              <a class="btn btn-light" href="#lab-team"><i data-ic="users"></i><span data-i18n="joinBtn">Ekibi Tanı</span></a>
+              <a class="btn btn-glass" href="#collab"><span data-i18n="joinBtn2">İşbirliği Öner</span><i data-ic="arrow"></i></a>
+            </div>
+          </div>
+          <div class="j-side" id="gJoinSide" aria-hidden="true" data-js></div>
+        </div>
+      </div>
+      <div class="tile t-map reveal" style="--i:13" data-js>
+        <div class="mapsvg" id="mapArt"></div>
+        <div class="map-cap"><b data-i18n="uni">Recep Tayyip Erdoğan Üniversitesi</b><small data-i18n="mapCampus">Zihni Derin Yerleşkesi · Rize, Türkiye</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="section" aria-labelledby="about-h">
+  <div class="wrap">
+    <header class="sec-h">
+      <div>
+        <p class="eyebrow"><span class="sec-n">01</span><span data-i18n="aboutEy">Hakkımda</span></p>
+        <h2 id="about-h" data-i18n="aboutH">Mühendislik, güvenlik ve yapay zekânın kesişiminde</h2>
+      </div>
+    </header>
+    <div class="g12">
+      <div class="tile s7 bio reveal" id="bio">
+        <p class="bio-quote">Yapay zekâyı güvenli, açıklanabilir ve sahada işe yarar kılmak.</p>
+        <p>Dr. Öğr. Üyesi Mehmet Sevri, Recep Tayyip Erdoğan Üniversitesi Bilgisayar Mühendisliği Bölüm Başkanıdır ve Yapay Zeka ve Siber Güvenlik Araştırma Laboratuvarı’nın (AISEC Lab) direktörlüğünü yürütmektedir. Çalışmalarımız güvenli, açıklanabilir ve sağlıkta karar desteğe yönelik yapay zekâ sistemlerine odaklanıyor.</p>
+      </div>
+      <div class="tile s5 r2 reveal" style="--i:1" data-js>
+        <h3 class="tile-h"><span class="ic"><i data-ic="cap"></i></span><span data-i18n="eduH">Eğitim</span></h3>
+        <ol class="tl" id="eduList"></ol>
+      </div>
+      <div class="tile s7 reveal" style="--i:2" data-js>
+        <h3 class="tile-h"><span class="ic"><i data-ic="check"></i></span><span data-i18n="trainH">Eğitimler &amp; Sertifikalar</span></h3>
+        <ul class="list-dot" id="trainList"></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= RESEARCH ================= -->
+<section id="research" class="section" aria-labelledby="res-h" data-js>
+  <div class="wrap">
+    <header class="sec-h">
+      <div>
+        <p class="eyebrow"><span class="sec-n">02</span><span data-i18n="resEy">Araştırma</span></p>
+        <h2 id="res-h" data-i18n="resH">Araştırma Alanları</h2>
+        <p class="lead" data-i18n="resP">Yapay zekâyı güvenlik, sağlık ve mühendislik problemlerine uyguluyoruz; her alanda ortak çalışmalara açığız.</p>
+      </div>
+    </header>
+    <div class="g12" id="areasGrid"></div>
+  </div>
+</section>
+
+<!-- ================= PUBLICATIONS ================= -->
+<section id="publications" class="section" aria-labelledby="pub-h" data-js>
+  <div class="wrap">
+    <header class="sec-h">
+      <div>
+        <p class="eyebrow"><span class="sec-n">03</span><span data-i18n="pubEy">Yayınlar</span></p>
+        <h2 id="pub-h" data-i18n="pubH">Öne Çıkan Yayınlar</h2>
+        <p class="lead" data-i18n="pubP">Görsel özetleriyle seçilmiş çalışmalar. Şekiller, özet, DOI ve atıf bilgisi için bir karta tıklayın.</p>
+      </div>
+      <div class="stats" id="pubStats"></div>
+    </header>
+    <div class="g12" id="featGrid"></div>
+
+    <div class="tile pl-tile reveal" id="allPubs" role="region" aria-labelledby="allpubs-h">
+      <div class="pl-head">
+        <h2 id="allpubs-h" data-i18n="allPubsH">Tüm Yayınlar</h2>
+        <p class="pl-count" id="plCount" aria-live="polite"></p>
+      </div>
+      <div class="pl-ctrls">
+        <div class="fchips" role="group" data-i18n-aria="filterAria" aria-label="Yayın türü filtresi" id="plFilters"></div>
+        <label class="field"><i data-ic="cal"></i><span class="sr-only" data-i18n="yearLbl">Yıl</span><select id="plYear"></select></label>
+        <label class="field f-search"><i data-ic="search"></i><span class="sr-only" data-i18n="searchLbl">Yayınlarda ara</span><input id="plSearch" type="search" autocomplete="off" data-i18n-ph="searchPh" placeholder="Başlık, yazar veya yayın yeri ara…"></label>
+      </div>
+      <ol class="pl" id="pubList"></ol>
+      <div class="pl-more"><button type="button" class="btn btn-ghost btn-sm" id="plMore" aria-expanded="false" aria-controls="pubList"></button></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="section" aria-labelledby="prj-h" data-js>
+  <div class="wrap">
+    <header class="sec-h">
+      <div>
+        <p class="eyebrow"><span class="sec-n">04</span><span data-i18n="prjEy">Projeler</span></p>
+        <h2 id="prj-h" data-i18n="prjH">Araştırma ve Ar-Ge Projeleri</h2>
+        <p class="lead" data-i18n="prjP">TÜBİTAK, Savunma Sanayii Başkanlığı ve üniversite destekli projeler. Ayrıntılar için bir karta tıklayın.</p>
+      </div>
+      <div class="stats" id="prjStats"></div>
+    </header>
+    <div class="g12" id="projGrid"></div>
+
+    <div class="cons-block" id="consult" role="region" aria-labelledby="cons-h" data-js>
+      <div class="cons-head">
+        <h3 class="tile-h" id="cons-h"><span class="ic"><i data-ic="briefcase"></i></span><span data-i18n="consH">Sanayi ve Endüstri Danışmanlıkları</span></h3>
+        <p class="lead" data-i18n="consP">KOBİ ve sanayi kuruluşlarının Ar-Ge projelerinde yapay zekâ ve siber güvenlik danışmanlığı veriyoruz.</p>
+      </div>
+      <div class="g12" id="consGrid"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PATENTS (timeline) ================= -->
+<section id="patents" class="section" aria-labelledby="pat-h" data-js>
+  <div class="wrap">
+    <header class="sec-h">
+      <div>
+        <p class="eyebrow"><span class="sec-n">05</span><span data-i18n="patEy">Patentler</span></p>
+        <h2 id="pat-h" data-i18n="patH">Buluşlar ve Patent Başvuruları</h2>
+        <p class="lead" data-i18n="patP">Açıklanabilir derin öğrenme tabanlı web güvenlik duvarından RFID ve İHA sistemlerine uzanan patent başvuruları.</p>
+      </div>
+      <div class="stats" id="patStats"></div>
+    </header>
+    <ol class="ptl" id="patTl"></ol>
+  </div>
+</section>
+
+<!-- ================= TEACHING ================= -->
+<section id="teaching" class="section" aria-labelledby="teach-h" data-js>
+  <div class="wrap">
+    <header class="sec-h">
+      <div>
+        <p class="eyebrow"><span class="sec-n">06</span><span data-i18n="teachEy">Dersler</span></p>
+        <h2 id="teach-h" data-i18n="teachH">Verdiğimiz Dersler</h2>
+        <p class="lead" data-i18n="teachP">Lisans ve doktora düzeyinde dersler. Ders siteleri sırayla yayına alınıyor.</p>
+      </div>
+    </header>
+    <div class="g12" id="courseGrid"></div>
+  </div>
+</section>
+
+<!-- ================= AISEC LAB ================= -->
+<section id="lab" class="section" aria-labelledby="lab-h">
+  <div class="wrap">
+    <div class="tile lab-head reveal">
+      <div class="lab-bg" aria-hidden="true"></div>
+      <div class="logo-badge"><img src="assets/img/lab/aisec-logo.webp" width="512" height="512" alt="AISEC Lab logosu" data-i18n-alt="labLogoAlt" loading="lazy" decoding="async"></div>
+      <div class="lab-id">
+        <p class="eyebrow"><span class="sec-n">07</span><span data-i18n="labEy">Araştırma Laboratuvarı</span></p>
+        <h2 id="lab-h"><span class="lab-short">AISEC Lab</span><span class="lab-full" id="labName">Yapay Zeka ve Siber Güvenlik Araştırma Laboratuvarı</span></h2>
+        <p class="lab-dir"><i data-ic="user"></i><span id="labDir">Laboratuvar Direktörü: <b>Dr. Öğr. Üyesi Mehmet Sevri</b></span></p>
+        <div class="stats" id="labStats" data-js></div>
+      </div>
+      <div class="lab-cta">
+        <a class="btn btn-pri" id="labAvesis" href="https://avesis.erdogan.edu.tr/arastirma-grubu/aisec" target="_blank" rel="noopener"><span data-i18n="labAvesis">AVESIS laboratuvar sayfası</span><i data-ic="ext"></i><span class="sr-only"> (<span data-i18n="opens">yeni sekmede açılır</span>)</span></a>
+        <a class="btn btn-sec" id="labMail" href="mailto:mehmet.sevri@erdogan.edu.tr"><i data-ic="mail"></i><span data-i18n="labContactBtn">Laboratuvarla iletişim</span></a>
+      </div>
+    </div>
+
+    <div class="lab-tabs" data-js>
+      <div class="tablist" role="tablist" id="labTabs" data-i18n-aria="labTabsAria" aria-label="AISEC Lab bölümleri">
+        <button type="button" class="tab" role="tab" id="lab-tab-overview" data-tab="overview" aria-controls="lab-overview" aria-selected="true" tabindex="0"><i data-ic="grid"></i><span data-i18n="tabOverview">Genel Bakış</span></button>
+        <button type="button" class="tab" role="tab" id="lab-tab-team" data-tab="team" aria-controls="lab-team" aria-selected="false" tabindex="-1"><i data-ic="users"></i><span data-i18n="tabTeam">Ekip</span></button>
+        <button type="button" class="tab" role="tab" id="lab-tab-gallery" data-tab="gallery" aria-controls="lab-gallery" aria-selected="false" tabindex="-1"><i data-ic="image"></i><span data-i18n="tabGallery">Galeri</span></button>
+        <button type="button" class="tab" role="tab" id="lab-tab-news" data-tab="news" aria-controls="lab-news" aria-selected="false" tabindex="-1"><i data-ic="news"></i><span data-i18n="tabNews">Haberler</span></button>
+        <button type="button" class="tab" role="tab" id="lab-tab-projects" data-tab="projects" aria-controls="lab-projects" aria-selected="false" tabindex="-1"><i data-ic="folder"></i><span data-i18n="tabProjects">Projeler</span></button>
+      </div>
+      <div class="tabpanel" role="tabpanel" id="lab-overview" aria-labelledby="lab-tab-overview" tabindex="0"></div>
+      <div class="tabpanel" role="tabpanel" id="lab-team" aria-labelledby="lab-tab-team" tabindex="0" hidden></div>
+      <div class="tabpanel" role="tabpanel" id="lab-gallery" aria-labelledby="lab-tab-gallery" tabindex="0" hidden></div>
+      <div class="tabpanel" role="tabpanel" id="lab-news" aria-labelledby="lab-tab-news" tabindex="0" hidden></div>
+      <div class="tabpanel" role="tabpanel" id="lab-projects" aria-labelledby="lab-tab-projects" tabindex="0" hidden></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ROLES ================= -->
+<section id="roles" class="section" aria-labelledby="roles-h" data-js>
+  <div class="wrap">
+    <header class="sec-h">
+      <div>
+        <p class="eyebrow"><span class="sec-n">08</span><span data-i18n="rolesEy">Kariyer</span></p>
+        <h2 id="roles-h" data-i18n="rolesSecH">Akademik ve İdari Görevler</h2>
+        <p class="lead" data-i18n="rolesP">İdari görevler, akademik kariyer, editörlükler ve sektör deneyimi.</p>
+      </div>
+    </header>
+    <div class="g12" id="rolesGrid"></div>
+  </div>
+</section>
+
+<!-- ================= COLLAB ================= -->
+<section id="collab" class="section" aria-labelledby="col-h">
+  <div class="wrap">
+    <div class="tile collab reveal">
+      <div class="cbg" aria-hidden="true"></div><div class="cgrid" aria-hidden="true"></div>
+      <p class="eyebrow" data-i18n="colEy">İşbirliği</p>
+      <h2 id="col-h" data-i18n="colH">Bir fikriniz mi var? Birlikte hayata geçirelim.</h2>
+      <p data-i18n="colP">Ortak araştırma, proje başvurusu, sanayi işbirliği veya tez danışmanlığı için bir e-posta yeterli.</p>
+      <div class="col3">
+        <div><i data-ic="doc"></i><h3 data-i18n="col1H">Ortak Araştırma</h3><p data-i18n="col1P">Makaleler, veri setleri ve ortak proje başvuruları.</p></div>
+        <div><i data-ic="building"></i><h3 data-i18n="col2H">Sanayi İşbirliği</h3><p data-i18n="col2P">Yapay zekâ ve siber güvenlik odaklı Ar-Ge projeleri ve teknoloji transferi.</p></div>
+        <div><i data-ic="cap"></i><h3 data-i18n="col3H">Öğrenci Danışmanlığı</h3><p data-i18n="col3P">Lisans projeleri, yüksek lisans ve doktora tezleri; AISEC Lab’de araştırma.</p></div>
+      </div>
+      <div class="cta-row">
+        <a class="btn btn-light" id="collabMail" href="mailto:mehmet.sevri@erdogan.edu.tr"><i data-ic="mail"></i><span data-i18n="colBtn">E-posta Gönder</span></a>
+        <a class="btn btn-glass" href="https://avesis.erdogan.edu.tr/mehmet.sevri" target="_blank" rel="noopener"><span data-i18n="colBtn2">AVESIS Profili</span><i data-ic="ext"></i><span class="sr-only"> (<span data-i18n="opens">yeni sekmede açılır</span>)</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section" aria-labelledby="con-h">
+  <div class="wrap">
+    <header class="sec-h">
+      <div>
+        <p class="eyebrow"><span class="sec-n">09</span><span data-i18n="conEy">İletişim</span></p>
+        <h2 id="con-h" data-i18n="conH">İletişim</h2>
+        <p class="lead" data-i18n="conP">Sorularınız ve işbirliği önerileriniz için bize ulaşın.</p>
+      </div>
+    </header>
+    <div class="g12">
+      <div class="tile s7 reveal">
+        <ul class="ci" id="contactList">
+          <li><span class="r-ico"><i data-ic="mail"></i></span><div><small data-i18n="emailH">E-posta</small><a href="mailto:mehmet.sevri@erdogan.edu.tr">mehmet.sevri@erdogan.edu.tr</a><br><a href="mailto:mehmetsevri@gmail.com">mehmetsevri@gmail.com</a></div></li>
+        </ul>
+      </div>
+      <div class="tile s5 reveal" style="--i:1" data-js>
+        <h3 class="tile-h"><span class="ic"><i data-ic="globe"></i></span><span data-i18n="profilesH">Akademik Profiller</span></h3>
+        <div class="profiles" id="profiles"></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <p>© <span id="year">2026</span> Mehmet Sevri · <span data-i18n="footNote">Veriler AVESIS’ten derlenmiştir.</span></p>
+    <p><a href="#home" data-i18n="toTop">Başa dön</a></p>
+  </div>
+</footer>
+
+<dialog class="modal" id="modal" aria-labelledby="mTitle">
+  <div class="m-panel">
+    <button type="button" class="icon-btn m-close" id="mClose" data-i18n-aria="close" aria-label="Kapat"><i data-ic="x"></i></button>
+    <div id="mBody"></div>
+  </div>
+</dialog>
+
+<dialog class="lb" id="lightbox" data-i18n-aria="lbLabel" aria-label="Fotoğraf galerisi">
+  <div class="lb-in">
+    <div class="lb-top">
+      <span class="lb-count" id="lbCount" aria-live="polite"></span>
+      <button type="button" class="icon-btn lb-btn" id="lbClose" data-i18n-aria="close" aria-label="Kapat"><i data-ic="x"></i></button>
+    </div>
+    <figure class="lb-fig">
+      <img id="lbImg" src="assets/img/lab/lab-photo-1.webp" width="1600" height="739" alt="" loading="lazy" decoding="async">
+      <figcaption id="lbCap"></figcaption>
+    </figure>
+    <button type="button" class="icon-btn lb-btn lb-prev" id="lbPrev" data-i18n-aria="lbPrev" aria-label="Önceki fotoğraf"><i data-ic="chevL"></i></button>
+    <button type="button" class="icon-btn lb-btn lb-next" id="lbNext" data-i18n-aria="lbNext" aria-label="Sonraki fotoğraf"><i data-ic="chevR"></i></button>
+  </div>
+</dialog>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<a class="icon-btn to-top" id="toTop" href="#home" data-i18n-aria="toTop" aria-label="Başa dön"><i data-ic="up"></i></a>
+
+<script src="assets/js/data.js?v=780241b1c7"></script>
+<script src="assets/js/main.js?v=62a22233a7"></script>
 </body>
 </html>

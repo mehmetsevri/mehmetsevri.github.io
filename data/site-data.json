@@ -1,0 +1,1977 @@
+{
+ "profile": {
+  "name": "Mehmet Sevri",
+  "title_tr": "Dr. Öğr. Üyesi",
+  "title_en": "Assistant Professor, Ph.D.",
+  "dept_tr": "Bilgisayar Mühendisliği Bölümü, Mühendislik ve Mimarlık Fakültesi, Recep Tayyip Erdoğan Üniversitesi",
+  "dept_en": "Department of Computer Engineering, Faculty of Engineering and Architecture, Recep Tayyip Erdoğan University",
+  "roles_tr": [
+   "Bilgisayar Mühendisliği Bölüm Başkanı",
+   "AISEC Lab Direktörü",
+   "Bilgisayar Bilimleri Anabilim Dalı Başkanı",
+   "RENEWASOFT Yönetim Kurulu Başkanı"
+  ],
+  "roles_en": [
+   "Head of the Department of Computer Engineering",
+   "Director, AISEC Lab",
+   "Head of the Computer Science Division",
+   "Chairman of the Board, RENEWASOFT"
+  ],
+  "email": [
+   "mehmet.sevri@erdogan.edu.tr",
+   "mehmetsevri@gmail.com"
+  ],
+  "phone": "+90 464 223 7518 / 1245",
+  "address_tr": "Fener Mah., Zihni Derin Yerleşkesi, Mühendislik ve Mimarlık Fakültesi, Bilgisayar Mühendisliği Bölümü, 53100 Merkez/Rize",
+  "address_en": "Faculty of Engineering and Architecture, Dept. of Computer Engineering, Zihni Derin Campus, Fener Mah., 53100 Rize, Türkiye",
+  "photo": "assets/img/profile-square.webp",
+  "photo_square": "assets/img/profile-square.webp",
+  "links": {
+   "avesis": "https://avesis.erdogan.edu.tr/mehmet.sevri",
+   "scholar": "https://scholar.google.com/citations?user=P3Xb43EAAAAJ",
+   "orcid": "https://orcid.org/0000-0002-1551-9476",
+   "scopus": "https://www.scopus.com/authid/detail.uri?authorId=57350018000",
+   "publons": "https://publons.com/researcher/AHB-4270-2022",
+   "github": "https://github.com/mehmetsevri",
+   "linkedin": "https://tr.linkedin.com/in/msevri",
+   "x": "https://twitter.com/msevri"
+  },
+  "research_areas_tr": [
+   "Yapay Zekâ",
+   "Derin Öğrenme",
+   "Web Uygulama Güvenliği",
+   "Siber Güvenlik",
+   "Açıklanabilir Yapay Zekâ (XAI)",
+   "Sağlıkta Yapay Zekâ",
+   "Büyük Dil Modelleri",
+   "Örüntü Tanıma ve Görüntü İşleme",
+   "Algoritmalar"
+  ],
+  "research_areas_en": [
+   "Artificial Intelligence",
+   "Deep Learning",
+   "Web Application Security",
+   "Cybersecurity",
+   "Explainable AI (XAI)",
+   "AI in Healthcare",
+   "Large Language Models",
+   "Pattern Recognition & Image Processing",
+   "Algorithms"
+  ],
+  "metrics": {
+   "publications": 34,
+   "wos": 5,
+   "scopus": 5,
+   "projects": 10,
+   "ip": 8,
+   "open_access": 3
+  },
+  "kicker_tr": "Yapay Zekâ · Siber Güvenlik · Sağlıkta YZ",
+  "kicker_en": "AI · Cybersecurity · AI in Healthcare",
+  "statement_tr": "Derin öğrenmeyi güvenli, açıklanabilir ve insan odaklı sistemlere dönüştürüyoruz: web uygulama güvenliğinden sağlıkta karar desteğe.",
+  "statement_en": "We turn deep learning into secure, explainable, human-centred systems: from web application security to clinical decision support.",
+  "quote_tr": "Yapay zekâyı güvenli, açıklanabilir ve sahada işe yarar kılmak.",
+  "quote_en": "Making AI secure, explainable and useful in the real world.",
+  "bio_tr": [
+   "Dr. Öğr. Üyesi Mehmet Sevri, Recep Tayyip Erdoğan Üniversitesi Bilgisayar Mühendisliği Bölüm Başkanıdır; Yapay Zeka ve Siber Güvenlik Araştırma Laboratuvarı’nın (AISEC Lab) direktörlüğünü ve Bilgisayar Bilimleri Anabilim Dalı başkanlığını da yürütmektedir. Doktorasını Gazi Üniversitesi Bilişim Enstitüsü’nde, derin öğrenme yöntemleriyle web uygulama güvenliği üzerine tamamlamıştır (2022).",
+   "Çalışmalarımız yapay zekâ, derin öğrenme, web uygulama ve siber güvenlik, açıklanabilir yapay zekâ, sağlıkta yapay zekâ ve büyük dil modellerine odaklanıyor. Sağlık, enerji ve savunma alanlarındaki projelerde disiplinler arası ekiplerle birlikte çalışıyoruz. Akademik çalışmaların yanı sıra RENEWASOFT Enerji ve Yazılım A.Ş.’nin Yönetim Kurulu Başkanlığını da yürütmektedir."
+  ],
+  "bio_en": [
+   "Dr. Mehmet Sevri is an Assistant Professor and Head of the Department of Computer Engineering at Recep Tayyip Erdoğan University, and also directs the Artificial Intelligence and Cyber Security Research Lab (AISEC Lab) and heads the Computer Science Division. Dr. Sevri received a Ph.D. from Gazi University’s Graduate School of Informatics (2022) with a thesis on securing web applications using deep learning methods.",
+   "Our work focuses on artificial intelligence, deep learning, web application and cyber security, explainable AI, AI in healthcare and large language models. We work with interdisciplinary teams on projects in healthcare, energy and defence. Alongside academia, Dr. Sevri also chairs the Board of RENEWASOFT Energy & Software Inc."
+  ],
+  "roles_years": [
+   "2026–",
+   null,
+   "2024–",
+   "2024–"
+  ],
+  "research_area_details": [
+   {
+    "icon": "ai",
+    "tr": "Yapay Zekâ",
+    "en": "Artificial Intelligence",
+    "desc_tr": "Karar destek sistemleri, yorumlanabilir tahmin modelleri ve topluluk öğrenme.",
+    "desc_en": "Decision support systems, interpretable forecasting models and ensemble learning."
+   },
+   {
+    "icon": "dl",
+    "tr": "Derin Öğrenme",
+    "en": "Deep Learning",
+    "desc_tr": "Bi-LSTM, CNN ve yığınlı topluluk modelleri.",
+    "desc_en": "Bi-LSTM, CNN and stacked ensemble models."
+   },
+   {
+    "icon": "web",
+    "tr": "Web Uygulama Güvenliği",
+    "en": "Web Application Security",
+    "desc_tr": "WAF, web saldırı tespiti, DA-SANA veri artırma.",
+    "desc_en": "WAF, web attack detection, DA-SANA data augmentation."
+   },
+   {
+    "icon": "cyber",
+    "tr": "Siber Güvenlik",
+    "en": "Cybersecurity",
+    "desc_tr": "Saldırı tespit sistemleri, dijital ikiz, OT/ICS güvenliği.",
+    "desc_en": "Intrusion detection, digital twins, OT/ICS security."
+   },
+   {
+    "icon": "xai",
+    "tr": "Açıklanabilir Yapay Zekâ (XAI)",
+    "en": "Explainable AI (XAI)",
+    "desc_tr": "SHAP, LIME ve açıklanabilir WAF.",
+    "desc_en": "SHAP, LIME and explainable WAF."
+   },
+   {
+    "icon": "health",
+    "tr": "Sağlıkta Yapay Zekâ",
+    "en": "AI in Healthcare",
+    "desc_tr": "DEHB tanısı (da-CPT), preeklampsi risk tahmini, otizm bilgisinde LLM’ler, akıllı reçeteleme.",
+    "desc_en": "ADHD diagnosis (da-CPT), preeclampsia risk prediction, LLMs for autism information, smart prescribing."
+   },
+   {
+    "icon": "llm",
+    "tr": "Büyük Dil Modelleri",
+    "en": "Large Language Models",
+    "desc_tr": "Ajan tabanlı güvenlik testi, LLM karşılaştırma, LLM destekli otonom dron.",
+    "desc_en": "Agentic security testing, LLM evaluation, LLM-driven autonomous drones."
+   },
+   {
+    "icon": "vision",
+    "tr": "Örüntü Tanıma ve Görüntü İşleme",
+    "en": "Pattern Recognition & Image Processing",
+    "desc_tr": "Nesne tespiti (SSD, MobileNet) ve ultrason görüntüleri.",
+    "desc_en": "Object detection (SSD, MobileNet) and ultrasound imaging."
+   },
+   {
+    "icon": "algo",
+    "tr": "Algoritmalar",
+    "en": "Algorithms",
+    "desc_tr": "Apriori, sınıflandırma algoritmaları ve programlama eğitimi.",
+    "desc_en": "Apriori, classification algorithms and programming education."
+   }
+  ]
+ },
+ "education": [
+  {
+   "years": "2016–2022",
+   "degree_tr": "Doktora",
+   "degree_en": "Ph.D.",
+   "inst_tr": "Gazi Üniversitesi, Bilişim Enstitüsü, Bilişim Sistemleri",
+   "inst_en": "Gazi University, Graduate School of Informatics, Information Systems",
+   "thesis_tr": "Derin Öğrenme Yöntemleri Kullanılarak Web Uygulama Güvenliği Sağlanması",
+   "thesis_en": "Securing Web Applications Using Deep Learning Methods"
+  },
+  {
+   "years": "2013–2016",
+   "degree_tr": "Yüksek Lisans",
+   "degree_en": "M.Sc.",
+   "inst_tr": "Gazi Üniversitesi, Bilişim Enstitüsü, Bilişim Sistemleri",
+   "inst_en": "Gazi University, Graduate School of Informatics, Information Systems",
+   "thesis_tr": "Web saldırılarının tespitine yönelik yapay zeka tabanlı bir güvenlik modülü geliştirilmesi",
+   "thesis_en": "Development of an AI-based security module for detecting web attacks"
+  },
+  {
+   "years": "2005–2011",
+   "degree_tr": "Lisans",
+   "degree_en": "B.Sc.",
+   "inst_tr": "Karadeniz Teknik Üniversitesi, Bilgisayar Mühendisliği",
+   "inst_en": "Karadeniz Technical University, Computer Engineering"
+  },
+  {
+   "years": "2008–2009",
+   "degree_tr": "Lisans (Değişim)",
+   "degree_en": "B.Sc. (Exchange)",
+   "inst_tr": "Roskilde Üniversitesi, International Bachelor in Natural Science – Computer Science (Danimarka)",
+   "inst_en": "Roskilde University, International Bachelor in Natural Science – Computer Science (Denmark)"
+  }
+ ],
+ "academic_positions": [
+  {
+   "years": "2023–",
+   "tr": "Dr. Öğr. Üyesi, RTEÜ Bilgisayar Mühendisliği",
+   "en": "Assistant Professor, RTEU Computer Engineering"
+  },
+  {
+   "years": "2022–2023",
+   "tr": "Araştırma Görevlisi Dr., RTEÜ Bilgisayar Mühendisliği",
+   "en": "Research Assistant (Ph.D.), RTEU Computer Engineering"
+  },
+  {
+   "years": "2013–2022",
+   "tr": "Araştırma Görevlisi, Gazi Üniversitesi Bilişim Enstitüsü",
+   "en": "Research Assistant, Gazi University Graduate School of Informatics"
+  },
+  {
+   "years": "2013",
+   "tr": "Araştırma Görevlisi, RTEÜ Bilgisayar Mühendisliği",
+   "en": "Research Assistant, RTEU Computer Engineering"
+  }
+ ],
+ "admin_duties": [
+  {
+   "years": "2026–",
+   "tr": "Fakülte Yönetim Kurulu Üyesi",
+   "en": "Member, Faculty Executive Board"
+  },
+  {
+   "years": "2026–",
+   "tr": "Fakülte Kurulu Üyesi",
+   "en": "Member, Faculty Council"
+  },
+  {
+   "years": "2026–",
+   "tr": "Bölüm Başkanı – Bilgisayar Mühendisliği",
+   "en": "Head of Department – Computer Engineering"
+  },
+  {
+   "years": "2024–",
+   "tr": "Bilgisayar Bilimleri Anabilim Dalı Başkanı",
+   "en": "Head of Computer Science Division"
+  },
+  {
+   "years": "2023–",
+   "tr": "Bölüm Bologna Komisyonu Başkanı",
+   "en": "Chair, Department Bologna Commission"
+  }
+ ],
+ "industry": [
+  {
+   "years": "2024–",
+   "tr": "Yönetim Kurulu Başkanı, RENEWASOFT Enerji ve Yazılım A.Ş.",
+   "en": "Chairman of the Board, RENEWASOFT Energy & Software Inc."
+  },
+  {
+   "years": "2025–2027",
+   "tr": "Sanayi Danışmanı, Nu Platform (TÜBİTAK 1507)",
+   "en": "Industry Consultant, Nu Platform (TÜBİTAK 1507)"
+  },
+  {
+   "years": "2011–2013",
+   "tr": "Bilgisayar Mühendisi, Kilis 7 Aralık Üniversitesi Bilgi İşlem Daire Başkanlığı",
+   "en": "Computer Engineer, Kilis 7 Aralik University IT Department"
+  },
+  {
+   "years": "2010–2011",
+   "tr": "Mühendis, Turkcell – Transmission Departmanı",
+   "en": "Engineer, Turkcell – Transmission Department"
+  }
+ ],
+ "editorial": [
+  {
+   "years": "2025–",
+   "journal": "International Journal of Information Systems and Applications",
+   "role_tr": "Editörler Kurulu Üyesi",
+   "role_en": "Editorial Board Member"
+  },
+  {
+   "years": "2025–",
+   "journal": "Journal of Amasya University the Institute of Sciences and Technology",
+   "role_tr": "Editör",
+   "role_en": "Editor"
+  },
+  {
+   "years": "2025–",
+   "journal": "The International Journal of Engineering Research and Development (IJERAD)",
+   "role_tr": "Editörler Kurulu Üyesi",
+   "role_en": "Editorial Board Member"
+  },
+  {
+   "years": "2024–",
+   "journal": "Recep Tayyip Erdogan University Journal of Science and Engineering",
+   "role_tr": "Editörler Kurulu Üyesi",
+   "role_en": "Editorial Board Member"
+  },
+  {
+   "years": "2024–",
+   "journal": "International Journal of Informatics Technologies",
+   "role_tr": "Editörler Kurulu Üyesi",
+   "role_en": "Editorial Board Member"
+  }
+ ],
+ "reviewing": [
+  {
+   "years": "2019",
+   "tr": "KSII Transactions on Internet and Information Systems (SCI)",
+   "en": "KSII Transactions on Internet and Information Systems (SCI)"
+  },
+  {
+   "years": "2022",
+   "tr": "The Journal of Information Technologies",
+   "en": "The Journal of Information Technologies"
+  },
+  {
+   "years": "2022",
+   "tr": "Eskişehir Osmangazi Üniversitesi Mühendislik ve Mimarlık Fakültesi Dergisi",
+   "en": "Eskişehir Osmangazi University Journal of the Faculty of Engineering and Architecture"
+  },
+  {
+   "years": "2022",
+   "tr": "KOSGEB proje değerlendirmeleri (×2)",
+   "en": "KOSGEB project reviews (×2)"
+  }
+ ],
+ "organization": [
+  "ICEEE 2023 (İstanbul)",
+  "CETA 2023 (İstanbul)",
+  "ICI-CS 2022 (Ankara)",
+  "ICEEE 2022 (Antalya)",
+  "ICI-CS 2021 (Ankara)"
+ ],
+ "awards": [
+  {
+   "date": "2024-01",
+   "tr": "En Başarılı Doktora Tezi Yarışması Birincilik Ödülü – Gazi Üniversitesi",
+   "en": "First Prize, Best Doctoral Thesis Competition – Gazi University"
+  }
+ ],
+ "courses": [
+  {
+   "level": "PhD",
+   "tr": "Bilimsel Araştırma Teknikleri ve Yayın Etiği",
+   "en": "Scientific Research Techniques and Publication Ethics",
+   "icon": "doc"
+  },
+  {
+   "level": "BSc",
+   "tr": "Algoritmalar ve Programlama I",
+   "en": "Algorithms and Programming I",
+   "site": "courses/algoritmalar-programlama-1/",
+   "icon": "code"
+  },
+  {
+   "level": "BSc",
+   "tr": "Algoritmalar ve Programlama II",
+   "en": "Algorithms and Programming II",
+   "icon": "algo"
+  },
+  {
+   "level": "BSc",
+   "tr": "Sistem Programlama",
+   "en": "System Programming",
+   "icon": "cpu"
+  },
+  {
+   "level": "BSc",
+   "tr": "Uygulamalı Biyoinformatik",
+   "en": "Applied Bioinformatics",
+   "icon": "dna"
+  },
+  {
+   "level": "BSc",
+   "tr": "Derin Öğrenme",
+   "en": "Deep Learning",
+   "icon": "dl"
+  },
+  {
+   "level": "BSc",
+   "tr": "Web ve Mobil Programlama",
+   "en": "Web and Mobile Programming",
+   "icon": "web"
+  },
+  {
+   "level": "BSc",
+   "tr": "Yapay Zeka",
+   "en": "Artificial Intelligence",
+   "icon": "ai"
+  },
+  {
+   "level": "BSc",
+   "tr": "İşletim Sistemleri",
+   "en": "Operating Systems",
+   "icon": "layers"
+  }
+ ],
+ "trainings": [
+  {
+   "years": "2024",
+   "tr": "Akademik Araştırmalarda Yapay Zeka Araçlarının Kullanımı (I–II)",
+   "en": "Using AI Tools in Academic Research (I–II)"
+  },
+  {
+   "years": "2021–2022",
+   "tr": "BELTEK Web Tasarımcı Kursu",
+   "en": "BELTEK Web Designer Course"
+  },
+  {
+   "years": "2021–2022",
+   "tr": "Beyaz Şapkalı Hacker Sertifika Programı",
+   "en": "White-Hat Hacker Certificate Program"
+  },
+  {
+   "years": "2021–2022",
+   "tr": "Siber Güvenlik Uzmanı Sertifika Programı",
+   "en": "Cyber Security Specialist Certificate Program"
+  },
+  {
+   "years": "2018",
+   "tr": "BELTEK C++ Programlama Kursu",
+   "en": "BELTEK C++ Programming Course"
+  }
+ ],
+ "patents": [
+  {
+   "year": 2024,
+   "no": "2024/018939",
+   "tr": "Araç Plakalarına Yerleştirilen Aktif RFID Etiketleri ile Araçların Tanımlanması, Hız ve Konum Bilgilerinin Belirlenmesi Sistemi ve Yöntemi",
+   "en": "System and Method for Identifying Vehicles and Determining Speed and Location via Active RFID Tags on License Plates",
+   "art": "rfid",
+   "pct": false
+  },
+  {
+   "year": 2024,
+   "no": "2024/018960",
+   "tr": "RFID Destekli Akıllı Ayna ile Kıyafet ve Kombin Öneri Sistemi ve Yöntemi",
+   "en": "RFID-Assisted Smart Mirror for Clothing and Outfit Recommendation",
+   "art": "mirror",
+   "pct": false
+  },
+  {
+   "year": 2024,
+   "no": "2024/018955",
+   "tr": "Yapay Zeka Kontrollü Dinamik Antenli Modem ile Sinyal ve Kapsama Optimizasyonu Sistemi ve Yöntemi",
+   "en": "Signal and Coverage Optimization with an AI-Controlled Dynamic-Antenna Modem",
+   "art": "modem",
+   "pct": false
+  },
+  {
+   "year": 2024,
+   "no": "2024/019089",
+   "tr": "İnsansız Hava Araçları için Sensör ve Kamera Verilerine Dayalı Makine Öğrenmesi Modelleri ile Kalan Faydalı Ömür Tahmin Sistemi ve Yöntemi",
+   "en": "Remaining-Useful-Life Prediction for UAVs with Machine Learning on Sensor and Camera Data",
+   "art": "uav",
+   "pct": false
+  },
+  {
+   "year": 2024,
+   "no": "2024/018832",
+   "tr": "Yapay Zekâ Destekli Akıllı Böcek Takip ve İlaçlama Robotu ve Çalışma Yöntemi",
+   "en": "AI-Assisted Smart Pest Tracking and Spraying Robot",
+   "art": "pest",
+   "pct": false
+  },
+  {
+   "year": 2022,
+   "no": "PCT/TR2022/051479",
+   "tr": "Açıklanabilir Derin Öğrenme Tabanlı Web Uygulama Güvenlik Duvarı Yöntemi ve Sistemi (PCT)",
+   "en": "Explainable Deep Learning Based Web Application Firewall Method and System Thereof (PCT)",
+   "art": "wafpct",
+   "pct": true
+  },
+  {
+   "year": 2021,
+   "no": "2021/020072",
+   "tr": "Açıklanabilir Derin Öğrenme Tabanlı Web Uygulama Güvenlik Duvarı Yöntemi ve Sistemi",
+   "en": "Explainable Deep Learning Based Web Application Firewall Method and System",
+   "art": "waftr",
+   "pct": false
+  }
+ ],
+ "student_projects": [
+  {
+   "years": "2024–2026",
+   "tr": "MediMatch: Akıllı İlaç Yönetimi Sistemi",
+   "en": "MediMatch: Smart Medication Management System"
+  },
+  {
+   "years": "2024–2025",
+   "tr": "Pharmavent",
+   "en": "Pharmavent"
+  },
+  {
+   "years": "2024–2025",
+   "tr": "Akıllı Geri Dönüşüm Projesi",
+   "en": "Smart Recycling Project"
+  },
+  {
+   "years": "2024–2025",
+   "tr": "Akıllı Bitki Yetiştirme Kapsülü",
+   "en": "Smart Plant-Growing Capsule"
+  }
+ ],
+ "projects": [
+  {
+   "id": "renewashield",
+   "title_tr": "RENEWASHIELD: Kritik Altyapılar İçin Fizik Bilgisine Dayalı OT/ICS Ağ Anomali Tespit Platformunun Geliştirilmesi",
+   "title_en": "RENEWASHIELD: Development of a Physics-Informed OT/ICS Network Anomaly Detection Platform for Critical Infrastructures",
+   "kind": "TÜBİTAK Projesi",
+   "kind_en": "TÜBİTAK Project",
+   "program": "1507 - TÜBİTAK KOBİ Ar-Ge Başlangıç Destek Programı",
+   "program_en": "1507 – TÜBİTAK SME R&D Start-up Support Programme",
+   "funder": "TÜBİTAK 1507",
+   "start": "Eylül 2026",
+   "end": "Eylül 2027",
+   "role_tr": "Yürütücü",
+   "role_en": "Principal Investigator",
+   "short_tr": "Kritik altyapılardaki OT/ICS ağları için fizik bilgisine dayalı bir anomali tespit platformunun geliştirilmesi.",
+   "short_en": "Developing a physics-informed anomaly detection platform for OT/ICS networks in critical infrastructures.",
+   "summary_tr": null,
+   "summary_en": null,
+   "team": [],
+   "art": "renew",
+   "avesis_url": "https://avesis.erdogan.edu.tr/proje/bf4549e2-a569-494f-b0fe-22c149886c0b/renewashield-kritik-altyapilar-icin-fizik-bilgisine-dayali-ot-ics-ag-anomali-tespit-platformunun-gelistirilmesi",
+   "title_avesis": "RENEWASHİELD: KRİTİK ALTYAPILAR İÇİN FİZİK BİLGİSİNE DAYALI OT/ICS AĞ ANOMALİ TESPİT PLATFORMUNUN GELİŞTİRİLMESİ"
+  },
+  {
+   "id": "preeclampsia",
+   "title_tr": "Preeklampsinin Saptanması ve Yönetimi İçin Biyokimyasal ve Ultrasonografik Belirteçler Kullanılarak Yeni Bir Yapay Zeka Karar Destek Sisteminin Geliştirilmesi",
+   "title_en": "Development of a Novel AI Decision Support System for the Detection and Management of Preeclampsia Using Biochemical and Ultrasonographic Markers",
+   "kind": "TÜBİTAK Projesi",
+   "kind_en": "TÜBİTAK Project",
+   "program": "1001 - Bilimsel ve Teknolojik Araştırma Projelerini Destekleme Programı",
+   "program_en": "1001 – Scientific and Technological Research Projects Funding Programme",
+   "funder": "TÜBİTAK 1001",
+   "start": "Temmuz 2024",
+   "end": "Temmuz 2027",
+   "role_tr": "Yürütücü",
+   "role_en": "Principal Investigator",
+   "short_tr": "Plasental ultrason görüntüleri, Doppler videoları, biyokimyasal belirteçler ve klinik verileri birleştiren çok modlu yapay zekâ ile preeklampsinin erken tespiti, şiddetinin belirlenmesi ve doğum haftası tahmini.",
+   "short_en": "Multimodal AI that combines placental ultrasound images, Doppler videos, biochemical markers and clinical data for early detection of preeclampsia, severity assessment and delivery-week prediction.",
+   "summary_tr": "Preeklampsi, gebeliğin ikinci trimesterinden itibaren ortaya çıkan yüksek kan basıncı ve proteinüri ile karakterize edilen multisistemik bir komplikasyondur. Dünya genelinde maternal ve perinatal morbidite ve mortalitenin önemli bir nedeni olan preeklampsi, obstetrik nedenlere dayalı anne ölümlerinin, %14’lük oran ile en yaygın ikinci sebebidir. Bu projenin amacı, preeklampsi için özel tasarlanmış bir karar destek sisteminin (KDS) geliştirilmesidir. KDS ile plasental ultrasonografi görüntüleri, doppler ultrasonografi videoları, biyokimyasal belirteçler (Beta-hCG, PAPP-A, sFlt-1 ve PIGF), klinik veriler ve postpartum verileri kullanılarak preeklampsiye bağlı maternal ve fetal morbidite ve mortalite verileri yapay zeka (YZ) ile analiz edilecektir. Geliştirilecek sistem, preeklampsinin erken tespiti, şiddetinin belirlenmesi, maternal ve fetal komplikasyonların tahmini ve risklerinin belirlenmesi, prematüre doğum riski ve doğum haftasının önceden tahminini sağlayacak üç modülden oluşacaktır. Proje, gebelik sürecinin her üç trimesterinde toplanacak verilerin entegre edildiği multimodal veri yapısını kullanarak preeklampsi alanında farklı yenilikçi yaklaşımların entegrasyonunu hedeflemektedir. Proje, preeklampsinin patofizyolojisinin daha iyi anlaşılmasına, güçlü YZ modellerinin geliştirilebilmesine ve preeklampsinin erken tespitine olanak sağlayacaktır. Gebelerin tüm trimesterler boyunca izlenmesi, preeklampsinin prognozunun ve ilerleyişinin yapay zeka destekli olarak gözlemlenebilmesini sağlayacaktır. Bu proje, preeklampsiye ilişkin mevcut tanı ve yönetim protokollerindeki boşluğu doldurmayı, preeklampsiye ilişkin mevcut problemleri yenilikçi YZ yaklaşımları ile aydınlatmayı ve en önemlisi, anne-bebek sağlığını korumayı hedeflemektedir. Proje ile preeklampsi ve ilişkili risklerin multimodal YZ ile gebeliğin en erken hangi aşamasında tespit edilebileceği sorusuna cevap aranacaktır. Proje prospektif kohort tasarımını benimsemekte, veri toplama, veriseti oluşturma, preeklampsi ve ilişkili komplikasyonların erken tespiti, şiddetlerinin belirlenmesi, preeklamptik gebeliklerde hassas doğum haftası tahmin modüllerinin geliştirilmesi, web tabanlı bütünleşik KDS’nin geliştirilmesi ve validasyonu aşamalarından oluşmaktadır. Veriler, gebeliklerinin en geç 11-14. haftasında olan, preeklampsi geliştiren ve geliştirmeyen toplam 300 katılımcıdan prospektif olarak toplanacak ve tüm trimesterler ile postpartum dönem dahil olmak üzere tüm gebelik sürecini kapsayacak şekilde elde edilecektir. Bu kapsamlı veri toplama yaklaşımı projeyi mevcut çalışmalardan farklılaştırmaktadır. Veri önişleme ve özellik seçme işlemlerinin ardından, farklı derin öğrenme yaklaşımları kullanılarak KDS’nin modülleri geliştirilecektir. Projede, multimodal verilerin entegrasyonu ve analizi için özgün derin öğrenme modelleri ve katmanlı topluluk öğrenme yaklaşımına dayalı YZ modelleri geliştirilecektir. Projenin son aşamasında, klinik kullanıma entegre edilmesi amacıyla KDS'nin web tabanlı bir uygulama olarak geliştirilmesi ve doğrulaması yapılacaktır. Bu süreçte, sistemin klinik pratikte ne kadar güvenilir ve etkili olduğu prospektif doğrulama setiyle değerlendirilip, optimize edilecektir.",
+   "summary_en": "Preeclampsia is a multisystem complication characterised by high blood pressure and proteinuria that arises from the second trimester of pregnancy onwards. A major cause of maternal and perinatal morbidity and mortality worldwide, preeclampsia is the second most common obstetric cause of maternal death, at 14%. The aim of this project is to develop a decision support system (DSS) designed specifically for preeclampsia. Using placental ultrasonography images, Doppler ultrasonography videos, biochemical markers (Beta-hCG, PAPP-A, sFlt-1 and PlGF), clinical data and postpartum data, the DSS will analyse preeclampsia-related maternal and fetal morbidity and mortality data with artificial intelligence (AI). The system will consist of three modules providing early detection of preeclampsia, assessment of its severity, prediction and risk assessment of maternal and fetal complications, and advance prediction of preterm-birth risk and the week of delivery. Using a multimodal data structure that integrates data collected in all three trimesters of pregnancy, the project aims to bring together different innovative approaches in the field of preeclampsia. It will enable a better understanding of the pathophysiology of preeclampsia, the development of powerful AI models and the early detection of preeclampsia. Monitoring pregnant women throughout all trimesters will make it possible to observe the prognosis and progression of preeclampsia with AI support. The project aims to fill the gap in current diagnostic and management protocols for preeclampsia, to shed light on existing problems related to preeclampsia with innovative AI approaches and, above all, to protect maternal and infant health. It seeks to answer the question of how early in pregnancy preeclampsia and its associated risks can be detected with multimodal AI. The project adopts a prospective cohort design and consists of the following phases: data collection, dataset creation, early detection of preeclampsia and associated complications, determination of their severity, development of precise delivery-week prediction modules for preeclamptic pregnancies, and development and validation of an integrated web-based DSS. Data will be collected prospectively from a total of 300 participants who are at most in weeks 11–14 of pregnancy, including women who develop preeclampsia and women who do not, covering the entire course of pregnancy including all trimesters and the postpartum period. This comprehensive data collection approach distinguishes the project from existing studies. After data preprocessing and feature selection, the DSS modules will be developed using different deep learning approaches. Original deep learning models and AI models based on a stacked ensemble learning approach will be developed for the integration and analysis of the multimodal data. In the final phase of the project, the DSS will be developed and validated as a web-based application for integration into clinical use. In this process, how reliable and effective the system is in clinical practice will be evaluated on a prospective validation set and the system will be optimised.",
+   "team": [
+    "Yılmaz B.",
+    "Sazak Turgut Ç.",
+    "Ayazoğlu İ. M.",
+    "Doğan Polat S.",
+    "Yılmaz A."
+   ],
+   "related_publications": [
+    "p13",
+    "p14"
+   ],
+   "art": "pree",
+   "avesis_url": "https://avesis.erdogan.edu.tr/proje/5e9e6d94-cbd3-4fbf-beb7-c953e32c0a48/preeklampsinin-saptanmasi-ve-yonetimi-icin-biyokimyasal-ve-ultrasonografik-belirtecler-kullanilarak-yeni-bir-yapay-zeka-karar-destek-sisteminin-gelistirilmesi"
+  },
+  {
+   "id": "siber-ikiz",
+   "title_tr": "Dijital İkiz Temelli Akıllı Saldırı Tespit ve Savunma Sistemi (SİBER İKİZ)",
+   "title_en": "Digital Twin–Based Intelligent Attack Detection and Defense System (SİBER İKİZ)",
+   "kind": "Savunma Sanayii Başkanlığı Destekli Proje",
+   "kind_en": "Project supported by the Presidency of Defence Industries (SSB)",
+   "program": null,
+   "program_en": null,
+   "funder": "SSB",
+   "start": "Aralık 2024",
+   "end": "Aralık 2026",
+   "role_tr": "Yürütücü",
+   "role_en": "Principal Investigator",
+   "short_tr": "Ağ saldırılarına ve öğrenme tabanlı güvenlik modellerine yönelik çekişmeli saldırılara karşı dayanıklı, dijital ikiz destekli ve yapay zekâ güdümlü bir siber savunma çerçevesi.",
+   "short_en": "A digital-twin–enhanced, AI-driven cyber-defence framework that is robust against both network attacks and adversarial attacks on learning-based security models.",
+   "summary_tr": null,
+   "summary_en": null,
+   "details_en": {
+    "source": "AISEC Lab announcement, January 2026",
+    "funder": "Presidency of Defence Industries (SSB), Republic of Türkiye",
+    "duration_note": "24 months (April 2025 – April 2027) per the lab announcement; AVESIS lists Dec 2024 – Dec 2026",
+    "partners": "Contractor: BTS Kurumsal Bilişim Teknolojileri A.Ş.; main subcontractors: Recep Tayyip Erdoğan University & Eskişehir Osmangazi University",
+    "overview": "SİBER İKİZ develops a digital-twin–enhanced, AI-driven cyber-defence framework that is robust against both network attacks and adversarial (evasion/manipulation) attacks on learning-based security models: high-fidelity digital-twin modelling of network/system behaviour, real-time deep-learning anomaly and intrusion detection, detection and explainability-driven mitigation of adversarial attacks, and reinforcement-learning–based adaptive defence policies."
+   },
+   "details_tr": {
+    "source": "AISEC Lab duyurusu, Ocak 2026",
+    "funder": "T.C. Cumhurbaşkanlığı Savunma Sanayii Başkanlığı (SSB)",
+    "duration_note": "Laboratuvar duyurusuna göre 24 ay (Nisan 2025 – Nisan 2027); AVESIS kaydında Aralık 2024 – Aralık 2026",
+    "partners": "Yüklenici: BTS Kurumsal Bilişim Teknolojileri A.Ş.; ana alt yükleniciler: Recep Tayyip Erdoğan Üniversitesi ve Eskişehir Osmangazi Üniversitesi",
+    "overview": "SİBER İKİZ; hem ağ saldırılarına hem de öğrenme tabanlı güvenlik modellerine yönelik çekişmeli (atlatma/manipülasyon) saldırılara karşı dayanıklı, dijital ikiz destekli ve yapay zekâ güdümlü bir siber savunma çerçevesi geliştirir: ağ/sistem davranışının yüksek doğruluklu dijital ikiz modellemesi, gerçek zamanlı derin öğrenme tabanlı anomali ve saldırı tespiti, çekişmeli saldırıların tespiti ve açıklanabilirlik güdümlü azaltımı ile pekiştirmeli öğrenme tabanlı uyarlanabilir savunma politikaları."
+   },
+   "team": [
+    "Çınar Ö. E."
+   ],
+   "art": "twin",
+   "avesis_url": "https://avesis.erdogan.edu.tr/proje/6e13275b-30f9-4c9d-976d-f5acae877433/dijital-ikiz-temelli-akilli-saldiri-tespit-ve-savunma-sistemi-siber-ikiz"
+  },
+  {
+   "id": "hydro-forecast",
+   "title_tr": "Kanal Tipi Hidroelektrik Santralleri için Yapay Zeka Tabanlı Enerji Üretim Tahmin Yazılımı",
+   "title_en": "AI-Based Energy Production Forecasting Software for Canal-Type Hydroelectric Power Plants",
+   "kind": "TÜBİTAK Projesi",
+   "kind_en": "TÜBİTAK Project",
+   "program": "1512 - Girişimcilik Aşamalı Destek Programı",
+   "program_en": "1512 – Entrepreneurship Multi-Phase Support Programme",
+   "funder": "TÜBİTAK 1512",
+   "start": "Aralık 2024",
+   "end": "Şubat 2026",
+   "role_tr": "Yürütücü",
+   "role_en": "Principal Investigator",
+   "short_tr": "Kanal tipi başta olmak üzere HES’ler için yapay zekâ tabanlı yazılım ve donanım çözümleriyle dijital dönüşüm.",
+   "short_en": "Digital transformation for hydroelectric power plants — canal-type plants in particular — through AI-based software and hardware solutions.",
+   "summary_tr": "Proje kapsamında kanal tipi başta olmak üzere HES'ler için yapay zeka tabanlı yazılım ve donanım çözümleri ile dijital dönüşüm sağlanacaktır.",
+   "summary_en": "The project will deliver digital transformation for hydroelectric power plants (HEPPs), canal-type plants in particular, through AI-based software and hardware solutions.",
+   "team": [],
+   "art": "hydro",
+   "avesis_url": "https://avesis.erdogan.edu.tr/proje/697c0beb-3b44-4482-acb2-5d193de6aaae/kanal-tipi-hidroelektrik-santralleri-icin-yapay-zeka-tabanli-enerji-uretim-tahmin-yazilimi"
+  },
+  {
+   "id": "recytech",
+   "title_tr": "RecyTech Yapay Zeka Destekli Akıllı Geri Dönüşüm ve Sürdürülebilir Atık Yönetimi Sistemi",
+   "title_en": "RecyTech: AI-Assisted Smart Recycling and Sustainable Waste Management System",
+   "kind": "Yükseköğretim Kurumları Destekli Proje",
+   "kind_en": "Higher-education institution project",
+   "program": "BAP Diğer",
+   "program_en": "BAP (Other)",
+   "funder": "BAP",
+   "start": "Nisan 2025",
+   "end": "Ekim 2025",
+   "role_tr": "Yürütücü",
+   "role_en": "Principal Investigator",
+   "short_tr": "Geri dönüşüm kutularına entegre hafif derin öğrenme nesne tespiti (SSD, MobileNet) ile atıkların gerçek zamanlı ayrıştırılması.",
+   "short_en": "Real-time waste sorting with lightweight deep-learning object detection (SSD, MobileNet) integrated into recycling bins.",
+   "summary_tr": "Artan hammadde ihtiyacı ve çevre kirliliği, insanlığın en önemli sorunlarından biri hâline gelmiştir. RecyTech, nesne tespiti ve derin öğrenme tabanlı görüntü işleme teknikleriyle atık ayrıştırma süreçlerini optimize etmeyi amaçlar. Atıkları gerçek zamanlı ve yüksek doğrulukla sınıflandırmak için Single Shot Detector (SSD) ve MobileNet gibi hafif ve hızlı derin öğrenme mimarileri kullanılacaktır. Geri dönüşüm kutularına entegre edilecek yüksek çözünürlüklü kameralar ve gömülü sistemlerle alınan görüntüler PyTorch tabanlı bir modelle işlenecek, nesne türleri belirlenerek uygun bölmelere yönlendirilecektir. Proje kapsamında plastik, cam, metal ve kâğıt gibi yaygın geri dönüştürülebilir atıkların otomatik ayrıştırılması sağlanacak; akıllı servo motorlar ve açılır kapaklarla desteklenen mekanik ayrıştırma sayesinde süreç, manuel müdahale gerektirmeden tamamen otomatik yürütülecektir. İkinci aşamada kullanıcı etkileşimini artırmak için geri dönüşüm kutularıyla entegre, oyunlaştırma ve ödül sistemleriyle desteklenen bir mobil uygulama geliştirilecektir. Projenin sonunda geri dönüşüm süreçlerinin doğruluk ve verimlilik açısından geleneksel yöntemlere göre belirgin biçimde iyileştirilmesi, çevre bilincinin artırılması ve geri dönüşüm oranlarının sürdürülebilir biçimde yükseltilmesi hedeflenmektedir.",
+   "summary_en": "Today, the growing need for raw materials and environmental pollution have become some of humanity’s most important problems. RecyTech aims to optimise waste-sorting processes using object detection and deep-learning-based image processing techniques. Lightweight, fast deep learning architectures such as Single Shot Detector (SSD) and MobileNet will be used to classify waste in real time with high accuracy. Images captured by high-resolution cameras and embedded systems integrated into recycling bins will be processed by a PyTorch-based model; object types will be identified and directed to the appropriate compartments. The project will provide automatic sorting of common recyclables such as plastic, glass, metal and paper, and thanks to a mechanical sorting mechanism supported by smart servo motors and opening doors, recycling will run fully automatically without manual intervention. In the second phase, a mobile application integrated with the recycling bins and supported by gamification and reward systems will be developed to increase user interaction and encourage recycling habits. By the end of the project, the aim is to significantly improve recycling accuracy and efficiency compared with traditional methods, raise environmental awareness and sustainably increase recycling rates.",
+   "summary_avesis": "Today, the increasing need for raw materials and environmental pollution have become one of the most important problems for humanity. In this context, the RecyTech project aims to optimise waste sorting processes using object detection and deep learning based image processing techniques. In the project, lightweight and fast deep learning architectures such as Single Shot Detector (SSD) and MobileNet will be used to classify waste with high accuracy in real time. Waste images will be captured by means of high-resolution cameras and embedded systems to be integrated into recycling bins, processed by a PyTorch-based model, and object types will be identified and directed to the appropriate compartments. Within the scope of the project, automatic sorting of common recyclable materials such as plastic, glass, metal and paper will be provided. In addition, thanks to the mechanical sorting mechanism supported by smart servo motors and opening doors, it is aimed to realise the recycling process fully automatically without the need for manual intervention.  In the second phase of the project, a mobile application integrated with recycling bins will be developed to increase user interaction; this application will be supported by gamification techniques and reward systems to encourage users' recycling habits. At the end of the project, it is aimed to significantly improve recycling processes in terms of accuracy and efficiency compared to traditional methods, increase environmental awareness and sustainably increase recycling rates.",
+   "team": [
+    "Güneyli M.",
+    "Özkan M."
+   ],
+   "art": "recy",
+   "avesis_url": "https://avesis.erdogan.edu.tr/proje/63384c6b-7106-45ab-b561-5ac8420b2386/recytech-yapay-zeka-destekli-akilli-geri-donusum-ve-surdurulebilir-atik-yonetimi-sistemi"
+  },
+  {
+   "id": "drone",
+   "title_tr": "Akıllı Altyapı Bakım ve Denetleme Dronu",
+   "title_en": "Smart Infrastructure Maintenance and Inspection Drone",
+   "kind": "Yükseköğretim Kurumları Destekli Proje",
+   "kind_en": "Higher-education institution project",
+   "program": "BAP Diğer",
+   "program_en": "BAP (Other)",
+   "funder": "BAP",
+   "start": "Mart 2025",
+   "end": "Aralık 2025",
+   "role_tr": "Yürütücü",
+   "role_en": "Principal Investigator",
+   "short_tr": "Köprü, tünel ve baraj gibi kritik altyapıları izleyerek yapısal bozulmaları erken tespit eden otonom, yapay zekâ destekli dron sistemi.",
+   "short_en": "An autonomous, AI-assisted drone system that monitors critical infrastructure such as bridges, tunnels and dams to detect structural deterioration early.",
+   "summary_tr": "Proje, altyapı bakım ve denetim süreçlerini otonom bir dron ve yapay zekâ destekli bir sistemle iyileştirmeyi amaçlar. Geleneksel yöntemler maliyetli, zaman alıcı ve insan hatasına açıktır; bu da altyapı yönetiminde yenilikçi çözümleri gerekli kılar. Önerilen sistem köprü, tünel ve baraj gibi kritik altyapıları sürekli izleyerek yapısal bozulmaları erken aşamada tespit edecek ve bakım süreçlerini optimize edecektir. Yüksek çözünürlüklü optik kamera, termal görüntüleme ve lidar sensörleriyle donatılan dronun topladığı veriler yapay zekâ algoritmalarıyla analiz edilecek; bulut tabanlı veri yönetimiyle geçmiş verilerle karşılaştırma yapılarak bakım öncelikleri belirlenecek ve öngörülebilir bakım planlaması mümkün olacaktır. Otonom uçuş yeteneği sayesinde insan müdahalesine gerek kalmadan güvenli ve hassas veri toplanacaktır. Sistemin başlıca katkıları işçilik maliyetlerini azaltmak, bakım sürekliliğini artırmak ve büyük ölçekli altyapı projelerinde güvenliği sağlamaktır. Proje sonunda geliştirilen dron tabanlı altyapı denetim sistemi, geleneksel yöntemlere daha hızlı, uygun maliyetli ve güvenilir bir alternatif sunacaktır.",
+   "summary_en": "This project aims to improve infrastructure maintenance and inspection processes with an autonomous drone and an AI-supported system. Traditional methods are costly, time-consuming and prone to human error, which calls for innovative solutions in infrastructure management. The proposed system will continuously monitor critical infrastructure such as bridges, tunnels and dams to detect structural deterioration at an early stage and optimise maintenance processes. The drone is equipped with high-resolution optical cameras, thermal imaging and lidar sensors, and the data it collects will be analysed by AI algorithms; with cloud-based data management, comparisons with historical data will set maintenance priorities and enable predictable maintenance planning. Thanks to its autonomous flight capability, safe and precise data collection will be ensured without human intervention. The main contributions of the system are lower labour costs, greater maintenance continuity and improved safety in large-scale infrastructure projects. At the end of the project, the drone-based infrastructure inspection system will offer a faster, cost-effective and reliable alternative to traditional methods.",
+   "summary_avesis": "This project aims to improve infrastructure maintenance and inspection processes with an autonomous drone and artificial intelligence supported system. Traditional methods are costly, time-consuming and prone to human error, necessitating innovative solutions in infrastructure management. The proposed system will continuously monitor critical infrastructures such as bridges, tunnels and dams to detect structural deterioration at an early stage and optimize maintenance processes. The drone is equipped with high-resolution optical cameras, thermal imaging and lidar sensors, and will analyze the data obtained through artificial intelligence algorithms. With cloud-based data management, maintenance priorities will be determined by making comparisons with historical data and predictable maintenance planning will be possible. Thanks to its autonomous flight capability, safe and precise data collection will be ensured without the need for human intervention.The main contributions of this system are to reduce labor costs, increase maintenance continuity and ensure safety in large-scale infrastructure projects. At the end of the project, the developed drone-based infrastructure inspection system will provide a faster, cost-effective and reliable alternative to traditional methods.",
+   "team": [
+    "Babaoğlu D. N.",
+    "Özbilge Y. E.",
+    "Aydın B."
+   ],
+   "art": "drone",
+   "avesis_url": "https://avesis.erdogan.edu.tr/proje/0566f167-dcb7-4cce-ae49-190f4c43d43c/akilli-altyapi-bakim-ve-denetleme-dronu"
+  },
+  {
+   "id": "pharmavent",
+   "title_tr": "Pharmavent Akıllı Reçeteleme ve İlaç Yönetimi İçin Yapay Zeka Destekli Mobil Uygulama",
+   "title_en": "Pharmavent: AI-Assisted Mobile Application for Smart Prescribing and Medication Management",
+   "kind": "Yükseköğretim Kurumları Destekli Proje",
+   "kind_en": "Higher-education institution project",
+   "program": "BAP Araştırma Projesi",
+   "program_en": "BAP Research Project",
+   "funder": "BAP",
+   "start": "Şubat 2025",
+   "end": "Ağustos 2025",
+   "role_tr": "Yürütücü",
+   "role_en": "Principal Investigator",
+   "short_tr": "NLP tabanlı asistan, ilaç etkileşimi tahmini, nöbetçi eczane ve stok takibi ile reçete hatırlatıcıları sunan mobil uygulama.",
+   "short_en": "A mobile app with an NLP assistant, drug-interaction prediction, on-duty pharmacy and stock tracking, and prescription reminders.",
+   "summary_tr": "Pharmavent, sağlık sektöründe dijital dönüşümü hızlandırmak için tasarlanan yenilikçi bir mobil uygulamanın geliştirilmesini kapsar. Uygulama; kullanıcılara tıbbi ve farmasötik bilgiye anında erişim, ilaç stok takibi, nöbetçi eczane bulma ve ilaç etkileşimlerini doğrulama imkânı sunarak sağlık yönetimini kolaylaştırmayı amaçlar; düzenli ilaç kullanımını desteklemek için reçete hatırlatıcıları gibi kişisel sağlık takibi özellikleri de içerir. Yapay zekâ ve derin öğrenme ile kullanıcıların reçete geçmişi ve sağlık verileri analiz edilerek kişiselleştirilmiş ilaç önerileri sunulacak; derin öğrenme algoritmalarıyla olası ilaç etkileşimleri tahmin edilerek kullanıcılar olası yan etkiler hakkında bilgilendirilecektir. Doğal dil işleme (NLP) tabanlı akıllı asistan, ilaç bilgilerine ve kullanım talimatlarına zahmetsizce erişim sağlayacaktır. Yöntem; eczane, ilaç ve stok verilerinin yönetimi için veritabanı şeması, harita servisleri entegrasyonu, anlık bildirim sistemi ve Android platformu için Kotlin ile mobil uygulama geliştirmeyi kapsar. Ayrıca seçilen ilaçlar kameralı robotik kollarla tanınarak doğru şekilde teslim edilecek ve ilaç yönetimi mobil uygulama üzerinden tamamen otomatik hâle getirilecektir. Pharmavent, sağlıkla ilgili bilgiyi daha erişilebilir kılarak kullanıcıların bilinçli sağlık kararları vermesini desteklemeyi ve yapay zekâ ile derin öğrenme teknolojilerinin entegrasyonuyla sağlık sektöründe dijitalleşmeyi hızlandırmayı amaçlar.",
+   "summary_en": "The Pharmavent project covers the development of an innovative mobile application designed to accelerate digital transformation in the healthcare sector. It aims to facilitate health management by giving users instant access to medical and pharmaceutical information, tracking medication stock levels, locating on-duty pharmacies and verifying drug interactions; it also includes personal health tracking features such as prescription reminders to help users maintain a consistent medication regimen. Using AI and deep learning, Pharmavent will analyse users’ prescription history and health data to deliver personalised medication recommendations, and deep learning algorithms will predict potential drug interactions and inform users about possible side effects. An intelligent assistant powered by natural language processing (NLP) will provide effortless access to drug-related information and usage instructions. The methodology covers a database schema for managing pharmacies, medications and stock data, integration with map services, a push-notification system and mobile application development with Kotlin for the Android platform. In addition, selected medications will be identified by camera-equipped robotic arms and dispensed accurately, making medication management fully automated through the mobile application. By making healthcare-related information more accessible, Pharmavent aims to empower users to make informed health decisions while accelerating digitalisation in healthcare through the integration of AI and deep learning technologies.",
+   "summary_avesis": "The Pharmavent Project encompasses the development of an innovative mobile application designed to accelerate digital transformation in the healthcare sector. This project aims to facilitate health management by providing users with instant access to medical and pharmaceutical information, tracking medication stock levels, locating on-duty pharmacies, and verifying drug interactions. Additionally, it includes personal health tracking features such as prescription reminders to help users maintain a consistent medication regimen. Enhanced by artificial intelligence and deep learning techniques, Pharmavent will analyze users' prescription history and health data to deliver personalized medication recommendations. Moreover, deep learning algorithms will be utilized to predict potential drug interactions and inform users about possible side effects. An intelligent assistant powered by Natural Language Processing (NLP) will enable users to effortlessly access drug-related information and usage instructions. The methodology of Pharmavent involves multiple technical components, including the development of a database schema for managing pharmacies, medications, and stock data, integration with map services , implementation of a push notification system , and mobile application development using Kotlin for the Android platform. Furthermore, selected medications will be identified via camera-equipped robotic arms and dispensed accurately, ensuring fully automated medication management through the mobile application.By making healthcare-related information more accessible, Pharmavent aims to empower users to make informed health decisions while accelerating digitalization in the healthcare industry through the integration of AI and deep learning technologies.",
+   "team": [
+    "Velioğlu M. B.",
+    "Memioğlu A. K."
+   ],
+   "art": "pharma",
+   "avesis_url": "https://avesis.erdogan.edu.tr/proje/711a56e7-c211-456d-90ff-d381185c2db2/pharmavent-akilli-receteleme-ve-ilac-yonetimi-icin-yapay-zeka-destekli-mobil-uygulama"
+  },
+  {
+   "id": "safescript",
+   "title_tr": "SafeScript Yapay Zeka Destekli Akıllı İlaç Yönetim ve Reçeteleme Sistemi",
+   "title_en": "SafeScript: AI-Assisted Smart Medication Management and Prescribing System",
+   "kind": "Yükseköğretim Kurumları Destekli Proje",
+   "kind_en": "Higher-education institution project",
+   "program": "BAP Diğer",
+   "program_en": "BAP (Other)",
+   "funder": "BAP",
+   "start": "Ekim 2024",
+   "end": "Ekim 2025",
+   "role_tr": "Yürütücü",
+   "role_en": "Principal Investigator",
+   "short_tr": "Reçeteleri ilaç-tanı uyumu, ilaç-ilaç etkileşimi, alerji ve yaşa bağlı doz açısından gerçek zamanlı denetleyen yapay zekâ.",
+   "short_en": "AI that checks prescriptions in real time for drug–diagnosis compatibility, drug–drug interactions, allergies and age-related dosing.",
+   "summary_tr": "Modern sağlık hizmetlerinin temel bileşeni olan ilaç tedavilerinin doğru ve etkin kullanımı, hekimlerin sınırlı zamanı ve dikkat dağınıklığı nedeniyle çeşitli zorluklarla karşı karşıyadır; bu durum yanlış ilaç kullanımına ve ciddi sağlık sorunlarına yol açabilir. “SafeScript: Akıllı İlaç Yönetim Sistemi”, reçeteleme sürecindeki hataları azaltmayı ve ilaç güvenliğini artırmayı amaçlar. Sistem, yapay zekâ ve derin öğrenme teknikleriyle ilaç–tanı uyumunu, ilaç–ilaç etkileşimlerini, alerjik reaksiyonları ve yaşa bağlı doz ayarlamalarını otomatik olarak analiz eder. İlk olarak hekim reçetelerini gerçek zamanlı inceleyerek olası hataları tespit eder ve düzeltme önerir; ikinci olarak reçeteleme sürecinde hekime rehberlik ederek daha bilinçli ilaç seçimine yardımcı olur; üçüncü olarak eczanelerle entegre çalışarak ilaçların hastaya ulaşmadan önce son bir güvenlik kontrolünden geçmesini sağlar. Beklenen çıktılar; ilaçla ilişkili sağlık risklerinin azalması, reçeteleme sürecinde zaman ve maliyet tasarrufu ile hasta güvenliğinin ve tedavi etkinliğinin artmasıdır. Sistem, derin öğrenme modelleri ve yapay zekâ algoritmalarıyla aşamalı olarak test edilecek ve geri bildirimlerle sürekli iyileştirilecektir; bu süreçler, geniş ölçekli kullanıma geçmeden önce sistemin kararlılığını ve güvenilirliğini sağlamak için kritik öneme sahiptir.",
+   "summary_en": "The correct and effective use of drug therapies, an essential component of modern healthcare, faces various challenges due to physicians’ limited time and distractions, which can lead to medication misuse and serious health problems. “SafeScript: Smart Medication Management System” aims to reduce errors in the prescribing process and improve medication safety. Using AI and deep learning techniques, the system automatically analyses drug–diagnosis compatibility, drug–drug interactions, allergic reactions and age-related dosage adjustments. First, it analyses physicians’ prescriptions in real time, detecting possible errors and suggesting corrections; second, it guides physicians during prescribing to support more informed drug choices; third, it is integrated with pharmacies so that medicines undergo a final safety check before reaching the patient. Expected outcomes include fewer drug-related health risks, time and cost savings in prescribing, and improved patient safety and treatment efficacy. The system will be tested progressively with deep learning models and AI algorithms and continuously improved with feedback; these processes are critical to ensure its stability and reliability before wide-scale deployment.",
+   "summary_avesis": "The correct and effective use of drug therapies, an essential component of modern healthcare, is subject to various challenges due to physicians' limited time and distractions. These challenges can lead to misuse of medication and serious health problems. “SafeScript: Smart Medication Management System” aims to reduce errors in the prescribing process and improve medication safety. Using artificial intelligence (AI) and deep learning techniques, this system automatically analyzes drug-diagnosis compatibility, drug-drug interactions, allergic reactions and age-related dosage adjustments. These analyses play a major role in making the prescribing process safe and effective. The applications of the project will be realized through AI-powered algorithms. First, the system will analyze physicians' prescriptions in real time, detecting possible errors and suggesting necessary corrections. These analyses evaluate the compatibility of drugs with the diagnosis, their interaction potential and patient-specific allergy information using deep learning models. Secondly, the system provides guidance to physicians during the prescribing process, helping them make more informed drug choices. Thirdly, the AI-powered system is integrated with pharmacies, ensuring that medicines undergo a final safety check before being taken by the patient. The expected outcomes of the project include reduced drug-related health risks, increased time and cost savings in the prescribing process, and overall improved patient safety and drug treatment efficacy.The project will be progressively tested through deep learning models and AI algorithms and continuously improved with feedback.These processes are critical to ensure the stability and reliability of the system before wide-scale deployment.",
+   "team": [
+    "Kıran E.",
+    "Çelik A. B.",
+    "Kolay H."
+   ],
+   "art": "safe",
+   "avesis_url": "https://avesis.erdogan.edu.tr/proje/e6e7ddc9-2112-47b5-b88f-eff76d01bc31/safescript-yapay-zeka-destekli-akilli-ilac-yonetim-ve-receteleme-sistemi"
+  },
+  {
+   "id": "dcpt",
+   "title_tr": "Dikkat Eksikliği Hiperaktivite Bozukluğunda Tanı Koymaya Yardımcı Objektif Araç: Web Tabanlı İşitsel Odaklı ve Çeldiricili Sürekli Performans Testi (d-CPT) Geliştirilmesi",
+   "title_en": "An Objective Aid for Diagnosing ADHD: Development of a Web-Based, Auditory-Focused, Distractor-Embedded Continuous Performance Test (d-CPT)",
+   "kind": "TÜBİTAK Projesi",
+   "kind_en": "TÜBİTAK Project",
+   "program": "1005 - Ulusal Yeni Fikirler ve Ürünler Araştırma Destek Programı",
+   "program_en": "1005 – National New Ideas and Products Research Support Programme",
+   "funder": "TÜBİTAK 1005",
+   "start": "Şubat 2020",
+   "end": "Temmuz 2022",
+   "role_tr": "Araştırmacı",
+   "role_en": "Researcher",
+   "short_tr": "DEHB tanısına yardımcı, web tabanlı, işitsel odaklı ve çeldiricili bir sürekli performans testinin (d-CPT) geliştirilmesi.",
+   "short_en": "Developing a web-based, auditory-focused, distractor-embedded continuous performance test (d-CPT) to aid ADHD diagnosis.",
+   "summary_tr": null,
+   "summary_en": null,
+   "team": [
+    "İşeri E. (Yürütücü / PI)",
+    "Özaslan A.",
+    "Karacan H.",
+    "Güney E.",
+    "Sarıpınar E. G."
+   ],
+   "related_publications": [
+    "p03",
+    "p04"
+   ],
+   "art": "dcpt",
+   "avesis_url": "https://avesis.erdogan.edu.tr/proje/945de5cb-7e14-41a0-b783-edfc5a7b0329/dikkat-eksikligi-hiperaktivite-bozuklugunda-tani-koymaya-yardimciobjektif-arac-web-tabanli-isitsel-odakli-ve-celdiricili-surekli-performans-testi-d-cpt-gelistirilmesi"
+  }
+ ],
+ "publications": [
+  {
+   "id": "p01",
+   "category": "article",
+   "type": "Makale / Tam Makale",
+   "year": 2025,
+   "title": "Interpretable Gradient-Boosted Poisson Modeling of Aftershock Productivity: Magnitude-Sensitive 7-Day/100-km Forecasts that Outperform RJ89",
+   "authors": [
+    "Sevri M.",
+    "Gürbüz A.",
+    "Kayıkçı F. Y."
+   ],
+   "venue": "Artificial Intelligence Studies (AIS), cilt.8, sa.2, ss.177-184",
+   "venue_short": "Artificial Intelligence Studies · 8(2)",
+   "venue_line": "Artificial Intelligence Studies (AIS), cilt.8, sa.2, ss.177-184, 2025 (Hakemli Dergi)",
+   "doi": "10.30855/ais.2025.08.02.08",
+   "doi_url": "https://doi.org/10.30855/ais.2025.08.02.08",
+   "keywords": null,
+   "abstract": null,
+   "citations": {
+    "Crossref": 0
+   },
+   "indexes": "Index Copernicus, Root Indexing",
+   "filters": "other",
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/22f92009-4b90-459b-8eeb-c09d94903d05/interpretable-gradient-boosted-poisson-modeling-of-aftershock-productivity-magnitude-sensitive-7-day-100-km-forecasts-that-outperform-rj89",
+   "open_access_pdf": [
+    "https://avesis.erdogan.edu.tr/publication/showdocument/22f92009-4b90-459b-8eeb-c09d94903d05"
+   ],
+   "license": [
+    "http://creativecommons.org/licenses/by/4.0/deed.tr"
+   ],
+   "figures": [
+    "assets/img/pubs/ais2025-aftershock-rj89.webp",
+    "assets/img/pubs/ais2025-aftershock-shap.webp"
+   ]
+  },
+  {
+   "id": "p02",
+   "category": "article",
+   "type": "Makale / Tam Makale",
+   "year": 2025,
+   "title": "Comparative Evaluation of Large Language Models in Addressing Autism-Related Information Queries: Insights from ChatGPT, Gemini, and Copilot",
+   "authors": [
+    "Demir G.",
+    "SEVRİ M.",
+    "Haciosmanoglu C. D.",
+    "BÜYÜKTAŞKIN TUNÇTÜRK D.",
+    "ÖZASLAN A."
+   ],
+   "venue": "Gazi Medical Journal, cilt.36, sa.4, ss.407-416",
+   "venue_short": "Gazi Medical Journal · 36(4)",
+   "venue_line": "GAZI MEDICAL JOURNAL, cilt.36, sa.4, ss.407-416, 2025 (ESCI, Scopus, TRDizin)",
+   "doi": "10.12996/gmj.2025.4451",
+   "doi_url": "https://doi.org/10.12996/gmj.2025.4451",
+   "keywords": null,
+   "abstract": "Objective: While large language models (LLMs) have been increasingly evaluated for medical inquiries, their responses to questions about autism spectrum disorder (ASD) remain underexplored. This study aims to evaluate and compare four publicly available LLMs-ChatGPT-3.5, ChatGPT-4.0, Google Gemini, and Microsoft Copilot-regarding autism-related queries. Methods: Nineteen frequently asked autism-related questions categorized into symptoms, diagnosis, treatment, and general information. The responses from each LLM were evaluated by three child and adolescent psychiatrists using the patient education materials assessment tool and the Global Quality Score. Thematic analysis was conducted to identify key topics. A majority consensus approach determined the final ratings, and sentiment analysis was performed to assess emotional polarity and subjectivity. Results: ChatGPT-4.0 demonstrated superior overall response quality compared to Microsoft Copilot and Google Gemini (p=0.006, p=0.009). While the overall understandability of responses was similar across all LLMs, ChatGPT-4.0 scored significantly higher than Microsoft Copilot on the content subscale (p=0.026), and Google Gemini outperformed ChatGPT-4.0 in word choice and style (p=0.041). Thematic analysis revealed that all chatbots emphasized early diagnosis and behavioral issues. Sentiment analysis indicated a high degree of objectivity across all models. Google Gemini displayed the highest polarity score (0.115), while subjectivity scores were moderately high across all chatbots, with ChatGPT-4.0 exhibiting the highest subjectivity score (0.452). Conclusion: This study highlights the potential of LLMs, particularly ChatGPT-4.0, to deliver high-quality and easily understandable information regarding ASD. However, given the limitations of LLMs, including their susceptibility to biases and lack of real-world reasoning, further research is needed.",
+   "citations": {
+    "Web of Science": 5,
+    "Crossref": 4
+   },
+   "indexes": "Emerging Sources Citation Index (ESCI), Scopus, Academic Search Premier, TR DİZİN (ULAKBİM)",
+   "filters": "esci,sci_ssci_ahci_esci,scopus,trdizin",
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/b0f27895-ab61-4af7-b5a1-d48f60c4d72b/comparative-evaluation-of-large-language-models-in-addressing-autism-related-information-queries-insights-from-chatgpt-gemini-and-copilot",
+   "open_access_pdf": [
+    "https://avesis.erdogan.edu.tr/publication/showdocument/b0f27895-ab61-4af7-b5a1-d48f60c4d72b"
+   ],
+   "license": [
+    "http://creativecommons.org/licenses/by-nc-nd/4.0/deed.tr"
+   ],
+   "figures": [
+    "assets/img/pubs/gmj2025-llm-themes.webp"
+   ]
+  },
+  {
+   "id": "p03",
+   "category": "article",
+   "type": "Makale / Tam Makale",
+   "year": 2024,
+   "title": "A New Objective Diagnostic Tool for Attention-Deficit Hyper-Activity Disorder (ADHD): Development of the Distractor-Embedded Auditory Continuous Performance Test",
+   "authors": [
+    "Özaslan A.",
+    "Sevri M.",
+    "İşeri E.",
+    "Karacan B.",
+    "Cengiz M.",
+    "Karacan H.",
+    "Sarıpınar E. G.",
+    "Uğraş Dikmen A.",
+    "Güney E."
+   ],
+   "venue": "Journal of Clinical Medicine, cilt.13, sa.21, ss.1-18",
+   "venue_short": "Journal of Clinical Medicine · 13(21)",
+   "venue_line": "JOURNAL OF CLINICAL MEDICINE, cilt.13, sa.21, ss.1-18, 2024 (SCI-Expanded, Scopus)",
+   "doi": "10.3390/jcm13216438",
+   "doi_url": "https://doi.org/10.3390/jcm13216438",
+   "keywords": null,
+   "abstract": "Background/Objectives: Attention-Deficit Hyperactivity Disorder (ADHD) is a prevalent neurodevelopmental disorder characterized by inattention, hyperactivity, and impulsivity. Traditional diagnostic methods, which depend on subjective assessments, often lack precision. This study evaluates the validity and reliability of a newly developed diagnostic tool, the Distractor-Embedded Auditory Continuous Performance Test (da-CPT), which integrates auditory stimuli with distractors to enhance the clinical utility of ADHD diagnosis. Methods: The study included 160 children aged 6–12 years, comprising 80 with a confirmed ADHD diagnosis and 80 controls. All participants completed the da-CPT, a web-based tool designed to assess inattention, hyperactivity, impulsivity, and timing via an auditory-based task. To validate the da-CPT, participants also completed the Conners’ Parent Rating Scale—Revised Short Form (CPRS-R) and either the MOXO or IVA-2 tests. Data were analyzed using ROC curves and statistical correlations to assess sensitivity, specificity, and overall diagnostic accuracy. Results: The da-CPT demonstrated high diagnostic accuracy, with a sensitivity of 91.25% and specificity of 83.75%. ROC analysis indicated that the inattention index had the highest discriminatory power (AUC = 0.881), followed by timing, impulsivity, and hyperactivity (all p < 0.01). Furthermore, the da-CPT scores were strongly correlated with ADHD severity (p < 0.01). Conclusions: This study confirms that the da-CPT is a valid and reliable tool for diagnosing ADHD in children aged 6–12. By incorporating auditory stimuli and distractors, the tool offers a more ecologically valid assessment of ADHD symptoms in clinical settings, improving diagnostic precision and utility.",
+   "citations": {
+    "Web of Science": 5,
+    "Crossref": 6
+   },
+   "indexes": "Science Citation Index Expanded (SCI-EXPANDED), Scopus, Academic Search Premier, Directory of Open Access Journals",
+   "filters": "sci_ssci_ahci,sci_ssci_ahci_esci,scopus",
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/09771847-8dcc-4749-b449-b060663e083e/a-new-objective-diagnostic-tool-for-attention-deficit-hyper-activity-disorder-adhd-development-of-the-distractor-embedded-auditory-continuous-performance-test",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": [
+    "assets/img/pubs/jcm2024-adhd-roc.webp",
+    "assets/img/pubs/jcm2024-adhd-severity.webp"
+   ]
+  },
+  {
+   "id": "p04",
+   "category": "article",
+   "type": "Makale / Özet",
+   "year": 2022,
+   "title": "A New Objective Diagnostic Tool for ADHD: Development of the Web-Based Auditory-Focused Continuous Performance Test",
+   "authors": [
+    "İşeri E.",
+    "Sevri M.",
+    "Özaslan A.",
+    "Karacan B.",
+    "Karacan H.",
+    "Sarıpınar E. G.",
+    "Güney E."
+   ],
+   "venue": "Journal of the American Academy of Child and Adolescent Psychiatry, cilt.61, sa.10, ss.234",
+   "venue_short": "J. Am. Acad. Child Adolesc. Psychiatry · 61(10)",
+   "venue_line": "JOURNAL OF THE AMERICAN ACADEMY OF CHILD AND ADOLESCENT PSYCHIATRY, cilt.61, sa.10, ss.234, 2022 (SCI-Expanded, SSCI, Scopus)",
+   "doi": "10.1016/j.jaac.2022.09.300",
+   "doi_url": "https://doi.org/10.1016/j.jaac.2022.09.300",
+   "keywords": null,
+   "abstract": null,
+   "citations": {},
+   "indexes": "Science Citation Index Expanded (SCI-EXPANDED), Social Sciences Citation Index (SSCI), Scopus, Academic Search Premier, ASSIA, PASCAL, BIOSIS, Child Development & Adolescent Studies, CINAHL, EBSCO Education Source, Education Abstracts, EMBASE, ERIC (Education Resources Information Center), MEDLINE, Psycinfo, Public Affairs Index",
+   "filters": "sci_ssci_ahci,sci_ssci_ahci_esci,scopus",
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/6ee9fb26-70ac-4ce2-bd78-005b6ca49139/a-new-objective-diagnostic-tool-for-adhd-development-of-the-web-based-auditory-focused-continuous-performance-test",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": []
+  },
+  {
+   "id": "p05",
+   "category": "article",
+   "type": "Makale / Tam Makale",
+   "year": 2022,
+   "title": "Two Stage Deep Learning Based Stacked Ensemble Model for Web Application Security",
+   "authors": [
+    "Sevri M.",
+    "Karacan H."
+   ],
+   "venue": "KSII Transactions on Internet and Information Systems, cilt.16, sa.2, ss.632-657",
+   "venue_short": "KSII Trans. Internet Inf. Syst. · 16(2)",
+   "venue_line": "KSII TRANSACTIONS ON INTERNET AND INFORMATION SYSTEMS, cilt.16, sa.2, ss.632-657, 2022 (SCI-Expanded, Scopus)",
+   "doi": "10.3837/tiis.2022.02.014",
+   "doi_url": "https://doi.org/10.3837/tiis.2022.02.014",
+   "keywords": "Anomaly detection, deep learning, ensemble learning, web application firewall, web security, SYSTEM",
+   "abstract": "Detecting web attacks is a major challenge, and it is observed that the use of simple models leads to low sensitivity or high false positive problems. In this study, we aim to develop a robust two-stage deep learning based stacked ensemble web application firewall. Normal and abnormal classification is carried out in the first stage of the proposed WAF model. The classification process of the types of abnormal traffics is postponed to the second stage and carried out using an integrated stacked ensemble model. By this way, clients' requests can be served without time delay, and attack types can be detected with high sensitivity. In addition to the high accuracy of the proposed model, by using the statistical similarity and diversity analyses in the study, high generalization for the ensemble model is achieved. Within the study, a comprehensive, up-to-date, and robust multi-class web anomaly dataset named GAZIHTTP is created in accordance with the real-world situations. The performance of the proposed WAF model is compared to state-of-the-art deep learning models and previous studies using the benchmark dataset. The proposed two-stage model achieved multi-class detection rates of 97.43% and 94.77% for GAZI-HTTP and ECML-PKDD, respectively.",
+   "citations": {
+    "Web of Science": 2,
+    "Scopus": 2,
+    "Google Akademik": 5
+   },
+   "indexes": "Science Citation Index Expanded (SCI-EXPANDED), Scopus, Applied Science & Technology Source, Compendex, Computer & Applied Sciences",
+   "filters": "sci_ssci_ahci,sci_ssci_ahci_esci,scopus",
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/8a969813-bf18-429b-a126-20673e61a4ff/two-stage-deep-learning-based-stacked-ensemble-model-for-web-application-security",
+   "open_access_pdf": [
+    "https://avesis.erdogan.edu.tr/publication/showdocument/8a969813-bf18-429b-a126-20673e61a4ff"
+   ],
+   "license": [
+    "http://creativecommons.org/licenses/by-nc-nd/4.0/deed.tr"
+   ],
+   "figures": [
+    "assets/img/pubs/tiis2022-stacked-ensemble.webp",
+    "assets/img/pubs/tiis2022-flow.webp"
+   ]
+  },
+  {
+   "id": "p06",
+   "category": "article",
+   "type": "Makale / Tam Makale",
+   "year": 2021,
+   "title": "A Novel Data Augmentation Technique and Deep Learning Model for Web Application Security",
+   "authors": [
+    "KARACAN H.",
+    "SEVRİ M."
+   ],
+   "venue": "IEEE Access, cilt.9, ss.150781-150797",
+   "venue_short": "IEEE Access · 9",
+   "venue_line": "IEEE ACCESS, cilt.9, ss.150781-150797, 2021 (SCI-Expanded, Scopus)",
+   "doi": "10.1109/access.2021.3125785",
+   "doi_url": "https://doi.org/10.1109/access.2021.3125785",
+   "keywords": "Feature extraction, Security, Deep learning, Payloads, Uniform resource locators, Mathematical models, Machine learning algorithms, Web security, anomaly detection, deep learning, Bi-LSTM, data augmentation, INJECTION ATTACKS, CLASSIFICATION",
+   "abstract": "Web applications are often exposed to attacks because of the critical information and valuable assets they host. In this study, Bi-LSTM based web application security models were developed in order to detect web attacks and classify them into binary or multiple classes using HTTP requests. A novel data augmentation technique based on the self-adapting noise adding method (DA-SANA) was developed. The DA-SANA method solves the low sensitivity problem caused by imbalanced data and the complex structure of multi-class classification in web attack detection. Experimental evaluations are carried out in detail using two benchmark web security datasets and a newly created dataset within the scope of the study. The achieved worst case detection rates are 98.34% and 93.91% for binary-class and multi-class classifications, respectively. The proposed DA-SANA technique provides an average of 6.52% improvement in multi-class classification for two datasets. These results revealed that the best classification performance values were achieved when compared with previous studies.",
+   "citations": {
+    "Web of Science": 8,
+    "Scopus": 15,
+    "Google Akademik": 19,
+    "Crossref": 19
+   },
+   "indexes": "Science Citation Index Expanded (SCI-EXPANDED), Scopus, Compendex, INSPEC, Directory of Open Access Journals",
+   "filters": "sci_ssci_ahci,sci_ssci_ahci_esci,scopus",
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/12f50e03-7570-4159-9b7c-c51b713556fb/a-novel-data-augmentation-technique-and-deep-learning-model-for-web-application-security",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": []
+  },
+  {
+   "id": "p07",
+   "category": "article",
+   "type": "Makale / Tam Makale",
+   "year": 2017,
+   "title": "Crime Analysis Based on Association Rules Using Apriori Algorithm",
+   "authors": [
+    "SEVRİ M.",
+    "Karacan H.",
+    "Akcayol M. A."
+   ],
+   "venue": "International Journal of Information and Electronics Engineering, sa.7, ss.99-102",
+   "venue_short": "Int. J. Information and Electronics Engineering · 7",
+   "venue_line": "International Journal of Information and Electronics Engineering, sa.7, ss.99-102, 2017 (Hakemli Dergi)",
+   "doi": null,
+   "doi_url": null,
+   "keywords": null,
+   "abstract": null,
+   "citations": {
+    "Web of Science": 2
+   },
+   "indexes": "Other Indexes",
+   "filters": "other",
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/eda0bc6b-3f91-4035-8ac6-90291ce36654/crime-analysis-based-on-association-rules-using-apriori-algorithm",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": []
+  },
+  {
+   "id": "p08",
+   "category": "proceeding",
+   "type": "Bildiri / Tam Metin Bildiri",
+   "year": 2026,
+   "title": "Açık Kaynak Büyük Dil Modelleri Tabanlı Agentic Otonom Uygulama Güvenlik Test Sistemi",
+   "authors": [
+    "Sevri M.",
+    "Biçen K."
+   ],
+   "venue": "24. Akademik Bilişim, İstanbul, Türkiye, 3-5 Şubat 2026, ss.1-4",
+   "venue_line": "24. AKADEMİK BİLİŞİM, İstanbul, Türkiye, 3 - 05 Şubat 2026, ss.1-4, (Tam Metin Bildiri)",
+   "doi": null,
+   "doi_url": null,
+   "keywords": null,
+   "abstract": "Bu çalışmada, açık kaynak Büyük Dil Modellerini (LLM) karar verme ve planlama mekanizması olarak kullanan agentic bir otonom güvenlik test sistemi ele alınıyor. Geliştirilen sistem; web uygulamalarına yönelik saldırı yüzeyinin keşfi, zafiyet analizi ve istismar adımlarını farklı güvenlik araçlarını orkestre ederek insan müdahalesi olmaksızın yürütebiliyor. Ayrıca yalnızca doğrulanabilir kanıt (Proof of Concept) üretilen bulguların raporlanmasını esas alan yaklaşımıyla, klasik otomatik tarama araçlarına kıyasla daha güvenilir sonuçlar üretmeyi hedefliyor.",
+   "abstract_en": "This study addresses an agentic autonomous security testing system that utilizes open-source Large Language Models (LLMs) as a decision-making and planning mechanism. The developed system can perform attack surface discovery, vulnerability analysis, and exploitation steps for web applications without human intervention by orchestrating different security tools. Furthermore, with its approach based on reporting only findings that produce verifiable proof of concept, it aims to produce more reliable results compared to classic automated scanning tools.",
+   "citations": {},
+   "indexes": null,
+   "filters": null,
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/2c24a603-8ae8-4926-85a7-df1c850e3f7d/acik-kaynak-buyuk-dil-modelleri-tabanli-agentic-otonom-uygulama-guvenlik-test-sistemi",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": []
+  },
+  {
+   "id": "p09",
+   "category": "proceeding",
+   "type": "Bildiri / Tam Metin Bildiri",
+   "year": 2026,
+   "title": "Derin Öğrenme Tabanlı WAF Modellerine Yönelik Çekişmeli Saldırı Yöntemlerinin Karşılaştırmalı Analizi",
+   "authors": [
+    "Sevri M.",
+    "Şener E.",
+    "Köse Y."
+   ],
+   "venue": "24. Akademik Bilişim, İstanbul, Türkiye, 3-5 Şubat 2026, ss.1-4",
+   "venue_line": "24. AKADEMİK BİLİŞİM, İstanbul, Türkiye, 3 - 05 Şubat 2026, ss.1-4, (Tam Metin Bildiri)",
+   "doi": null,
+   "doi_url": null,
+   "keywords": null,
+   "abstract": "Bu çalışmada derin öğrenme tabanlı Web Uygulama Güvenlik Duvarı (WAF) modellerinin çekişmeli saldırılara karşı direncini analiz ettik. DNN, CNN ve LSTM mimarileri üzerinde FGSM ve PGD algoritmalarını kullandık. Çalışmamız, küçük pertürbasyonların güvenlik bariyerlerini nasıl etkisiz kıldığını göstermekte ve siber savunma için \"adversarial training\" yöntemlerinin önemini vurgulamaktadır.",
+   "abstract_en": "In this study, we analyzed the resilience of deep learning-based Web Application Firewall (WAF) models against adversarial attacks. We used FGSM and PGD algorithms on DNN, CNN, and LSTM architectures. Our work demonstrates how small perturbations can render security barriers ineffective and highlights the importance of adversarial training methods for cyber defense.",
+   "citations": {},
+   "indexes": null,
+   "filters": null,
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/a1430adc-2864-4e11-8d87-331de05a0c7f/derin-ogrenme-tabanli-waf-modellerine-yonelik-cekismeli-saldiri-yontemlerinin-karsilastirmali-analizi",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": []
+  },
+  {
+   "id": "p10",
+   "category": "proceeding",
+   "type": "Bildiri / Tam Metin Bildiri",
+   "year": 2026,
+   "title": "Twitter Duygu Analizi ile CrypTop12 Üzerinde Otomatik Al-Sat Sinyali Üretimi",
+   "authors": [
+    "Sevri M.",
+    "Kamus B."
+   ],
+   "venue": "24. Akademik Bilişim, İstanbul, Türkiye, 3-5 Şubat 2026, ss.1-4",
+   "venue_line": "24. AKADEMİK BİLİŞİM, İstanbul, Türkiye, 3 - 05 Şubat 2026, ss.1-4, (Tam Metin Bildiri)",
+   "doi": null,
+   "doi_url": null,
+   "keywords": null,
+   "abstract": "CrypTop12 veri seti üzerindeki yaklaşık 700 bin tweet kullanılarak, duygu analizine dayalı otomatik al-sat sinyalleri üreten bir sistem geliştirdik. BERTweet ile elde edilen skorları zaman serilerine dönüştürdük. Özellikle geliştirdiğimiz \"Pure K\" yaklaşımı, duygu etkisinin fiyata gecikmeli yansımasını modelleyerek daha az işlemle daha yüksek risk-ayarlı getiri sağlamaktadır.",
+   "abstract_en": "Using approximately 700,000 tweets from the CrypTop12 dataset, we developed a system that generates automated buy-sell signals based on sentiment analysis. We converted the scores obtained with BERTweet into time series. In particular, our “Pure K” approach models the delayed reflection of sentiment effects on price, delivering higher risk-adjusted returns with fewer transactions.",
+   "citations": {},
+   "indexes": null,
+   "filters": null,
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/8224b749-a51e-4a5a-babb-ee38c93f278b/twitter-duygu-analizi-ile-cryptop12-uzerinde-otomatik-al-sat-sinyali-uretimi",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": []
+  },
+  {
+   "id": "p11",
+   "category": "proceeding",
+   "type": "Bildiri / Tam Metin Bildiri",
+   "year": 2026,
+   "title": "Doğal Dille Komut Alan LLM Destekli Otonom Drone Mimarisi: AirSim Unreal Üzerinde Güvenlik Kısıtlı Görev Şeması, Engelden Kaçınma ve Telemetri Tabanlı Emir Yürütme için Tasarım Önerisi",
+   "authors": [
+    "Sevri M.",
+    "Velioğlu M. B.",
+    "Memioğlu A. K."
+   ],
+   "venue": "24. Akademik Bilişim Konferansı, İstanbul, Türkiye, 3-5 Şubat 2026, ss.1-4",
+   "venue_line": "24. AKADEMİK BİLİŞİM KONFERANSI, İstanbul, Türkiye, 3 - 05 Şubat 2026, ss.1-4, (Tam Metin Bildiri)",
+   "doi": null,
+   "doi_url": null,
+   "keywords": null,
+   "abstract": "Bu çalışmada; metin ve sesli doğal dil komutlarını güvenlik kısıtlarıyla doğrulanmış görev şemalarına dönüştüren, bu şemaları AirSim–Unreal simülasyon ortamında çevrim içi planlama ile güvenli şekilde yürüten LLM destekli bir otonom drone mimarisi önerilmektedir. Geliştirilen sistem, algı ve telemetri geri besleme döngüsü ile emniyet doğrulama kapısını bütünleşik bir yapıda ele alarak, doğal dille görev verme yaklaşımını emniyet kritik otonom sistemler için uygulanabilir hâle getirmeyi amaçlamaktadır.",
+   "abstract_en": "This study proposes an LLM-supported autonomous drone architecture that converts text and voice-based natural language commands into task schemes validated with safety constraints, and executes these schemes safely in the AirSim–Unreal simulation environment using online planning. The developed system aims to make the natural language task assignment approach applicable for safety-critical autonomous systems by addressing the safety verification gate in an integrated manner with a perception and telemetry feedback loop.",
+   "citations": {},
+   "indexes": null,
+   "filters": null,
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/bb291c03-2769-4bcd-9371-92214066d16e/dogal-dille-komut-alan-llm-destekli-otonom-drone-mimarisi-airsim-unreal-uzerinde-guvenlik-kisitli-gorev-semasi-engelden-kacinma-ve-telemetri-tabanli-emir-yurutme-icin-tasarim-onerisi",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": []
+  },
+  {
+   "id": "p12",
+   "category": "proceeding",
+   "type": "Bildiri / Tam Metin Bildiri",
+   "year": 2025,
+   "title": "Interpretable Gradient-Boosted Poisson Modeling of Aftershock Productivity: Magnitude-Sensitive 7-Day/100-km Forecasts that Outperform RJ89",
+   "authors": [
+    "Sevri M.",
+    "Kayıkçı F. Y.",
+    "Gürbüz A."
+   ],
+   "venue": "International Conference of Innovative Computer Engineering, Ankara, Türkiye, 6 Kasım 2025, ss.1-11",
+   "venue_line": "INTERNATIONAL CONFERENCE OF INNOVATIVE COMPUTER ENGINEERING, Ankara, Türkiye, 06 Kasım 2025, ss.1-11, (Tam Metin Bildiri)",
+   "doi": null,
+   "doi_url": null,
+   "keywords": null,
+   "abstract": null,
+   "citations": {},
+   "indexes": null,
+   "filters": null,
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/edd339a1-ff3b-4284-a52d-f2dab921bcf3/interpretable-gradient-boosted-poisson-modeling-of-aftershock-productivity-magnitude-sensitive-7-day-100-km-forecasts-that-outperform-rj89",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": []
+  },
+  {
+   "id": "p13",
+   "category": "proceeding",
+   "type": "Bildiri / Tam Metin Bildiri",
+   "year": 2025,
+   "title": "Heterogeneous Classifier Fusion for Preeclampsia Risk Assessment",
+   "authors": [
+    "Akıncı Hazır R.",
+    "Koç H. K.",
+    "Ayazoğlu İ. M.",
+    "Doğan Polat S.",
+    "Yılmaz B.",
+    "Sazak Turgut Ç.",
+    "Sevri M."
+   ],
+   "venue": "2025 Innovations in Intelligent Systems and Applications Conference (ASYU), Bursa, Türkiye, 10-12 Eylül 2025, ss.1-6",
+   "venue_line": "2025 Innovations in Intelligent Systems and Applications Conference (ASYU), Bursa, Türkiye, 10 - 12 Eylül 2025, ss.1-6, (Tam Metin Bildiri)",
+   "doi": "10.1109/asyu67174.2025.11208253",
+   "doi_url": "https://doi.org/10.1109/asyu67174.2025.11208253",
+   "keywords": null,
+   "abstract": "Preeclampsia is a hypertensive disorder that typically arises at the end of the 2nd trimester or the beginning of the 3rd trimester of pregnancy and is a major cause of maternal-fetal morbidity and mortality. In this study, four different machine learning algorithms (CatBoost, Random Forest, LightGBM, and Multilayer Perceptron) and a hybrid model created by combining these models with the soft voting ensemble method are comparatively evaluated for early prediction of preeclampsia risk. In the experimental studies performed on two distinct datasets, the Recursive Feature Elimination (RFE) method was implemented for feature selection, and the class imbalance problem was addressed with the SMOTE algorithm. The Soft Voting Ensemble Model (SVEM) demonstrated superior performance, with 92.50% accuracy and 97.63% Area Under the Curve-Receiver Operating Characteristic (AUC-ROC) values in the factors for Preeclampsia dataset and 92.16% accuracy and 93.35% AUC-ROC values in the Maternal Health Risk dataset. The Ensemble approach reduced the rates of false positive and false negative results by ensuring balanced classification success between positive and negative classes. The findings indicate that the proposed approach can serve as a reliable instrument within the framework of clinical decision support systems.",
+   "citations": {
+    "Crossref": 1
+   },
+   "indexes": null,
+   "filters": null,
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/fa05d4f8-ed48-4829-9359-64519f20ab23/heterogeneous-classifier-fusion-for-preeclampsia-risk-assessment",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": [],
+   "venue_short": "ASYU 2025"
+  },
+  {
+   "id": "p14",
+   "category": "proceeding",
+   "type": "Bildiri / Tam Metin Bildiri",
+   "year": 2025,
+   "title": "Dual-Perspective XAI for Preeclampsia Risk: Shap and Lime Analysis",
+   "authors": [
+    "Koç H. K.",
+    "Akıncı Hazır R.",
+    "Ayazoğlu İ. M.",
+    "Doğan Polat S.",
+    "Yılmaz B.",
+    "Sazak Turgut Ç.",
+    "Sevri M."
+   ],
+   "venue": "2025 Innovations in Intelligent Systems and Applications Conference (ASYU), Bursa, Türkiye, 10-12 Eylül 2025, ss.1-6",
+   "venue_line": "2025 Innovations in Intelligent Systems and Applications Conference (ASYU), Bursa, Türkiye, 10 - 12 Eylül 2025, ss.1-6, (Tam Metin Bildiri)",
+   "doi": "10.1109/asyu67174.2025.11208506",
+   "doi_url": "https://doi.org/10.1109/asyu67174.2025.11208506",
+   "keywords": null,
+   "abstract": null,
+   "citations": {},
+   "indexes": null,
+   "filters": null,
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/0619702f-2884-41f8-8d49-a3c5aed7afba/dual-perspective-xai-for-preeclampsia-risk-shap-and-lime-analysis",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": [],
+   "venue_short": "ASYU 2025"
+  },
+  {
+   "id": "p15",
+   "category": "proceeding",
+   "type": "Bildiri / Tam Metin Bildiri",
+   "year": 2022,
+   "title": "Explainable Artificial Intelligence (XAI) for Deep Learning Based Intrusion Detection Systems",
+   "authors": [
+    "SEVRİ M.",
+    "KARACAN H."
+   ],
+   "venue": "4th International Conference on Artificial Intelligence and Applied Mathematics in Engineering (ICAIAME 2022), Baku, Azerbaycan, 20 Mayıs 2022",
+   "venue_line": "4th International Conference on Artificial Intelligence and Applied Mathematics in Engineering (ICAIAME 2022), Baku, Azerbaycan, 20 Mayıs 2022, (Tam Metin Bildiri)",
+   "doi": null,
+   "doi_url": null,
+   "keywords": null,
+   "abstract": null,
+   "citations": {},
+   "indexes": null,
+   "filters": null,
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/7e6f9b55-fc6e-4a77-add4-aa49400fa56e/explainable-artificial-intelligence-xai-for-deep-learning-based-intrusion-detection-systems",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": []
+  },
+  {
+   "id": "p16",
+   "category": "proceeding",
+   "type": "Bildiri / Tam Metin Bildiri",
+   "year": 2019,
+   "title": "Bidirectional LSTM based Intrusion Detection System for Web Applications",
+   "authors": [
+    "SEVRİ M.",
+    "KARACAN H."
+   ],
+   "venue": "International Conference on All Aspects of Cyber Security (A2CS’19), Adana, Türkiye, 25 Ekim 2019, ss.53-57",
+   "venue_line": "International Conference on All Aspects of Cyber Security (A2CS'19), Adana, Türkiye, 25 Ekim 2019, ss.53-57, (Tam Metin Bildiri)",
+   "doi": null,
+   "doi_url": null,
+   "keywords": null,
+   "abstract": null,
+   "citations": {},
+   "indexes": null,
+   "filters": null,
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/d97ddc9a-1fd8-405f-8e73-70f9c2215476/bidirectional-lstm-based-intrusion-detection-system-for-web-applications",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": []
+  },
+  {
+   "id": "p17",
+   "category": "proceeding",
+   "type": "Bildiri / Tam Metin Bildiri",
+   "year": 2019,
+   "title": "Deep Learning Based Web Application Security",
+   "authors": [
+    "SEVRİ M.",
+    "KARACAN H."
+   ],
+   "venue": "2nd International Conference on Advanced Technologies, Computer Engineering and Science (ICATCES), 26-27 Nisan 2019, ss.349-354",
+   "venue_line": "2nd International Conference on Advanced Technologies, Computer Engineering and Science (ICATCES), 26 - 27 Nisan 2019, ss.349-354, (Tam Metin Bildiri)",
+   "doi": null,
+   "doi_url": null,
+   "keywords": null,
+   "abstract": null,
+   "citations": {
+    "Web of Science": 2,
+    "Google Akademik": 6
+   },
+   "indexes": null,
+   "filters": null,
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/5c1f4e1e-8df1-4076-962a-853ba5b2d1a2/deep-learning-based-web-application-security",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": []
+  },
+  {
+   "id": "p18",
+   "category": "proceeding",
+   "type": "Bildiri / Tam Metin Bildiri",
+   "year": 2019,
+   "title": "Student Information Platform, Gazi University Example",
+   "authors": [
+    "AL M. E.",
+    "SEVRİ M.",
+    "DÖKMETAŞ B.",
+    "AKÇAM N."
+   ],
+   "venue": "6. Uluslararası Multidisipliner Çalışmaları Kongresi (Multicongress), 26-27 Nisan 2019",
+   "venue_line": "6. Uluslararası Multidisipliner Çalışmaları Kongresi (Multicongress), 26 - 27 Nisan 2019, (Tam Metin Bildiri)",
+   "doi": null,
+   "doi_url": null,
+   "keywords": null,
+   "abstract": null,
+   "citations": {},
+   "indexes": null,
+   "filters": null,
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/bb341caa-17e6-47af-8cb6-8f9edde9c402/student-information-platform-gazi-university-example",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": []
+  },
+  {
+   "id": "p19",
+   "category": "proceeding",
+   "type": "Bildiri / Özet Bildiri",
+   "year": 2018,
+   "title": "Secure Multiparty Computation and Blockchain-Smart Contract Based Election System",
+   "authors": [
+    "SEVRİ M.",
+    "KOŞAN M. A.",
+    "KARACAN H."
+   ],
+   "venue": "International Conference on Applied Mathematics in Engineering (ICAME), Balıkesir, Türkiye, 27-29 Haziran 2018",
+   "venue_line": "International Conference on Applied Mathematics in Engineering (ICAME), Balıkesir, Türkiye, 27 - 29 Haziran 2018, (Özet Bildiri)",
+   "doi": null,
+   "doi_url": null,
+   "keywords": null,
+   "abstract": null,
+   "citations": {},
+   "indexes": null,
+   "filters": null,
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/a2d814c7-ecb1-44be-b735-2ca78d74e5a0/secure-multiparty-computation-and-blockchain-smart-contract-based-election-system",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": []
+  },
+  {
+   "id": "p20",
+   "category": "proceeding",
+   "type": "Bildiri / Özet Bildiri",
+   "year": 2018,
+   "title": "Comparison of Classification Algorithms used in Intrusion Detection Systems",
+   "authors": [
+    "KOŞAN M. A.",
+    "SEVRİ M.",
+    "KARACAN H."
+   ],
+   "venue": "International Conference on Applied Mathematics in Engineering (ICAME), Balıkesir, Türkiye, 27-29 Haziran 2018",
+   "venue_line": "International Conference on Applied Mathematics in Engineering (ICAME), Balıkesir, Türkiye, 27 - 29 Haziran 2018, (Özet Bildiri)",
+   "doi": null,
+   "doi_url": null,
+   "keywords": null,
+   "abstract": null,
+   "citations": {},
+   "indexes": null,
+   "filters": null,
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/bf8e58f2-5281-40eb-bb64-2562baa16dfa/comparison-of-classification-algorithms-used-in-intrusion-detection-systems",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": []
+  },
+  {
+   "id": "p21",
+   "category": "proceeding",
+   "type": "Bildiri / Özet Bildiri",
+   "year": 2017,
+   "title": "Applying Deep Learning to Cybersecurity Field and Its Advantages",
+   "authors": [
+    "SEVRİ M.",
+    "KOŞAN M. A.",
+    "KARACAN H."
+   ],
+   "venue": "1. Uluslararası İleri Araştırmalar ve Mühendislik Kongresi, Osmaniye, Türkiye, 16-18 Kasım 2017, ss.1407-1408",
+   "venue_line": "1. ULUSLARARASI İLERİ ARAŞTIRMALAR VE MÜHENDİSLİK KONGRESİ, Osmaniye, Türkiye, 16 - 18 Kasım 2017, ss.1407-1408, (Özet Bildiri)",
+   "doi": null,
+   "doi_url": null,
+   "keywords": null,
+   "abstract": null,
+   "citations": {},
+   "indexes": null,
+   "filters": null,
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/9738f3ea-d935-48ef-a11f-ebab74972841/applying-deep-learning-to-cybersecurity-field-and-its-advantages",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": []
+  },
+  {
+   "id": "p22",
+   "category": "proceeding",
+   "type": "Bildiri / Özet Bildiri",
+   "year": 2017,
+   "title": "Utilizing Linear Feedback Shift Registers for Selective-Random Memory Addressing",
+   "authors": [
+    "KOCATEPE A. İ.",
+    "SEVRİ M.",
+    "KARACAN H."
+   ],
+   "venue": "1. Uluslararası İleri Araştırmalar ve Mühendislik Kongresi, Osmaniye, Türkiye, 16-18 Kasım 2017, ss.1381-1382",
+   "venue_line": "1. ULUSLARARASI İLERİ ARAŞTIRMALAR VE MÜHENDİSLİK KONGRESİ, Osmaniye, Türkiye, 16 - 18 Kasım 2017, ss.1381-1382, (Özet Bildiri)",
+   "doi": null,
+   "doi_url": null,
+   "keywords": null,
+   "abstract": null,
+   "citations": {},
+   "indexes": null,
+   "filters": null,
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/afe0bb38-ec07-44d7-99de-d5cf7aa28d1b/utilizing-linear-feedback-shift-registers-for-selective-random-memory-addressing",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": []
+  },
+  {
+   "id": "p23",
+   "category": "proceeding",
+   "type": "Bildiri / Özet Bildiri",
+   "year": 2017,
+   "title": "Blockchain Technology and Its Use as a Notarial System",
+   "authors": [
+    "SEVRİ M.",
+    "KOCATEPE A. İ.",
+    "KARACAN H.",
+    "ARI E. S."
+   ],
+   "venue": "1. Uluslararası İleri Araştırmalar ve Mühendislik Kongresi, Osmaniye, Türkiye, 16-18 Kasım 2017, ss.1377-1378",
+   "venue_line": "1. ULUSLARARASI İLERİ ARAŞTIRMALAR VE MÜHENDİSLİK KONGRESİ, Osmaniye, Türkiye, 16 - 18 Kasım 2017, ss.1377-1378, (Özet Bildiri)",
+   "doi": null,
+   "doi_url": null,
+   "keywords": null,
+   "abstract": null,
+   "citations": {},
+   "indexes": null,
+   "filters": null,
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/5adc273c-f804-4598-a685-bdf02a0c8a4d/blockchain-technology-and-its-use-as-a-notarial-system",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": []
+  },
+  {
+   "id": "p24",
+   "category": "proceeding",
+   "type": "Bildiri / Özet Bildiri",
+   "year": 2017,
+   "title": "Spy Attacks and Protection Methods in Android Smart Phones",
+   "authors": [
+    "KOŞAN M. A.",
+    "SEVRİ M.",
+    "KARACAN H."
+   ],
+   "venue": "1. Uluslararası İleri Araştırmalar ve Mühendislik Kongresi, Osmaniye, Türkiye, 16-18 Kasım 2017, ss.1385-1386",
+   "venue_line": "1. ULUSLARARASI İLERİ ARAŞTIRMALAR VE MÜHENDİSLİK KONGRESİ, Osmaniye, Türkiye, 16 - 18 Kasım 2017, ss.1385-1386, (Özet Bildiri)",
+   "doi": null,
+   "doi_url": null,
+   "keywords": null,
+   "abstract": null,
+   "citations": {},
+   "indexes": null,
+   "filters": null,
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/177b6824-83f7-408b-a873-b6064877198a/spy-attacks-and-protection-methods-in-android-smart-phones",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": []
+  },
+  {
+   "id": "p25",
+   "category": "proceeding",
+   "type": "Bildiri / Özet Bildiri",
+   "year": 2017,
+   "title": "Üstün Yetenekli/Zekalı Öğrencilerin Belirlenmesinde Veri Madenciliği Algoritmalarının Kullanılması ve Sınıflandırma Modellerinin Performans Karşılaştırması",
+   "authors": [
+    "SEVRİ M.",
+    "KARACAN H."
+   ],
+   "venue": "International Talented and Gifted Conference: New Approaches and Educational Practices, Ankara, Türkiye, 4-6 Mayıs 2017, ss.96",
+   "venue_line": "International Talented And Gifted Conference: New Approaches and Educational Practices, Ankara, Türkiye, 4 - 06 Mayıs 2017, ss.96, (Özet Bildiri)",
+   "doi": null,
+   "doi_url": null,
+   "keywords": null,
+   "abstract": null,
+   "citations": {},
+   "indexes": null,
+   "filters": null,
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/0accdae4-3bb9-4504-bb1f-a008ed5e041c/ustun-yetenekli-zekali-ogrencilerin-belirlenmesinde-veri-madenciligi-algoritmalarinin-kullanilmasi-ve-siniflandirma-modellerinin-performans-karsilastirmasi",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": []
+  },
+  {
+   "id": "p26",
+   "category": "proceeding",
+   "type": "Bildiri / Özet Bildiri",
+   "year": 2017,
+   "title": "Crime Analysis Based on Association Rules Using Apriori Algorithm",
+   "authors": [
+    "SEVRİ M.",
+    "KARACAN H.",
+    "AKCAYOL M. A."
+   ],
+   "venue": "4th International Conference on Electrical and Electronics Engineering (ICEEE 2017), Ankara, Türkiye, 8-10 Nisan 2017",
+   "venue_line": "4th International Conference on Electrical and Electronics Engineering (ICEEE 2017), Ankara, Türkiye, 8 - 10 Nisan 2017, (Özet Bildiri)",
+   "doi": null,
+   "doi_url": null,
+   "keywords": null,
+   "abstract": null,
+   "citations": {
+    "Google Akademik": 18
+   },
+   "indexes": null,
+   "filters": null,
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/01624dbb-d2e4-4108-987f-674462b2b30e/crime-analysis-based-on-association-rules-using-apriori-algorithm",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": []
+  },
+  {
+   "id": "p27",
+   "category": "proceeding",
+   "type": "Bildiri / Tam Metin Bildiri",
+   "year": 2016,
+   "title": "MEB Web Sitesi Kullanılabilirlik ve Performans Analizi",
+   "authors": [
+    "SEVRİ M.",
+    "HAKYEMEZ S."
+   ],
+   "venue": "International Conference on Education in Mathematics, Science & Technology (ICEMST), Muğla, Türkiye, 19-22 Mayıs 2016, ss.971-980",
+   "venue_line": "International Conference on Education in Mathematics, Science & Technology (ICEMST), Muğla, Türkiye, 19 - 22 Mayıs 2016, ss.971-980, (Tam Metin Bildiri)",
+   "doi": null,
+   "doi_url": null,
+   "keywords": null,
+   "abstract": null,
+   "citations": {},
+   "indexes": null,
+   "filters": null,
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/b7d3d2ec-c28d-4999-a177-1d24b062dbb8/meb-web-sitesi-kullanilabilirlik-ve-performans-analizi",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": []
+  },
+  {
+   "id": "p28",
+   "category": "proceeding",
+   "type": "Bildiri / Tam Metin Bildiri",
+   "year": 2016,
+   "title": "Son Bilgisayar Korsanlığı Eğilimi: Fidye Zararlı Yazılımı ve Muhtemel Geleceği",
+   "authors": [
+    "SEVRİ M.",
+    "TOPALOĞLU N."
+   ],
+   "venue": "International Conference on Research in Education and Science (ICRES), Muğla, Türkiye, 19-22 Mayıs 2016, ss.1347-1353",
+   "venue_line": "International Conference on Research in Education and Science (ICRES), Muğla, Türkiye, 19 - 22 Mayıs 2016, ss.1347-1353, (Tam Metin Bildiri)",
+   "doi": null,
+   "doi_url": null,
+   "keywords": null,
+   "abstract": null,
+   "citations": {},
+   "indexes": null,
+   "filters": null,
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/464cccba-9a8b-4b63-95c9-4d76619ceca6/son-bilgisayar-korsanligi-egilimi-fidye-zararliyazilimi-ve-muhtemel-gelecegi",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": []
+  },
+  {
+   "id": "p29",
+   "category": "proceeding",
+   "type": "Bildiri / Tam Metin Bildiri",
+   "year": 2016,
+   "title": "Web Ataklarının Makina Öğrenme Algoritmaları ile Sınıflandırılması: Bir Uygulama Örneği",
+   "authors": [
+    "SEVRİ M.",
+    "TOPALOĞLU N."
+   ],
+   "venue": "International Conference on Research in Education and Science (ICRES), Muğla, Türkiye, 19-22 Mayıs 2016, ss.489-494",
+   "venue_line": "International Conference on Research in Education and Science (ICRES), Muğla, Türkiye, 19 - 22 Mayıs 2016, ss.489-494, (Tam Metin Bildiri)",
+   "doi": null,
+   "doi_url": null,
+   "keywords": null,
+   "abstract": null,
+   "citations": {},
+   "indexes": null,
+   "filters": null,
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/703b54ec-0e06-43f9-ac6c-c0cfb5ba5662/web-ataklarinin-makina-ogrenme-algoritmalari-ilesiniflandirilmasi-bir-uygulama-ornegi",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": []
+  },
+  {
+   "id": "p30",
+   "category": "proceeding",
+   "type": "Bildiri / Tam Metin Bildiri",
+   "year": 2016,
+   "title": "Türkiye'de Siber Güvenlik Eğitiminin Durumu",
+   "authors": [
+    "SEVRİ M.",
+    "TOPALOĞLU N."
+   ],
+   "venue": "International Conference on Education in Mathematics, Science & Technology (ICEMST), Muğla, Türkiye, 19-22 Mayıs 2016, ss.923-928",
+   "venue_line": "International Conference on Education in Mathematics, Science & Technology (ICEMST), Muğla, Türkiye, 19 - 22 Mayıs 2016, ss.923-928, (Tam Metin Bildiri)",
+   "doi": null,
+   "doi_url": null,
+   "keywords": null,
+   "abstract": null,
+   "citations": {
+    "Google Akademik": 3
+   },
+   "indexes": null,
+   "filters": null,
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/251001f4-c0e5-4941-8615-8fdbe604ef56/turkiye-de-siber-guvenlik-egitiminin-durumu",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": []
+  },
+  {
+   "id": "p31",
+   "category": "proceeding",
+   "type": "Bildiri / Tam Metin Bildiri",
+   "year": 2016,
+   "title": "An Infrastructure Model to Detect and Prevent Web Attacks",
+   "authors": [
+    "SEVRİ M.",
+    "TOPALOĞLU N."
+   ],
+   "venue": "Global Conference on Applied Computing in Science and Engineering, Roma, İtalya, 27-29 Temmuz 2016",
+   "venue_line": "Global Conference on Applied Computing in Science and Engineering, Roma, İtalya, 27 - 29 Temmuz 2016, (Tam Metin Bildiri)",
+   "doi": null,
+   "doi_url": null,
+   "keywords": null,
+   "abstract": null,
+   "citations": {},
+   "indexes": null,
+   "filters": null,
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/40ba2494-cc7d-42a4-9c7f-bdf85233c174/an-infrastructure-model-to-detect-and-prevent-web-attacks",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": []
+  },
+  {
+   "id": "p32",
+   "category": "proceeding",
+   "type": "Bildiri / Tam Metin Bildiri",
+   "year": 2016,
+   "title": "Suç Analizinde Veri Madenciliği Teknikleri ve Makine Öğrenmesi Algoritmalarının Kullanılması",
+   "authors": [
+    "ORAKÇI M.",
+    "CİYLAN B.",
+    "KÖK İ.",
+    "SEVRİ M."
+   ],
+   "venue": "Akademik Bilişim Konferansı, Aydın, Türkiye, 15-17 Şubat 2016",
+   "venue_line": "Akademik Bilişim Konferansı, Aydın, Türkiye, 15 - 17 Şubat 2016, (Tam Metin Bildiri)",
+   "doi": null,
+   "doi_url": null,
+   "keywords": null,
+   "abstract": null,
+   "citations": {},
+   "indexes": null,
+   "filters": null,
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/ed070986-e4c2-4958-974f-6d998cbfe897/suc-analizinde-veri-madenciligi-teknikleri-ve-makine-ogrenmesi-algoritmalarinin-kullanilmasi",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": []
+  },
+  {
+   "id": "p33",
+   "category": "proceeding",
+   "type": "Bildiri / Tam Metin Bildiri",
+   "year": 2015,
+   "title": "Bilinçsiz DNS Değiştirme ve Riskleri",
+   "authors": [
+    "SEVRİ M.",
+    "TOPALOĞLU N."
+   ],
+   "venue": "Akademik Bilişim 2015, Türkiye, 4-6 Şubat 2015",
+   "venue_line": "Akademik Bilişim 2015, Türkiye, 4 - 06 Şubat 2015, (Tam Metin Bildiri)",
+   "doi": null,
+   "doi_url": null,
+   "keywords": null,
+   "abstract": null,
+   "citations": {},
+   "indexes": null,
+   "filters": null,
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/bfbbb51e-a71f-4a80-bcf6-efb1d9da10e6/bilincsiz-dns-degistirme-ve-riskleri",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": []
+  },
+  {
+   "id": "p34",
+   "category": "book",
+   "type": "Kitapta Bölüm / Mesleki Kitap",
+   "year": 2023,
+   "title": "Explainable Artificial Intelligence (XAI) for Deep Learning Based Intrusion Detection Systems",
+   "authors": [
+    "SEVRİ M.",
+    "KARACAN H."
+   ],
+   "venue": "Engineering Cyber-Physical Systems and Critical Infrastructures, D. Jude Hemanth, Tuncay Yigit, Utku Kose, Ugur Guvenc (Editör), Springer Nature, Cham, ss.39-55",
+   "venue_line": "Engineering Cyber-Physical Systems and Critical Infrastructures, D. Jude Hemanth, Tuncay Yigit, Utku Kose, Ugur Guvenc, Editör, Springer Nature, Cham, ss.39-55, 2023",
+   "doi": null,
+   "doi_url": null,
+   "keywords": null,
+   "abstract": null,
+   "citations": {},
+   "indexes": null,
+   "filters": null,
+   "avesis_url": "https://avesis.erdogan.edu.tr/yayin/2e946464-a30f-4a7c-ade2-faf74bcf4d30/explainable-artificial-intelligence-xai-for-deep-learning-based-intrusion-detection-systems",
+   "open_access_pdf": [],
+   "license": [],
+   "figures": []
+  }
+ ],
+ "other_projects_from_old_site": [
+  "KOSGEB – Mühendis: Yeni Nesil Dizileme Analiz Yöntemleri ile İnsan Genomu Verilerinin Anotasyonu ve Önceliklendirilmesi (Tamamlandı)",
+  "TÜBİTAK 1001 – Araştırmacı – 323K425: 6 Şubat Depreminden Etkilenen Ergenlerin Psikolojik Dayanıklılığının Sanal Gerçeklik ile Geliştirilmesi (Değerlendirmede)",
+  "BAP – Araştırmacı: BAPSIS_7345, Teknofest Sağlıkta Yapay Zeka Finalist Takım Projesi",
+  "Uzaktan Eğitim için Akıllı Öğretim Sistemleri (BAP, Tamamlandı)",
+  "Blokzincir Tabanlı Güvenli Tıbbi Kayıt Paylaşımı (BAP, Devam)"
+ ],
+ "lab": {
+  "short": "AISEC Lab",
+  "name_en": "Artificial Intelligence and Cyber Security Research Lab (AISEC)",
+  "name_tr": "Yapay Zeka ve Siber Güvenlik Araştırma Laboratuvarı (AISEC)",
+  "role_tr": "Laboratuvar Direktörü / Grup Başkanı",
+  "role_en": "Lab Director / Group Leader",
+  "avesis_url": "https://avesis.erdogan.edu.tr/arastirma-grubu/aisec",
+  "logo": "assets/img/lab/aisec-logo.webp",
+  "photos": [
+   "assets/img/lab/lab-photo-1.webp",
+   "assets/img/lab/lab-photo-2.webp",
+   "assets/img/lab/lab-photo-3.webp"
+  ],
+  "about_en": [
+   "Our laboratory was established to conduct pioneering research in the fields of artificial intelligence and cyber security, develop innovative solutions and produce technologies that will shape the future of society. We are also working on the development of artificial intelligence applications in sectors such as health, energy, transport and smart cities.",
+   "Our research topics focus on machine learning, deep learning, natural language processing, network security, intrusion detection, data privacy and threat analysis, as well as AI applications in health, energy, transport and smart cities. We aim to provide social benefit with projects such as diagnostic support systems in health and optimisation solutions in the energy sector.",
+   "Our laboratory is open to those who want to evaluate collaboration opportunities, develop innovative projects and join our research team. You are always welcome to contact the lab with questions or collaboration proposals."
+  ],
+  "about_tr": [
+   "Laboratuvarımız; yapay zekâ ve siber güvenlik alanlarında öncü araştırmalar yürütmek, yenilikçi çözümler geliştirmek ve toplumun geleceğini şekillendirecek teknolojiler üretmek amacıyla kurulmuştur. Sağlık, enerji, ulaşım ve akıllı şehirler gibi sektörlerde yapay zekâ uygulamaları da geliştirmekteyiz.",
+   "Araştırma konularımız makine öğrenmesi, derin öğrenme, doğal dil işleme, ağ güvenliği, saldırı tespiti, veri gizliliği ve tehdit analizinin yanı sıra sağlık, enerji, ulaşım ve akıllı şehirlerde yapay zekâ uygulamalarına odaklanır. Sağlıkta tanı destek sistemleri ve enerjide optimizasyon çözümleri gibi projelerle topluma fayda sağlamayı hedefliyoruz.",
+   "Laboratuvarımız; iş birliği fırsatlarını değerlendirmek, yenilikçi projeler geliştirmek ve araştırma ekibimize katılmak isteyen herkese açıktır. Sorularınız ve iş birliği önerileriniz için bize her zaman ulaşabilirsiniz."
+  ],
+  "topics_tr": [
+   "Makine Öğrenmesi",
+   "Derin Öğrenme",
+   "Doğal Dil İşleme",
+   "Ağ Güvenliği",
+   "Saldırı Tespiti",
+   "Veri Gizliliği",
+   "Tehdit Analizi",
+   "Sağlıkta Yapay Zekâ",
+   "Enerjide Yapay Zekâ",
+   "Ulaşım ve Akıllı Şehirler"
+  ],
+  "topics_en": [
+   "Machine Learning",
+   "Deep Learning",
+   "Natural Language Processing",
+   "Network Security",
+   "Intrusion Detection",
+   "Data Privacy",
+   "Threat Analysis",
+   "AI in Health",
+   "AI in Energy",
+   "Transport & Smart Cities"
+  ],
+  "metrics": {
+   "publications": 13,
+   "citations_wos": 20,
+   "citations_scopus": 17,
+   "projects": 6,
+   "ip": 7
+  },
+  "members": [
+   {
+    "name": "Mehmet Sevri",
+    "group": "lead",
+    "role_tr": "Laboratuvar Direktörü",
+    "role_en": "Lab Director",
+    "photo": "assets/img/lab/members/mehmet-sevri.webp"
+   },
+   {
+    "name": "Tuğçem Partal",
+    "group": "academic",
+    "role_tr": "Akademik Personel",
+    "role_en": "Academic Staff",
+    "photo": "assets/img/lab/members/tugcem-partal.webp"
+   },
+   {
+    "name": "Kevser Nur Çoğalmış",
+    "group": "academic",
+    "role_tr": "Akademik Personel",
+    "role_en": "Academic Staff",
+    "photo": "assets/img/lab/members/kevser-nur-cogalmis.webp"
+   },
+   {
+    "name": "Ömer Emin Çınar",
+    "group": "academic",
+    "role_tr": "Akademik Personel",
+    "role_en": "Academic Staff",
+    "photo": "assets/img/lab/members/omer-emin-cinar.webp"
+   },
+   {
+    "name": "Rukiye Akıncı Hazır",
+    "group": "academic",
+    "role_tr": "Akademik Personel",
+    "role_en": "Academic Staff",
+    "photo": null
+   },
+   {
+    "name": "Çiğdem Sazak Turgut",
+    "group": "academic",
+    "role_tr": "Akademik Personel",
+    "role_en": "Academic Staff",
+    "photo": "assets/img/lab/members/cigdem-sazak-turgut.webp"
+   },
+   {
+    "name": "Evşen Yetim",
+    "group": "research",
+    "role_tr": "Araştırma Personeli",
+    "role_en": "Research Staff",
+    "photo": "assets/img/lab/members/evsen-yetim.webp"
+   },
+   {
+    "name": "Rana Salihoğlu",
+    "group": "research",
+    "role_tr": "Araştırma Personeli",
+    "role_en": "Research Staff",
+    "photo": "assets/img/lab/members/rana-salihoglu.webp"
+   },
+   {
+    "name": "Joseph Bamidele Awotunde",
+    "group": "research",
+    "role_tr": "Araştırma Personeli",
+    "role_en": "Research Staff",
+    "photo": "assets/img/lab/members/joseph-bamidele-awotunde.webp"
+   },
+   {
+    "name": "Muhammed Beşir Velioğlu",
+    "group": "student",
+    "role_tr": "Lisans Öğrencisi",
+    "role_en": "Undergraduate Student",
+    "photo": "assets/img/lab/members/muhammed-besir-velioglu.webp"
+   },
+   {
+    "name": "Emirhan Toprak",
+    "group": "student",
+    "role_tr": "Lisans Öğrencisi",
+    "role_en": "Undergraduate Student",
+    "photo": null
+   },
+   {
+    "name": "Hikmethan Kolay",
+    "group": "student",
+    "role_tr": "Lisans Öğrencisi",
+    "role_en": "Undergraduate Student",
+    "photo": "assets/img/lab/members/hikmethan-kolay.webp"
+   },
+   {
+    "name": "Ahmet Kerem Memioğlu",
+    "group": "student",
+    "role_tr": "Lisans Öğrencisi",
+    "role_en": "Undergraduate Student",
+    "photo": null
+   }
+  ],
+  "news": [
+   {
+    "date": "2026-01-22",
+    "image": "assets/img/lab/news-siber-ikiz.webp",
+    "title_en": "A new defence-industry–oriented R&D project accepted: SİBER İKİZ",
+    "title_tr": "Savunma sanayii odaklı yeni Ar-Ge projesi kabul edildi: SİBER İKİZ",
+    "body_en": "Digital Twin–Based Intelligent Attack Detection and Defense System (SİBER İKİZ), supported by the Presidency of Defence Industries (SSB). 24 months (April 2025 – April 2027). Contractor: BTS Kurumsal Bilişim Teknolojileri A.Ş.; main subcontractors: Recep Tayyip Erdoğan University and Eskişehir Osmangazi University.",
+    "body_tr": "Savunma Sanayii Başkanlığı (SSB) destekli Dijital İkiz Temelli Akıllı Saldırı Tespit ve Savunma Sistemi (SİBER İKİZ). Süre: 24 ay (Nisan 2025 – Nisan 2027). Yüklenici: BTS Kurumsal Bilişim Teknolojileri A.Ş.; ana alt yükleniciler: Recep Tayyip Erdoğan Üniversitesi ve Eskişehir Osmangazi Üniversitesi.",
+    "url": "https://avesis.erdogan.edu.tr/arastirma-grubu/aisec/duyuru/26",
+    "image_alt_tr": "Savunma Sanayii Başkanlığı Ar-Ge projeleri imza töreninden bir kare",
+    "image_alt_en": "A photo from the Presidency of Defence Industries R&D projects signing ceremony"
+   },
+   {
+    "date": "2024-09-01",
+    "image": "assets/img/lab/news-tubitak-1001.webp",
+    "title_en": "TÜBİTAK 1001 project accepted: AI decision support for preeclampsia",
+    "title_tr": "TÜBİTAK 1001 projesi kabul edildi: Preeklampsi için yapay zekâ karar destek sistemi",
+    "body_en": "A multimodal AI decision support system (biochemical markers, placental ultrasonography, Doppler videos, clinical data) for early detection, severity assessment and delivery-time prediction in preeclampsia; prospective cohort design, 2024–2027. PI: Mehmet Sevri.",
+    "body_tr": "Preeklampsinin erken tespiti, şiddetinin belirlenmesi ve doğum zamanı tahmini için biyokimyasal belirteçler, plasental ultrasonografi, Doppler videoları ve klinik verileri birleştiren çok modlu yapay zekâ karar destek sistemi; prospektif kohort tasarımı, 2024–2027. Yürütücü: Mehmet Sevri.",
+    "url": "https://avesis.erdogan.edu.tr/arastirma-grubu/aisec/duyuru/21",
+    "image_alt_tr": "Gebelik ve yapay zekâyı simgeleyen illüstrasyon",
+    "image_alt_en": "Illustration symbolising pregnancy and artificial intelligence"
+   }
+  ],
+  "contact": {
+   "email": "mehmet.sevri@erdogan.edu.tr",
+   "phone": "+90 464 223 7518 / 1245",
+   "address_tr": "Recep Tayyip Erdoğan Üniversitesi, Mühendislik ve Mimarlık Fakültesi, Bilgisayar Mühendisliği Bölümü, Zihni Derin Yerleşkesi, Fener Mah., 53100 Merkez/Rize",
+   "address_en": "Recep Tayyip Erdoğan University, Faculty of Engineering and Architecture, Dept. of Computer Engineering, Zihni Derin Campus, Fener Mah., 53100 Rize, Türkiye"
+  },
+  "director_title_tr": "Dr. Öğr. Üyesi",
+  "director_title_en": "Asst. Prof. Dr.",
+  "project_ids": [
+   "preeclampsia",
+   "siber-ikiz",
+   "drone",
+   "safescript",
+   "recytech",
+   "pharmavent"
+  ],
+  "photo_alts_tr": [
+   "AISEC Lab: elektronik atölye tezgâhı, el aletleri ve bilgisayarlı çalışma masaları",
+   "AISEC Lab: çalışma masaları, malzeme dolapları ve kahve köşesi",
+   "AISEC Lab: çalışma istasyonları, atölye tezgâhı ve duvardaki ışıklı AISEC-LAB logosu"
+  ],
+  "photo_alts_en": [
+   "AISEC Lab: electronics workbench, hand tools and computer workstations",
+   "AISEC Lab: workstations, storage cabinets and a coffee corner",
+   "AISEC Lab: workstations, a workbench and the illuminated AISEC-LAB logo on the wall"
+  ]
+ },
+ "site": {
+  "url": "https://mehmetsevri.github.io/",
+  "featured_publications": [
+   {
+    "id": "p06",
+    "size": "big",
+    "art": "ieee"
+   },
+   {
+    "id": "p05",
+    "size": "tall",
+    "figure": "assets/img/pubs/tiis2022-stacked-ensemble.webp"
+   },
+   {
+    "id": "p03",
+    "figure": "assets/img/pubs/jcm2024-adhd-roc.webp"
+   },
+   {
+    "id": "p02",
+    "figure": "assets/img/pubs/gmj2025-llm-themes.webp"
+   },
+   {
+    "id": "p01",
+    "figure": "assets/img/pubs/ais2025-aftershock-rj89.webp"
+   }
+  ],
+  "latest_paper": {
+   "id": "p01",
+   "figure": "assets/img/pubs/ais2025-aftershock-shap.webp"
+  },
+  "featured_project": "preeclampsia",
+  "project_order": [
+   "preeclampsia",
+   "siber-ikiz",
+   "renewashield",
+   "hydro-forecast",
+   "drone",
+   "recytech",
+   "safescript",
+   "pharmavent",
+   "dcpt"
+  ]
+ },
+ "figures": {
+  "assets/img/pubs/ais2025-aftershock-rj89.webp": {
+   "w": 513,
+   "h": 431,
+   "caption_tr": "Artçı sarsıntı sayısı – ana şok büyüklüğü: gözlenen değerler ve RJ89 tahmini.",
+   "caption_en": "Aftershock count vs mainshock magnitude: observed values and RJ89 predictions."
+  },
+  "assets/img/pubs/ais2025-aftershock-shap.webp": {
+   "w": 1209,
+   "h": 239,
+   "caption_tr": "Öznitelik önemi ve ortalama |SHAP| değerleri.",
+   "caption_en": "Feature importance and mean |SHAP| values."
+  },
+  "assets/img/pubs/gmj2025-llm-themes.webp": {
+   "w": 1400,
+   "h": 730,
+   "caption_tr": "Her yapay zekâ sohbet robotunun temalara katkısı (GPT-3, GPT-4, Gemini, Copilot).",
+   "caption_en": "Contribution to themes by each AI chatbot (GPT-3, GPT-4, Gemini, Copilot)."
+  },
+  "assets/img/pubs/jcm2024-adhd-roc.webp": {
+   "w": 1400,
+   "h": 1043,
+   "caption_tr": "da-CPT, MOXO-CPT ve IVA-2 için ROC eğrileri.",
+   "caption_en": "ROC curves for da-CPT, MOXO-CPT and IVA-2."
+  },
+  "assets/img/pubs/jcm2024-adhd-severity.webp": {
+   "w": 1400,
+   "h": 837,
+   "caption_tr": "Dikkatsizlik, zamanlama, dürtüsellik ve hiperaktivite indekslerinin DEHB şiddetiyle ilişkisi.",
+   "caption_en": "Inattention, timing, impulsivity and hyperactivity indices vs. ADHD severity."
+  },
+  "assets/img/pubs/tiis2022-stacked-ensemble.webp": {
+   "w": 1257,
+   "h": 943,
+   "caption_tr": "İki aşamalı yığınlı topluluk WAF mimarisi.",
+   "caption_en": "Architecture of the two-stage stacked ensemble WAF."
+  },
+  "assets/img/pubs/tiis2022-flow.webp": {
+   "w": 1072,
+   "h": 733,
+   "caption_tr": "Eğitim ve gerçek zamanlı web anomali tespiti akışı.",
+   "caption_en": "Training and real-time web anomaly detection workflow."
+  }
+ },
+ "consultancies": [
+  {
+   "id": "nu-platform",
+   "title_tr": "Nu Platform",
+   "title_en": "Nu Platform",
+   "kind": "Sanayi Danışmanlığı",
+   "kind_en": "Industry Consultancy",
+   "program": "1507 - TÜBİTAK KOBİ Ar-Ge Başlangıç Destek Programı",
+   "program_en": "1507 – TÜBİTAK SME R&D Start-up Support Programme",
+   "funder": "TÜBİTAK 1507",
+   "start": "Ağustos 2025",
+   "end": "Ocak 2027",
+   "role_tr": "Danışman",
+   "role_en": "Consultant",
+   "short_tr": "TÜBİTAK 1507 KOBİ Ar-Ge Başlangıç Destek Programı kapsamında desteklenen Nu Platform projesine sanayi danışmanlığı.",
+   "short_en": "Industry consultancy for the Nu Platform project, supported under the TÜBİTAK 1507 SME R&D Start-up Support Programme.",
+   "summary_tr": null,
+   "summary_en": null,
+   "team": [],
+   "art": "nu",
+   "avesis_url": "https://avesis.erdogan.edu.tr/proje/3855b1e0-41e9-46ea-9adb-5313f23419c1/nu-platform"
+  }
+ ]
+}
