@@ -71,7 +71,7 @@ tr: {
   consH: 'Sanayi ve Endüstri Danışmanlıkları', consP: 'KOBİ ve sanayi kuruluşlarının Ar-Ge projelerinde yapay zekâ ve siber güvenlik danışmanlığı veriyoruz.',
   consCtaH: 'Firmanız için Ar-Ge danışmanlığı', consCtaP: 'TÜBİTAK 1501, 1507 ve benzeri sanayi destek programlarında yapay zekâ ve siber güvenlik danışmanlığı için bize ulaşın.', consCtaBtn: 'Danışmanlık talebi', consSubject: 'Sanayi Danışmanlığı Talebi',
   prjCtaH: 'Bir proje fikriniz mi var?', prjCtaP: 'TÜBİTAK, sanayi ve üniversite destekli çağrılarda ortaklıklara açığız.', prjCtaBtn: 'Ortaklık öner',
-  patEy: 'Patentler', patH: 'Buluşlar ve Patent Başvuruları', patP: 'Açıklanabilir derin öğrenme tabanlı web güvenlik duvarından RFID ve İHA sistemlerine uzanan patent başvuruları.',
+  patEy: 'Patentler', patH: 'Buluşlar ve Patent Başvuruları', patP: 'Açıklanabilir derin öğrenme tabanlı web güvenlik duvarından RFID, İHA ve orman yangını erken uyarı sistemlerine uzanan patent başvuruları.', patSummary: 'Kısa açıklama', patInventors: 'Buluş sahipleri',
   appNo: 'Başvuru no', pctApp: 'Uluslararası başvuru', natApp: 'Ulusal başvuru', statusFiled: 'Başvuru yapıldı', year: 'Yıl',
   patDetails: 'Ayrıntılar', patHide: 'Ayrıntıları gizle', patType: 'Başvuru türü', patTypePct: 'PCT – uluslararası patent başvurusu', patTypeNat: 'Ulusal patent başvurusu',
   patTitleEn: 'İngilizce başlık', patTitleEnTr: 'İngilizce başlık (çeviri)', patTitleTr: 'Türkçe başlık', patSame: 'Aynı başlıklı başvuru',
@@ -139,7 +139,7 @@ en: {
   consH: 'Industry Consultancy', consP: 'We provide AI and cybersecurity consultancy for the R&D projects of SMEs and industrial companies.',
   consCtaH: 'R&D consultancy for your company', consCtaP: 'Contact us for AI and cybersecurity consultancy in TÜBİTAK 1501, 1507 and similar industry support programmes.', consCtaBtn: 'Request consultancy', consSubject: 'Industry Consultancy Request',
   prjCtaH: 'Have a project idea?', prjCtaP: 'We are open to partnerships in TÜBİTAK, industry and university-funded calls.', prjCtaBtn: 'Propose a partnership',
-  patEy: 'Patents', patH: 'Inventions & Patent Applications', patP: 'Patent applications ranging from an explainable deep-learning web application firewall to RFID and UAV systems.',
+  patEy: 'Patents', patH: 'Inventions & Patent Applications', patP: 'Patent applications ranging from an explainable deep-learning web application firewall to RFID, UAV and forest-fire early-warning systems.', patSummary: 'Summary', patInventors: 'Inventors',
   appNo: 'Application no.', pctApp: 'International application', natApp: 'National application', statusFiled: 'Filed', year: 'Year',
   patDetails: 'Details', patHide: 'Hide details', patType: 'Application type', patTypePct: 'PCT – international patent application', patTypeNat: 'National patent application',
   patTitleEn: 'English title', patTitleEnTr: 'English title (translation)', patTitleTr: 'Turkish title', patSame: 'Application with the same Turkish title',
@@ -562,6 +562,14 @@ var ART = {
 /* Blueprint-style technical drawings for patents (240 x 150) */
 function bp(inner) { return '<svg viewBox="0 0 240 150" preserveAspectRatio="xMidYMid meet" aria-hidden="true" focusable="false">' + inner + '</svg>'; }
 var PART = {
+  forest: function () { return bp('<path class="k dim" d="M8 130h224"/>' +
+    '<circle class="k k3" cx="30" cy="26" r="9"/><path class="k k3" d="M30 10v5M30 37v5M14 26h5M41 26h5M19 15l3.5 3.5M37.5 33.5L41 37M19 37l3.5-3.5M37.5 18.5L41 15"/>' +
+    '<path class="k kf" d="M20 118l11-30 11 30z"/><path class="k" d="M31 118v12"/><path class="k kf" d="M44 118l13-38 13 38z"/><path class="k" d="M57 118v12"/><path class="k kf" d="M70 118l10-26 10 26z"/><path class="k" d="M80 118v12"/>' +
+    '<path class="k k3 dim" d="M37 32L112 116"/><path class="k k2" d="M106 130l4-14h8l4 14z"/><path class="k k2" d="M112 116v-6h4v6"/><path class="ks3" d="M121 104l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/>' +
+    '<path class="k k3" d="M126 108L174 80"/>' +
+    '<rect class="k kf" x="174" y="64" width="44" height="32" rx="7"/><circle class="k k2" cx="186" cy="80" r="7"/><circle class="ks" cx="186" cy="80" r="2.6"/><path class="k" d="M198 74h12M198 80h12M198 86h8"/>' +
+    '<path class="k" d="M205 52s-9-8-9-15a9 9 0 0 1 18 0c0 7-9 15-9 15z"/><circle class="k" cx="205" cy="37" r="3.4"/><path class="k k2" d="M222 72a8 8 0 0 1 0 16M227 67a13 13 0 0 1 0 26"/>' +
+    '<path class="k dim" d="M174 108h44M174 103v10M218 103v10"/><text x="181" y="124">GNSS</text>'); },
   rfid: function () { return bp('<path class="k" d="M24 44a24 24 0 0 1 48 0"/><path class="k" d="M30 44h4M62 44h4M48 20v4"/><path class="k k3" d="M48 44l13-12"/><circle class="ks" cx="48" cy="44" r="2.6"/>' +
     '<rect class="k kf" x="40" y="62" width="128" height="44" rx="7"/><rect class="k" x="46" y="68" width="116" height="32" rx="4"/><rect class="ks" x="46" y="68" width="14" height="32" rx="3"/><text x="49" y="88" style="fill:#fff">TR</text><path class="k" d="M70 84h8M84 84h8M98 84h8M112 84h8"/>' +
     '<rect class="k k2" x="134" y="73" width="20" height="22" rx="3"/><path class="k k2" d="M139 79h10M139 84h10M139 89h6"/><path class="k k2" d="M162 72a14 14 0 0 1 0 24M170 66a24 24 0 0 1 0 36M178 60a34 34 0 0 1 0 48"/>' +
@@ -835,7 +843,11 @@ function renderPatents() {
       '<div class="pt-more" id="' + id + '" hidden><dl class="kv"><dt>' + esc(t('patType')) + '</dt><dd>' + esc(t(p.pct ? 'patTypePct' : 'patTypeNat')) + '</dd>' +
       '<dt>' + esc(t('appNo')) + '</dt><dd class="mono-v">' + esc(p.no) + '</dd><dt>' + esc(t('year')) + '</dt><dd>' + p.year + '</dd>' +
       (other ? '<dt>' + esc(t(L === 'en' ? 'patTitleTr' : (p.pct ? 'patTitleEn' : 'patTitleEnTr'))) + '</dt><dd' + (L === 'en' ? ' lang="tr"' : ' lang="en"') + '>' + esc(other) + '</dd>' : '') +
-      (same.length ? '<dt>' + esc(t('patSame')) + '</dt><dd class="mono-v">' + esc(same.join(', ')) + '</dd>' : '') + '</dl></div></div></article></li>';
+      (same.length ? '<dt>' + esc(t('patSame')) + '</dt><dd class="mono-v">' + esc(same.join(', ')) + '</dd>' : '') +
+      (loc(p, 'desc') ? '<dt>' + esc(t('patSummary')) + '</dt><dd>' + esc(loc(p, 'desc')) + '</dd>' : '') +
+      (p.inventors && p.inventors.length ? '<dt>' + esc(t('patInventors')) + '</dt><dd>' + p.inventors.map(function (v) {
+        var s = esc((v['title_' + L] || v.title_tr || '') + ' ' + v.name); return /Sevri/.test(v.name) ? '<b>' + s + '</b>' : s; }).join(', ') + '</dd>' : '') +
+      '</dl></div></div></article></li>';
   });
   setHTML('#patTl', html);
   var y0 = Math.min.apply(null, ys), y1 = Math.max.apply(null, ys);

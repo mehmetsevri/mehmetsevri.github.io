@@ -411,6 +411,43 @@
  ],
  "patents": [
   {
+   "year": 2026,
+   "no": "2026/003173",
+   "tr": "Orman Yangınlarının Önlenmesinde Plazmonik Fotosensör ile Yansıma Konum Tespit Sistemi ve Yöntemi",
+   "en": "Reflection Localisation System and Method Using a Plasmonic Photosensor for the Prevention of Forest Fires",
+   "art": "forest",
+   "pct": false,
+   "desc_tr": "Cam ve metal gibi yansıtıcı nesnelerin güneş ışığını yansıtmasıyla oluşan tehlikeli parlamaları yangın başlamadan önce algılayan ve konumunu belirleyen, plazmonik fotosensör ve GNSS destekli taşınabilir bir erken uyarı sistemi.",
+   "desc_en": "A portable early-warning system that detects hazardous sun glints from reflective objects such as glass and metal before a fire starts, and locates them using a plasmonic photosensor with GNSS-based positioning.",
+   "inventors": [
+    {
+     "name": "Vagif Nevruzoğlu",
+     "title_tr": "Prof. Dr.",
+     "title_en": "Prof. Dr."
+    },
+    {
+     "name": "Murat Tomakin",
+     "title_tr": "Prof. Dr.",
+     "title_en": "Prof. Dr."
+    },
+    {
+     "name": "Yasin Karan",
+     "title_tr": "Dr. Öğr. Üyesi",
+     "title_en": "Asst. Prof. Dr."
+    },
+    {
+     "name": "Melih Manır",
+     "title_tr": "Arş. Gör. Dr.",
+     "title_en": "Res. Asst. Dr."
+    },
+    {
+     "name": "Mehmet Sevri",
+     "title_tr": "Dr. Öğr. Üyesi",
+     "title_en": "Asst. Prof. Dr."
+    }
+   ]
+  },
+  {
    "year": 2024,
    "no": "2024/018939",
    "tr": "Araç Plakalarına Yerleştirilen Aktif RFID Etiketleri ile Araçların Tanımlanması, Hız ve Konum Bilgilerinin Belirlenmesi Sistemi ve Yöntemi",
