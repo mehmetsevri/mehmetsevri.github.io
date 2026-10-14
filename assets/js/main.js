@@ -96,8 +96,7 @@ tr: {
   col1H: 'Ortak Araştırma', col1P: 'Makaleler, veri setleri ve ortak proje başvuruları.', col2H: 'Sanayi İşbirliği', col2P: 'Yapay zekâ ve siber güvenlik odaklı Ar-Ge projeleri ve teknoloji transferi.', col3H: 'Öğrenci Danışmanlığı', col3P: 'Lisans projeleri, yüksek lisans ve doktora tezleri; AISEC Lab’de araştırma.',
   colBtn: 'E-posta Gönder', colBtn2: 'AVESIS Profili', collabSubject: 'İşbirliği Önerisi',
   conEy: 'İletişim', conH: 'İletişim', conP: 'Sorularınız ve işbirliği önerileriniz için bize ulaşın.',
-  emailH: 'E-posta', phoneH: 'Telefon', extLbl: 'Dahili', addrH: 'Adres', profilesH: 'Akademik Profiller',
-  footNote: 'Veriler AVESIS’ten derlenmiştir.'
+  emailH: 'E-posta', phoneH: 'Telefon', extLbl: 'Dahili', addrH: 'Adres', profilesH: 'Akademik Profiller'
 },
 en: {
   metaTitle: 'Mehmet Sevri — Assistant Professor | AI & Cybersecurity',
@@ -164,8 +163,7 @@ en: {
   col1H: 'Joint Research', col1P: 'Papers, datasets and joint grant proposals.', col2H: 'Industry Collaboration', col2P: 'AI and cybersecurity-focused R&D projects and technology transfer.', col3H: 'Student Supervision', col3P: 'Undergraduate projects, MSc and PhD theses; research at the AISEC Lab.',
   colBtn: 'Send an Email', colBtn2: 'AVESIS Profile', collabSubject: 'Collaboration Proposal',
   conEy: 'Contact', conH: 'Get in Touch', conP: 'Reach out with questions and collaboration ideas.',
-  emailH: 'Email', phoneH: 'Phone', extLbl: 'ext.', addrH: 'Address', profilesH: 'Academic Profiles',
-  footNote: 'Data compiled from AVESIS.'
+  emailH: 'Email', phoneH: 'Phone', extLbl: 'ext.', addrH: 'Address', profilesH: 'Academic Profiles'
 }};
 
 /* ====================================================================
@@ -644,7 +642,6 @@ function renderHero() {
   var dept = String(loc(PROFILE, 'dept')).split(', ');
   setText('#hDept', dept[0]);
   setText('#hUni', dept.slice(1).join(' · '));
-  setText('#hTag', loc(PROFILE, 'statement'));
   var roles = PROFILE['roles_' + L] || PROFILE.roles_tr || [];
   setHTML('#hRoles', roles.map(function (r, i) { var k = roleIcon(r, i); return '<li class="h-role' + (k === 'lab' ? ' lab' : '') + '">' + ic(k) + '<span>' + esc(r) + '</span></li>'; }).join(''));
   var areas = PROFILE['research_areas_' + L] || PROFILE.research_areas_tr || [];

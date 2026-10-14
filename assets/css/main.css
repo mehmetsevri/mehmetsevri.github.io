@@ -264,7 +264,6 @@ html.theme-anim,html.theme-anim *,html.theme-anim *::before,html.theme-anim *::a
 .h-typed .tx{color:var(--h-text);overflow-wrap:anywhere}
 .caret{width:9px;height:18px;flex:none;background:var(--h-cyan);border-radius:2px;animation:blink 1s steps(1) infinite;box-shadow:0 0 12px var(--h-glow-c)}
 @keyframes blink{50%{opacity:0}}
-.h-tag{font-size:clamp(1rem,1.5vw,1.14rem);color:var(--h-text2);max-width:58ch}
 .h-roles{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 10px}
 .h-role{display:inline-flex;align-items:center;gap:8px;padding:7px 12px 7px 9px;border-radius:999px;font-size:.84rem;font-weight:500;background:var(--h-pill);border:1px solid var(--h-line);color:var(--h-text)}
 .h-role svg{width:16px;height:16px;color:var(--h-cyan)}
