@@ -443,7 +443,8 @@
      "title_tr": "Dr. Öğr. Üyesi",
      "title_en": "Asst. Prof. Dr."
     }
-   ]
+   ],
+   "status": "granted"
   },
   {
    "year": 2024,
@@ -467,7 +468,8 @@
    "tr": "Yapay Zeka Kontrollü Dinamik Antenli Modem ile Sinyal ve Kapsama Optimizasyonu Sistemi ve Yöntemi",
    "en": "Signal and Coverage Optimization with an AI-Controlled Dynamic-Antenna Modem",
    "art": "modem",
-   "pct": false
+   "pct": false,
+   "status": "granted"
   },
   {
    "year": 2024,

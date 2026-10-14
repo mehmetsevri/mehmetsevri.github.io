@@ -72,7 +72,7 @@ tr: {
   consCtaH: 'Firmanız için Ar-Ge danışmanlığı', consCtaP: 'TÜBİTAK 1501, 1507 ve benzeri sanayi destek programlarında yapay zekâ ve siber güvenlik danışmanlığı için bize ulaşın.', consCtaBtn: 'Danışmanlık talebi', consSubject: 'Sanayi Danışmanlığı Talebi',
   prjCtaH: 'Bir proje fikriniz mi var?', prjCtaP: 'TÜBİTAK, sanayi ve üniversite destekli çağrılarda ortaklıklara açığız.', prjCtaBtn: 'Ortaklık öner',
   patEy: 'Patentler', patH: 'Buluşlar ve Patent Başvuruları', patP: 'Açıklanabilir derin öğrenme tabanlı web güvenlik duvarından RFID, İHA ve orman yangını erken uyarı sistemlerine uzanan patent başvuruları.', patSummary: 'Kısa açıklama', patInventors: 'Buluş sahipleri',
-  appNo: 'Başvuru no', pctApp: 'Uluslararası başvuru', natApp: 'Ulusal başvuru', statusFiled: 'Başvuru yapıldı', year: 'Yıl',
+  appNo: 'Başvuru no', pctApp: 'Uluslararası başvuru', natApp: 'Ulusal başvuru', statusFiled: 'Başvuru yapıldı', statusGranted: 'Tescil edildi', grantBadge: 'Tescilli patent', stampTxt: 'TESCİL', patStatus: 'Durum', statGranted: 'tescilli patent', statGranted1: 'tescilli patent', mPatSubG: '{g} tescilli · {n} PCT', year: 'Yıl',
   patDetails: 'Ayrıntılar', patHide: 'Ayrıntıları gizle', patType: 'Başvuru türü', patTypePct: 'PCT – uluslararası patent başvurusu', patTypeNat: 'Ulusal patent başvurusu',
   patTitleEn: 'İngilizce başlık', patTitleEnTr: 'İngilizce başlık (çeviri)', patTitleTr: 'Türkçe başlık', patSame: 'Aynı başlıklı başvuru',
   patYear1: '1 başvuru', patYearN: '{n} başvuru', statApps: 'patent başvurusu', statPct: 'PCT başvurusu', statPct1: 'PCT başvurusu', statSpan: 'dönem',
@@ -139,7 +139,7 @@ en: {
   consCtaH: 'R&D consultancy for your company', consCtaP: 'Contact us for AI and cybersecurity consultancy in TÜBİTAK 1501, 1507 and similar industry support programmes.', consCtaBtn: 'Request consultancy', consSubject: 'Industry Consultancy Request',
   prjCtaH: 'Have a project idea?', prjCtaP: 'We are open to partnerships in TÜBİTAK, industry and university-funded calls.', prjCtaBtn: 'Propose a partnership',
   patEy: 'Patents', patH: 'Inventions & Patent Applications', patP: 'Patent applications ranging from an explainable deep-learning web application firewall to RFID, UAV and forest-fire early-warning systems.', patSummary: 'Summary', patInventors: 'Inventors',
-  appNo: 'Application no.', pctApp: 'International application', natApp: 'National application', statusFiled: 'Filed', year: 'Year',
+  appNo: 'Application no.', pctApp: 'International application', natApp: 'National application', statusFiled: 'Filed', statusGranted: 'Granted', grantBadge: 'Granted patent', stampTxt: 'GRANTED', patStatus: 'Status', statGranted: 'granted patents', statGranted1: 'granted patent', mPatSubG: '{g} granted · {n} PCT', year: 'Year',
   patDetails: 'Details', patHide: 'Hide details', patType: 'Application type', patTypePct: 'PCT – international patent application', patTypeNat: 'National patent application',
   patTitleEn: 'English title', patTitleEnTr: 'English title (translation)', patTitleTr: 'Turkish title', patSame: 'Application with the same Turkish title',
   patYear1: '1 application', patYearN: '{n} applications', statApps: 'patent applications', statPct: 'PCT applications', statPct1: 'PCT application', statSpan: 'period',
@@ -328,6 +328,7 @@ var ICON = {
   layers: '<path d="M12 3l9 5-9 5-9-5z"/><path d="M3 13l9 5 9-5"/>',
   globe: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/>',
   award: '<circle cx="12" cy="9" r="6"/><path d="M8.5 14l-1.5 7 5-3 5 3-1.5-7"/>',
+  seal: '<circle cx="12" cy="9.5" r="6.5"/><path d="M9.2 9.7l2 2 3.7-3.8"/><path d="M8.3 14.8L7 22l5-2.6 5 2.6-1.3-7.2"/>',
   check: '<path d="M4 12.5l5 5L20 6.5"/>',
   cal: '<rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/>',
   search: '<circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/>',
@@ -656,7 +657,8 @@ function renderGlance() {
   var m = PROFILE.metrics || {}, pct = PATENTS.filter(function (p) { return p.pct; }).length;
   setCount('#gPubN', PUBS.length); setCount('#gPrjN', PROJECTS.length); setCount('#gPatN', PATENTS.length);
   setCount('#gWosN', m.wos); setCount('#gScoN', m.scopus);
-  setText('#gPatSub', fmt(tn(pct, 'mPatSub'), { n: pct }));
+  var granted = PATENTS.filter(function (p) { return p.status === 'granted'; }).length;
+  setText('#gPatSub', granted ? fmt(t('mPatSubG'), { g: granted, n: pct }) : fmt(tn(pct, 'mPatSub'), { n: pct }));
   // publications per year
   var cnt = {}, ys = PUBS.map(function (p) { return p.year; }), y0 = Math.min.apply(null, ys), y1 = Math.max.apply(null, ys), mx = 0, y, bars = '', lab = [];
   PUBS.forEach(function (p) { cnt[p.year] = (cnt[p.year] || 0) + 1; });
@@ -820,7 +822,7 @@ function renderConsult() {
 
 function patTitle(p, lang) { return String(p[lang] || p.tr || '').replace(/\s*\(PCT\)\s*$/, ''); }
 function renderPatents() {
-  var html = '', lastY = null, pct = 0, ys = [];
+  var html = '', lastY = null, pct = 0, gr = 0, ys = [];
   PATENTS.forEach(function (p, i) {
     if (p.pct) pct++;
     ys.push(p.year);
@@ -829,16 +831,19 @@ function renderPatents() {
       html += '<li class="pt-year" aria-hidden="true"><span>' + p.year + '<small>· ' + esc(cnt > 1 ? fmt(t('patYearN'), { n: cnt }) : t('patYear1')) + '</small></span></li>';
       lastY = p.year;
     }
-    var id = 'pt-d-' + i, other = L === 'en' ? patTitle(p, 'tr') : patTitle(p, 'en');
+    var id = 'pt-d-' + i, other = L === 'en' ? patTitle(p, 'tr') : patTitle(p, 'en'), g = p.status === 'granted';
+    if (g) gr++;
     var same = PATENTS.filter(function (q) { return q !== p && patTitle(q, 'tr') === patTitle(p, 'tr'); }).map(function (q) { return q.no; });
-    html += '<li class="pt ' + (i % 2 ? 'r' : 'l') + (p.pct ? ' pct' : '') + '"><span class="node" aria-hidden="true">' + ic(p.pct ? 'globe' : 'bulb') + '</span>' +
-      '<article class="tile lift pt-card reveal" style="--i:' + (i % 2) + '"><div class="bp"><span class="corner">' + esc(fmt(t('figN'), { i: i + 1 }).toLocaleUpperCase(lc())) + '</span>' + (PART[p.art] || PART.waftr)() + '</div>' +
+    html += '<li class="pt ' + (i % 2 ? 'r' : 'l') + (p.pct ? ' pct' : '') + (g ? ' granted' : '') + '"><span class="node" aria-hidden="true">' + ic(g ? 'seal' : (p.pct ? 'globe' : 'bulb')) + '</span>' +
+      '<article class="tile lift pt-card reveal" style="--i:' + (i % 2) + '"><div class="bp"><span class="corner">' + esc(fmt(t('figN'), { i: i + 1 }).toLocaleUpperCase(lc())) + '</span>' +
+      (g ? '<span class="stamp" aria-hidden="true"><span>' + ic('seal') + '<b>' + esc(t('stampTxt')) + '</b><small>' + p.year + '</small></span></span>' : '') + (PART[p.art] || PART.waftr)() + '</div>' +
       '<div class="pt-body"><div class="prj-top">' + (p.pct ? '<span class="badge b-pct">PCT</span><span class="badge">' + esc(t('pctApp')) + '</span>' : '<span class="badge">' + esc(t('natApp')) + '</span>') +
-      '<span class="badge b-st">' + ic('check') + esc(t('statusFiled')) + '</span></div>' +
+      (g ? '<span class="badge b-grant">' + ic('seal') + esc(t('grantBadge')) + '</span>' : '<span class="badge b-st">' + ic('check') + esc(t('statusFiled')) + '</span>') + '</div>' +
       '<p class="pat-no"><small>' + esc(t('appNo')) + '</small>' + esc(p.no) + '</p><h3 id="pt-t-' + i + '"' + langAttr(patTitle(p, L)) + '>' + esc(patTitle(p, L)) + '</h3>' +
       '<button type="button" class="tog" data-tog="' + id + '" data-l1="patDetails" data-l2="patHide" aria-expanded="false" aria-controls="' + id + '" aria-describedby="pt-t-' + i + '"><span>' + esc(t('patDetails')) + '</span>' + ic('chevD') + '</button>' +
       '<div class="pt-more" id="' + id + '" hidden><dl class="kv"><dt>' + esc(t('patType')) + '</dt><dd>' + esc(t(p.pct ? 'patTypePct' : 'patTypeNat')) + '</dd>' +
       '<dt>' + esc(t('appNo')) + '</dt><dd class="mono-v">' + esc(p.no) + '</dd><dt>' + esc(t('year')) + '</dt><dd>' + p.year + '</dd>' +
+      '<dt>' + esc(t('patStatus')) + '</dt><dd>' + (g ? '<b class="grant-txt">' + esc(t('statusGranted')) + '</b>' : esc(t('statusFiled'))) + '</dd>' +
       (other ? '<dt>' + esc(t(L === 'en' ? 'patTitleTr' : (p.pct ? 'patTitleEn' : 'patTitleEnTr'))) + '</dt><dd' + (L === 'en' ? ' lang="tr"' : ' lang="en"') + '>' + esc(other) + '</dd>' : '') +
       (same.length ? '<dt>' + esc(t('patSame')) + '</dt><dd class="mono-v">' + esc(same.join(', ')) + '</dd>' : '') +
       (loc(p, 'desc') ? '<dt>' + esc(t('patSummary')) + '</dt><dd>' + esc(loc(p, 'desc')) + '</dd>' : '') +
@@ -848,7 +853,7 @@ function renderPatents() {
   });
   setHTML('#patTl', html);
   var y0 = Math.min.apply(null, ys), y1 = Math.max.apply(null, ys);
-  setHTML('#patStats', stat(PATENTS.length, t('statApps')) + stat(pct, tn(pct, 'statPct')) + '<span class="stat"><b>' + y0 + '–' + y1 + '</b>' + esc(t('statSpan')) + '</span>');
+  setHTML('#patStats', stat(PATENTS.length, t('statApps')) + (gr ? stat(gr, tn(gr, 'statGranted')) : '') + stat(pct, tn(pct, 'statPct')) + '<span class="stat"><b>' + y0 + '–' + y1 + '</b>' + esc(t('statSpan')) + '</span>');
 }
 
 function renderCourses() {
