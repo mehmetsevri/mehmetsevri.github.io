@@ -24,7 +24,10 @@ assets/
 data/site-data.json                TEK VERİ KAYNAĞI (profil, yayınlar, projeler, patentler, lab…)
 tools/build_data.py                site-data.json → assets/js/data.js
 tools/make_images.py               favicon, apple-touch-icon ve og-image üretir (Pillow)
-courses/algoritmalar-programlama-1/  Ders sitesi (şimdilik “hazırlanıyor” sayfası)
+tools/sync_course.py               Ders sitelerini OneDrive'daki kaynak klasörlerden eşitler
+tools/serve.py                     Yerel önizleme sunucusu
+courses/algoritmalar-programlama-1/  AP-I ders sitesi (tools/sync_course.py ile üretilir)
+courses/algoritmalar-programlama-2/  AP-II ders sitesi (tools/sync_course.py ile üretilir)
 _tema-onerileri/                   Tasarım önerileri (sitenin parçası değildir)
 ```
 
@@ -66,8 +69,11 @@ _tema-onerileri/                   Tasarım önerileri (sitenin parçası değil
   `pree`, `twin`, `renew`, `nu`, `hydro`, `drone`, `recy`, `safe`, `pharma`, `dcpt`).
   Proje durumu (devam ediyor / tamamlandı / başlayacak) bugünün tarihine göre otomatik hesaplanır.
 - **Patentler:** `patents` dizisi. Ana sayfadaki sayı bu diziden hesaplanır
-  (şu an 7 başvuru, 1’i PCT). `pct: true` olan kayıt zaman çizelgesinde vurgulanır;
-  `art`: `rfid`, `mirror`, `modem`, `uav`, `pest`, `wafpct`, `waftr`.
+  (şu an 8 başvuru: 2’si tescilli, 1’i PCT). `pct: true` olan kayıt zaman çizelgesinde vurgulanır;
+  `"status": "granted"` olan kayıtta altın “Tescilli patent” rozeti ve “TESCİL” damgası görünür.
+  İsteğe bağlı alanlar: `desc_tr`/`desc_en` (kısa açıklama), `inventors` (`name`, `title_tr`, `title_en`).
+  `art`: `forest`, `rfid`, `mirror`, `modem`, `uav`, `pest`, `wafpct`, `waftr`.
+- **Sanayi danışmanlıkları:** `consultancies` dizisi (proje kaydıyla aynı alanlar; rol “Danışman”).
 - **AISEC Lab:** `lab` nesnesi. Üye eklemek için `lab.members` dizisine
   `{ "name", "group": "lead|academic|research|student", "role_tr", "role_en", "photo" }` ekleyin.
   Fotoğraf yoksa `"photo": null` bırakın; baş harflerden oluşan avatar gösterilir.
@@ -76,25 +82,34 @@ _tema-onerileri/                   Tasarım önerileri (sitenin parçası değil
 - **Arayüz metinleri** (başlıklar, düğmeler vb.) `assets/js/main.js` içindeki `I18N`
   sözlüğündedir; her anahtar hem `tr` hem `en` altında bulunmalıdır.
 
-## Ders sitesi ekleme
+## Ders siteleri
 
-Ders siteleri `courses/<klasör-adı>/` altında bağımsız statik siteler olarak durur.
+Algoritmalar ve Programlama I ve II ders siteleri OneDrive'daki kaynak klasörlerden
+(`DERSLER/Algoritma ve Programlama - 1|2/Sunum ve Materyaller`) eşitlenir:
 
-1. Ders sitesinin dosyalarını (en azından bir `index.html`) örneğin
-   `courses/algoritmalar-programlama-1/` klasörüne koyun. Mevcut “hazırlanıyor” sayfası
-   bu klasördeki `index.html` dosyasıdır; gerçek ders sitesi geldiğinde klasörün içeriğini
-   onunla değiştirmeniz yeterlidir (ana sayfadaki bağlantılar aynı yolu kullanır).
-2. Yeni bir ders için `data/site-data.json` → `courses` dizisindeki ilgili derse
-   `"site": "courses/<klasör-adı>/"` alanını ekleyin ve `python tools/build_data.py` çalıştırın.
-   `site` alanı olan ders, “Dersler” bölümünde büyük kart olarak öne çıkar.
-3. Ders sitesindeki bağlantılar göreli olmalıdır (örn. ana sayfaya dönüş için `../../`).
+```bash
+python tools/sync_course.py               # iki ders
+python tools/sync_course.py --course ap2  # yalnız AP-II
+```
+
+- Yalnızca `99_Web_Crash_Course/index.html` sayfasının başvurduğu dosyalar kopyalanır;
+  `92_Degerlendirme` (çözümler, soru bankası) asla yayına girmez.
+- Ders notu PDF'leri, kod ZIP'leri ve proje yönergeleri yayınlanır; PPTX sunumlar
+  PowerPoint ile PDF'e çevrilir; DOCX dosyaları yayınlanmaz.
+- AP-II'deki Mini-OBS 2 v3.0 belgeleri (final projesi referans çözümü) yayınlanmaz;
+  sayfadaki bağlantıları "dersin klasöründe" olarak pasif görünür
+  (`tools/sync_course.py` içindeki `COURSES[...]["private"]`).
+- Yeni bir ders için `COURSES` sözlüğüne kaynak/hedef ekleyin ve `data/site-data.json`
+  → `courses` dizisindeki derse `id`, `"site": "courses/<klasör>/"` ve
+  `site_desc_tr`/`site_desc_en` alanlarını yazın. `site` alanı olan dersler “Dersler”
+  bölümünde ilk satırda büyük kart olarak yan yana gösterilir.
 
 ## Yerelde önizleme
 
 Depo kök klasöründe:
 
 ```bash
-python -m http.server 8000
+python tools/serve.py        # http://localhost:8080
 ```
 
 ardından tarayıcıda <http://localhost:8000/> adresini açın. İngilizce görünüm için
