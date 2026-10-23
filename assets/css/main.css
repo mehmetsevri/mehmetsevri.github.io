@@ -355,6 +355,8 @@ html.theme-anim,html.theme-anim *,html.theme-anim *::before,html.theme-anim *::a
 .t-course{display:flex;flex-direction:column;gap:12px;background:linear-gradient(160deg,rgba(99,102,241,.10),transparent 55%),var(--tile)}
 .t-course h3{font-size:1.15rem;font-weight:800}
 .t-course p{color:var(--muted);font-size:.88rem}
+.t-course .c-links{display:flex;flex-direction:column;gap:2px;margin-top:auto}
+.t-course .c-links .more-link{justify-content:space-between}
 .course-art{height:118px;margin:-4px 0 2px}
 /* lab tile */
 .t-lab{display:flex;flex-direction:column;gap:12px;background:radial-gradient(90% 70% at 100% 0%,rgba(16,185,129,.14),transparent 60%),radial-gradient(80% 70% at 0% 100%,rgba(99,102,241,.14),transparent 60%),var(--tile)}
@@ -605,6 +607,7 @@ html.theme-anim,html.theme-anim *,html.theme-anim *::before,html.theme-anim *::a
 .course.feat{background:radial-gradient(80% 70% at 100% 0%,rgba(16,185,129,.16),transparent 60%),radial-gradient(70% 70% at 0% 100%,rgba(99,102,241,.16),transparent 60%),var(--tile);gap:16px;min-height:330px}
 .course.feat h3{font-size:clamp(1.5rem,2.4vw,2rem);font-weight:800;letter-spacing:-.03em;margin-top:0}
 .course.feat p{color:var(--muted)}
+.course.feat .cta-row{margin-top:auto}
 .code-card{border-radius:16px;background:#0f1020;color:#e2e8f0;padding:14px 16px;font:500 .8rem/1.7 "JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;box-shadow:0 18px 30px -20px rgba(0,0,0,.6);overflow:hidden}
 .code-card pre{margin:0;white-space:pre-wrap;font:inherit}
 .code-card .dots{display:flex;gap:6px;margin-bottom:8px}

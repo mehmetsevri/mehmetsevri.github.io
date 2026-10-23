@@ -335,13 +335,20 @@
    "tr": "Algoritmalar ve Programlama I",
    "en": "Algorithms and Programming I",
    "site": "courses/algoritmalar-programlama-1/",
-   "icon": "code"
+   "icon": "code",
+   "id": "ap1",
+   "site_desc_tr": "C ile programlamaya giriş: makineden algoritmaya, veri tiplerinden işaretçilere, karakter dizilerine ve dosyalara 14 haftalık içerik. Ders notları, sunumlar, kod örnekleri, etkileşimli simülasyonlar ve Mini-OBS projesi.",
+   "site_desc_en": "An introduction to programming in C: 14 weeks from the machine and algorithms to data types, pointers, strings and files. Lecture notes, slides, code examples, interactive simulations and the Mini-OBS project."
   },
   {
    "level": "BSc",
    "tr": "Algoritmalar ve Programlama II",
    "en": "Algorithms and Programming II",
-   "icon": "algo"
+   "icon": "algo",
+   "id": "ap2",
+   "site": "courses/algoritmalar-programlama-2/",
+   "site_desc_tr": "Algoritma analizi ve veri yapıları: asimptotik analizden sıralamaya, karma tablolarından graflara, açgözlü algoritmalara ve dinamik programlamaya 14 haftalık içerik. C, C++ ve Python örnekleri, etkileşimli simülasyonlar ve Mini-OBS 2 projesi.",
+   "site_desc_en": "Algorithm analysis and data structures: 14 weeks from asymptotic analysis and sorting to hash tables, graphs, greedy algorithms and dynamic programming. Examples in C, C++ and Python, interactive simulations and the Mini-OBS 2 project."
   },
   {
    "level": "BSc",

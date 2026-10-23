@@ -43,7 +43,7 @@ tr: {
   mPatSub1: '{n} PCT başvurusu dahil',
   sparkAria: 'Yıllara göre yayın sayısı: ', pubUnit: 'yayın', pubUnit1: 'yayın',
   awardH: 'Ödül', latestPaper: 'Son Makale', readPaper: 'Makaleyi incele', activeProj: 'Öne Çıkan Proje', viewProj: 'Projeyi incele',
-  courseEyebrow: 'Ders Sitesi', courseP: 'Ders içerikleri ve uygulamalar için web tabanlı ders sitesi.', courseBtn: 'Ders sitesine git',
+  courseEyebrow: 'Ders Siteleri', courseP: 'Ders notları, sunumlar, kod örnekleri ve etkileşimli simülasyonlar içeren web tabanlı ders siteleri.', courseBtn: 'Ders sitesine git', courseSitesH: 'Etkileşimli ders siteleri',
   labTileEy: 'Araştırma Laboratuvarı', labTileBtn: 'Laboratuvarı keşfet', labTeamN: '{n} kişilik ekip',
   joinEyebrow: 'AISEC Lab · Araştırma Ekibi', joinH: 'Ekibe katıl, birlikte üretelim.', joinP: 'Lisans ve lisansüstü öğrenciler, araştırmacılar ve sanayi ortakları için kapımız açık: yapay zekâ, güvenlik ve sağlık odaklı projelerde birlikte çalışalım.', joinBtn: 'Ekibi Tanı', joinBtn2: 'İşbirliği Öner', joinTeam: 'AISEC Lab ekibi · {n} kişi',
   uni: 'Recep Tayyip Erdoğan Üniversitesi', mapCampus: 'Zihni Derin Yerleşkesi · Rize, Türkiye', mapSea: 'KARADENİZ',
@@ -78,7 +78,7 @@ tr: {
   patYear1: '1 başvuru', patYearN: '{n} başvuru', statApps: 'patent başvurusu', statPct: 'PCT başvurusu', statPct1: 'PCT başvurusu', statSpan: 'dönem',
   teachEy: 'Dersler', teachH: 'Verdiğimiz Dersler', teachP: 'Lisans ve doktora düzeyinde dersler. Ders siteleri sırayla yayına alınıyor.',
   lvlBSc: 'Lisans', lvlPhD: 'Doktora', comingSoon: 'Yakında', courseSite: 'Ders Sitesi', featCourse: 'Etkileşimli ders sitesi',
-  featCourseP: 'Algoritmalar ve Programlama I için hazırlanan ders içerikleri web tabanlı ders sitesinde. Diğer derslerin siteleri hazırlanıyor.',
+  featCourseP: 'Ders içerikleri web tabanlı ders sitesinde.',
   stuH: 'Danışmanlığını Yürüttüğümüz Öğrenci Projeleri',
   labEy: 'Araştırma Laboratuvarı', labLogoAlt: 'AISEC Lab logosu', labDirLbl: 'Laboratuvar Direktörü', labAvesis: 'AVESIS laboratuvar sayfası', labContactBtn: 'Laboratuvarla iletişim', labMailSubject: 'AISEC Lab — İletişim',
   labStatMembers: 'ekip üyesi', labStatProjects: 'proje', labStatPubs: 'yayın',
@@ -110,7 +110,7 @@ en: {
   mPat: 'Patent applications', mPatSub: 'incl. {n} PCT applications', mPatSub1: 'incl. {n} PCT application', mWos: 'WoS-indexed articles', mWosSub: 'SCI-E · SSCI · ESCI', mSco: 'Scopus-indexed articles', mScoSub: 'International journal articles',
   sparkAria: 'Publications per year: ', pubUnit: 'publications', pubUnit1: 'publication',
   awardH: 'Award', latestPaper: 'Latest Article', readPaper: 'Explore paper', activeProj: 'Featured Project', viewProj: 'View project',
-  courseEyebrow: 'Course Site', courseP: 'A web-based course site for lecture content and exercises.', courseBtn: 'Open the course site',
+  courseEyebrow: 'Course Sites', courseP: 'Web-based course sites with lecture notes, slides, code examples and interactive simulations.', courseBtn: 'Open the course site', courseSitesH: 'Interactive course sites',
   labTileEy: 'Research Lab', labTileBtn: 'Explore the lab', labTeamN: 'a team of {n}',
   joinEyebrow: 'AISEC Lab · Research Team', joinH: 'Join the lab — let’s build together.', joinP: 'Undergraduate and graduate students, researchers and industry partners are welcome: let’s work together on projects in AI, security and healthcare.', joinBtn: 'Meet the Team', joinBtn2: 'Propose a Collaboration', joinTeam: 'AISEC Lab team · {n} people',
   uni: 'Recep Tayyip Erdoğan University', mapCampus: 'Zihni Derin Campus · Rize, Türkiye', mapSea: 'BLACK SEA',
@@ -145,7 +145,7 @@ en: {
   patYear1: '1 application', patYearN: '{n} applications', statApps: 'patent applications', statPct: 'PCT applications', statPct1: 'PCT application', statSpan: 'period',
   teachEy: 'Teaching', teachH: 'Courses', teachP: 'Undergraduate and doctoral courses. Course sites are being published one by one.',
   lvlBSc: 'Undergraduate', lvlPhD: 'Doctoral', comingSoon: 'Coming soon', courseSite: 'Course Site', featCourse: 'Interactive course site',
-  featCourseP: 'Course content prepared for Algorithms and Programming I lives on a web-based course site. Sites for the other courses are in preparation.',
+  featCourseP: 'Course content lives on a web-based course site.',
   stuH: 'Supervised Student Projects',
   labEy: 'Research Lab', labLogoAlt: 'AISEC Lab logo', labDirLbl: 'Lab Director', labAvesis: 'Lab page on AVESIS', labContactBtn: 'Contact the lab', labMailSubject: 'AISEC Lab — Contact',
   labStatMembers: 'team members', labStatProjects: 'projects', labStatPubs: 'publications',
@@ -692,7 +692,9 @@ function renderGlance() {
   var areas = PROFILE['research_areas_' + L] || PROFILE.research_areas_tr || [];
   setHTML('#gChips', areas.map(function (a) { return '<li class="chip"><span class="cd" aria-hidden="true"></span>' + esc(a) + '</li>'; }).join(''));
   var cs = (SD.courses || []).filter(function (c) { return c.site; })[0];
-  if (cs) setText('#gCourseT', tl(cs));
+  var sites = (SD.courses || []).filter(function (c) { return c.site; });
+  if (sites.length) setText('#gCourseT', sites.length > 1 ? t('courseSitesH') : tl(sites[0]));
+  setHTML('#gCourseLinks', sites.map(function (c) { return '<a class="more-link" href="' + esc(c.site) + '"><span>' + esc(tl(c)) + '</span>' + ic('arrow') + '</a>'; }).join(''));
   setHTML('#courseArt', courseArt());
   var photo = (LAB.photos || [])[0];
   setHTML('#gLab', '<div class="tl-head"><span class="logo-badge sm"><img src="' + esc(LAB.logo) + '" width="52" height="52" alt="" loading="lazy" decoding="async"></span><div><span class="eyebrow">' + esc(t('labTileEy')) + '</span><b>' + esc(LAB.short || 'AISEC Lab') + '</b></div></div>' +
@@ -856,16 +858,25 @@ function renderPatents() {
   setHTML('#patStats', stat(PATENTS.length, t('statApps')) + (gr ? stat(gr, tn(gr, 'statGranted')) : '') + stat(pct, tn(pct, 'statPct')) + '<span class="stat"><b>' + y0 + '–' + y1 + '</b>' + esc(t('statSpan')) + '</span>');
 }
 
+var COURSE_CODE = {
+  ap1: {
+    tr: '<span class="cm">// En büyük elemanı bul</span>\n<span class="nm">enBuyuk</span> ← A[0]\n<span class="kw">için</span> i ← 1 … n-1\n  <span class="kw">eğer</span> A[i] &gt; <span class="nm">enBuyuk</span> <span class="kw">ise</span>\n    <span class="nm">enBuyuk</span> ← A[i]\n<span class="kw">yazdır</span> <span class="nm">enBuyuk</span><span class="cursor"></span>',
+    en: '<span class="cm">// Find the largest element</span>\n<span class="nm">max</span> ← A[0]\n<span class="kw">for</span> i ← 1 … n-1\n  <span class="kw">if</span> A[i] &gt; <span class="nm">max</span> <span class="kw">then</span>\n    <span class="nm">max</span> ← A[i]\n<span class="kw">print</span> <span class="nm">max</span><span class="cursor"></span>'
+  },
+  ap2: {
+    tr: '<span class="cm">// İkili arama — O(log n)</span>\n<span class="nm">alt</span> ← 0, <span class="nm">üst</span> ← n-1\n<span class="kw">iken</span> <span class="nm">alt</span> ≤ <span class="nm">üst</span>\n  <span class="nm">orta</span> ← ⌊(<span class="nm">alt</span> + <span class="nm">üst</span>) / 2⌋\n  <span class="kw">eğer</span> A[<span class="nm">orta</span>] = x <span class="kw">ise döndür</span> <span class="nm">orta</span>\n  <span class="kw">eğer</span> A[<span class="nm">orta</span>] &lt; x <span class="kw">ise</span> <span class="nm">alt</span> ← <span class="nm">orta</span> + 1\n  <span class="kw">değilse</span> <span class="nm">üst</span> ← <span class="nm">orta</span> - 1<span class="cursor"></span>',
+    en: '<span class="cm">// Binary search — O(log n)</span>\n<span class="nm">lo</span> ← 0, <span class="nm">hi</span> ← n-1\n<span class="kw">while</span> <span class="nm">lo</span> ≤ <span class="nm">hi</span>\n  <span class="nm">mid</span> ← ⌊(<span class="nm">lo</span> + <span class="nm">hi</span>) / 2⌋\n  <span class="kw">if</span> A[<span class="nm">mid</span>] = x <span class="kw">then return</span> <span class="nm">mid</span>\n  <span class="kw">if</span> A[<span class="nm">mid</span>] &lt; x <span class="kw">then</span> <span class="nm">lo</span> ← <span class="nm">mid</span> + 1\n  <span class="kw">else</span> <span class="nm">hi</span> ← <span class="nm">mid</span> - 1<span class="cursor"></span>'
+  }
+};
 function renderCourses() {
-  var code = L === 'tr'
-    ? '<span class="cm">// En büyük elemanı bul</span>\n<span class="nm">enBuyuk</span> ← A[0]\n<span class="kw">için</span> i ← 1 … n-1\n  <span class="kw">eğer</span> A[i] &gt; <span class="nm">enBuyuk</span> <span class="kw">ise</span>\n    <span class="nm">enBuyuk</span> ← A[i]\n<span class="kw">yazdır</span> <span class="nm">enBuyuk</span><span class="cursor"></span>'
-    : '<span class="cm">// Find the largest element</span>\n<span class="nm">max</span> ← A[0]\n<span class="kw">for</span> i ← 1 … n-1\n  <span class="kw">if</span> A[i] &gt; <span class="nm">max</span> <span class="kw">then</span>\n    <span class="nm">max</span> ← A[i]\n<span class="kw">print</span> <span class="nm">max</span><span class="cursor"></span>';
   var cs = (SD.courses || []).slice().sort(function (a, b) { return (b.site ? 1 : 0) - (a.site ? 1 : 0); });
+  var nFeat = cs.filter(function (c) { return c.site; }).length;
   var html = cs.map(function (c, i) {
     var lv = '<span class="badge ' + (c.level === 'PhD' ? 'b-sco' : 'b-idx') + '">' + esc(t(c.level === 'PhD' ? 'lvlPhD' : 'lvlBSc')) + '</span>';
-    if (c.site) return '<article class="tile lift course feat s6 r2 reveal"><div class="c-top"><div class="prj-top">' + lv + '<span class="status st-ongoing"><span class="dot" aria-hidden="true"></span>' + esc(t('featCourse')) + '</span></div><span class="c-ic">' + ic(c.icon || 'code') + '</span></div>' +
+    var code = (COURSE_CODE[c.id] || COURSE_CODE.ap1)[L === 'en' ? 'en' : 'tr'];
+    if (c.site) return '<article class="tile lift course feat s6' + (nFeat > 1 ? '' : ' r2') + ' reveal"><div class="c-top"><div class="prj-top">' + lv + '<span class="status st-ongoing"><span class="dot" aria-hidden="true"></span>' + esc(t('featCourse')) + '</span></div><span class="c-ic">' + ic(c.icon || 'code') + '</span></div>' +
       '<div class="code-card" aria-hidden="true"><div class="dots"><i></i><i></i><i></i></div><pre>' + code + '</pre></div>' +
-      '<h3>' + esc(tl(c)) + '</h3><p>' + esc(t('featCourseP')) + '</p><div class="cta-row"><a class="btn btn-pri stretch" href="' + esc(c.site) + '">' + ic('code') + esc(t('courseSite')) + ic('arrow') + '</a></div></article>';
+      '<h3>' + esc(tl(c)) + '</h3><p>' + esc(loc(c, 'site_desc') || t('featCourseP')) + '</p><div class="cta-row"><a class="btn btn-pri stretch" href="' + esc(c.site) + '">' + ic('code') + esc(t('courseSite')) + ic('arrow') + '</a></div></article>';
     return '<article class="tile course s3 m6 reveal" style="--i:' + (i % 4) + '"><div class="c-top"><span class="c-ic">' + ic(c.icon || 'doc') + '</span>' + lv + '</div><h3>' + esc(tl(c)) + '</h3><span class="badge b-soon" style="align-self:flex-start">' + esc(t('comingSoon')) + '</span></article>';
   }).join('');
   var stu = SD.student_projects || [];
