@@ -437,6 +437,29 @@
     "Publication ethics",
     "Open access"
    ]
+  },
+  {
+   "kind": "slides",
+   "tr": "Akademide Üretken Yapay Zekâ — atölye sunumu",
+   "en": "Generative AI in Academia — workshop slides",
+   "desc_tr": "Kursun içeriğinden türetilmiş, altı saatlik uygulamalı atölye için web tabanlı slayt sunumu. 88 slayt, yedi bölüm, beş uygulama molası. Kurulum gerektirmez; projeksiyonda ve telefonda okunur.",
+   "desc_en": "A web-based slide deck for a six-hour hands-on workshop, derived from the course. 88 slides, seven parts, five practice breaks. No installation; readable on a projector and on a phone.",
+   "url": "https://mehmetsevri.github.io/akademide-yapay-zeka/atolye/",
+   "date": "2026-11",
+   "icon": "news",
+   "lang": "tr",
+   "tags_tr": [
+    "Atölye",
+    "Sunum",
+    "Üretken yapay zekâ",
+    "Açık erişim"
+   ],
+   "tags_en": [
+    "Workshop",
+    "Slides",
+    "Generative AI",
+    "Open access"
+   ]
   }
  ],
  "patents": [
