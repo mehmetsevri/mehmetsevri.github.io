@@ -414,6 +414,31 @@
    "en": "BELTEK C++ Programming Course"
   }
  ],
+ "content": [
+  {
+   "kind": "course",
+   "tr": "Akademide Üretken Yapay Zekâ",
+   "en": "Generative AI in Academia",
+   "desc_tr": "Fikirden hakem cevabına kadar bütün araştırma sürecini, gerçekten çalıştırılmış istemler ve gerçek çıktılar üzerinden anlatan açık erişimli uygulamalı kurs. 15 bölüm, 53 istem kalıbı, 34 şekil, 20 çalıştırılabilir Python betiği ve indirilebilir veri setleri.",
+   "desc_en": "An open-access, hands-on course covering the whole research process from idea to reviewer response, built on prompts that were actually run and the real outputs they produced. 15 chapters, 53 prompt templates, 34 figures, 20 runnable Python scripts and downloadable datasets.",
+   "url": "https://mehmetsevri.github.io/akademide-yapay-zeka/",
+   "date": "2026-11",
+   "icon": "doc",
+   "lang": "tr",
+   "tags_tr": [
+    "Üretken yapay zekâ",
+    "Araştırma yöntemleri",
+    "Yayın etiği",
+    "Açık erişim"
+   ],
+   "tags_en": [
+    "Generative AI",
+    "Research methods",
+    "Publication ethics",
+    "Open access"
+   ]
+  }
+ ],
  "patents": [
   {
    "year": 2026,

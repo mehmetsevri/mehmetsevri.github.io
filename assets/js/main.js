@@ -34,7 +34,7 @@ tr: {
   metaTitle: 'Mehmet Sevri — Dr. Öğr. Üyesi | Yapay Zeka & Siber Güvenlik',
   metaDesc: 'Dr. Öğr. Üyesi Mehmet Sevri — Recep Tayyip Erdoğan Üniversitesi Bilgisayar Mühendisliği Bölüm Başkanı ve AISEC Lab Direktörü. Yapay zekâ, derin öğrenme, web uygulama güvenliği, açıklanabilir yapay zekâ ve sağlıkta yapay zekâ.',
   skip: 'İçeriğe geç', brandSub: 'Dr. Öğr. Üyesi · RTEÜ · AISEC Lab', brandAria: 'Mehmet Sevri — Ana Sayfa', navAria: 'Ana menü', mnavAria: 'Mobil menü', langAria: 'Dil seçimi',
-  nHome: 'Ana Sayfa', nAbout: 'Hakkımda', nResearch: 'Araştırma', nPubs: 'Yayınlar', nProjects: 'Projeler', nPatents: 'Patentler', nTeaching: 'Dersler', nLab: 'AISEC Lab', nContact: 'İletişim',
+  nHome: 'Ana Sayfa', nAbout: 'Hakkımda', nResearch: 'Araştırma', nPubs: 'Yayınlar', nProjects: 'Projeler', nPatents: 'Patentler', nTeaching: 'Dersler', nContent: 'Blog ve İçerik', nLab: 'AISEC Lab', nContact: 'İletişim',
   toDark: 'Koyu temaya geç', toLight: 'Açık temaya geç', menuOpen: 'Menüyü aç', menuClose: 'Menüyü kapat', opens: 'yeni sekmede açılır', close: 'Kapat', toTop: 'Başa dön',
   portraitAlt: 'Dr. Mehmet Sevri’nin portresi', heroScroll: 'Kaydır', ctaCollab: 'Birlikte Çalışalım', ctaPubs: 'Yayınları Keşfet',
   glanceH: 'Bir bakışta', rolesH: 'Güncel Görevler', areasH: 'Araştırma Alanları',
@@ -77,6 +77,7 @@ tr: {
   patTitleEn: 'İngilizce başlık', patTitleEnTr: 'İngilizce başlık (çeviri)', patTitleTr: 'Türkçe başlık', patSame: 'Aynı başlıklı başvuru',
   patYear1: '1 başvuru', patYearN: '{n} başvuru', statApps: 'patent başvurusu', statPct: 'PCT başvurusu', statPct1: 'PCT başvurusu', statSpan: 'dönem',
   teachEy: 'Dersler', teachH: 'Verdiğimiz Dersler', teachP: 'Lisans ve doktora düzeyinde dersler. Ders siteleri sırayla yayına alınıyor.',
+  contEy: 'Blog ve İçerik', contH: 'Blog ve Açık Erişim İçerikler', contP: 'Açık erişimle paylaşılan kurslar, rehberler ve yazılar. Tamamı ücretsiz; kaynak göstererek kullanılabilir.', contOpen: 'İçeriği aç', contKindCourse: 'Uygulamalı kurs', contKindGuide: 'Rehber', contKindPost: 'Yazı', contFree: 'Açık erişim',
   lvlBSc: 'Lisans', lvlPhD: 'Doktora', comingSoon: 'Yakında', courseSite: 'Ders Sitesi', featCourse: 'Etkileşimli ders sitesi',
   featCourseP: 'Ders içerikleri web tabanlı ders sitesinde.',
   stuH: 'Danışmanlığını Yürüttüğümüz Öğrenci Projeleri',
@@ -102,7 +103,7 @@ en: {
   metaTitle: 'Mehmet Sevri — Assistant Professor | AI & Cybersecurity',
   metaDesc: 'Dr. Mehmet Sevri — Assistant Professor and Head of the Department of Computer Engineering at Recep Tayyip Erdoğan University, Director of the AISEC Lab. Artificial intelligence, deep learning, web application security, explainable AI and AI in healthcare.',
   skip: 'Skip to content', brandSub: 'Asst. Prof. · RTEU · AISEC Lab', brandAria: 'Mehmet Sevri — Home', navAria: 'Main menu', mnavAria: 'Mobile menu', langAria: 'Language',
-  nHome: 'Home', nAbout: 'About', nResearch: 'Research', nPubs: 'Publications', nProjects: 'Projects', nPatents: 'Patents', nTeaching: 'Teaching', nLab: 'AISEC Lab', nContact: 'Contact',
+  nHome: 'Home', nAbout: 'About', nResearch: 'Research', nPubs: 'Publications', nProjects: 'Projects', nPatents: 'Patents', nTeaching: 'Teaching', nContent: 'Blog & Content', nLab: 'AISEC Lab', nContact: 'Contact',
   toDark: 'Switch to dark mode', toLight: 'Switch to light mode', menuOpen: 'Open menu', menuClose: 'Close menu', opens: 'opens in a new tab', close: 'Close', toTop: 'Back to top',
   portraitAlt: 'Portrait of Dr. Mehmet Sevri', heroScroll: 'Scroll', ctaCollab: 'Let’s Collaborate', ctaPubs: 'Explore Publications',
   glanceH: 'At a glance', rolesH: 'Current Roles', areasH: 'Research Areas',
@@ -144,6 +145,7 @@ en: {
   patTitleEn: 'English title', patTitleEnTr: 'English title (translation)', patTitleTr: 'Turkish title', patSame: 'Application with the same Turkish title',
   patYear1: '1 application', patYearN: '{n} applications', statApps: 'patent applications', statPct: 'PCT applications', statPct1: 'PCT application', statSpan: 'period',
   teachEy: 'Teaching', teachH: 'Courses', teachP: 'Undergraduate and doctoral courses. Course sites are being published one by one.',
+  contEy: 'Blog & Content', contH: 'Blog and Open-Access Content', contP: 'Courses, guides and posts shared under open access. All free to use with attribution.', contOpen: 'Open content', contKindCourse: 'Hands-on course', contKindGuide: 'Guide', contKindPost: 'Post', contFree: 'Open access',
   lvlBSc: 'Undergraduate', lvlPhD: 'Doctoral', comingSoon: 'Coming soon', courseSite: 'Course Site', featCourse: 'Interactive course site',
   featCourseP: 'Course content lives on a web-based course site.',
   stuH: 'Supervised Student Projects',
@@ -868,6 +870,34 @@ var COURSE_CODE = {
     en: '<span class="cm">// Binary search — O(log n)</span>\n<span class="nm">lo</span> ← 0, <span class="nm">hi</span> ← n-1\n<span class="kw">while</span> <span class="nm">lo</span> ≤ <span class="nm">hi</span>\n  <span class="nm">mid</span> ← ⌊(<span class="nm">lo</span> + <span class="nm">hi</span>) / 2⌋\n  <span class="kw">if</span> A[<span class="nm">mid</span>] = x <span class="kw">then return</span> <span class="nm">mid</span>\n  <span class="kw">if</span> A[<span class="nm">mid</span>] &lt; x <span class="kw">then</span> <span class="nm">lo</span> ← <span class="nm">mid</span> + 1\n  <span class="kw">else</span> <span class="nm">hi</span> ← <span class="nm">mid</span> - 1<span class="cursor"></span>'
   }
 };
+function renderContent() {
+  var items = SD.content || [];
+  if (!items.length) { return; }
+  var html = items.map(function (c, i) {
+    var kindKey = 'contKind' + (c.kind || 'post').charAt(0).toUpperCase() +
+                  (c.kind || 'post').slice(1);
+    var tags = (loc(c, 'tags') || []).map(function (x) {
+      return '<span class="badge b-idx">' + esc(x) + '</span>';
+    }).join('');
+    var dis = c.date ? '<small>' + esc(c.date) + '</small>' : '';
+    return '<article class="tile lift course feat s12 reveal" style="--i:' +
+      (i % 4) + '">' +
+      '<div class="c-top"><div class="prj-top">' +
+      '<span class="badge b-sco">' + esc(t(kindKey)) + '</span>' +
+      '<span class="status st-ongoing"><span class="dot" aria-hidden="true">' +
+      '</span>' + esc(t('contFree')) + '</span>' + dis + '</div>' +
+      '<span class="c-ic">' + ic(c.icon || 'doc') + '</span></div>' +
+      '<h3>' + esc(tl(c)) + '</h3>' +
+      '<p>' + esc(loc(c, 'desc') || '') + '</p>' +
+      (tags ? '<div class="prj-top">' + tags + '</div>' : '') +
+      '<div class="cta-row"><a class="btn btn-pri stretch" href="' +
+      esc(c.url) + '" target="_blank" rel="noopener">' + ic('doc') +
+      esc(t('contOpen')) + ic('ext') +
+      '<span class="sr-only"> (' + esc(t('opens')) + ')</span></a></div>' +
+      '</article>';
+  }).join('');
+  setHTML('#contentGrid', html);
+}
 function renderCourses() {
   var cs = (SD.courses || []).slice().sort(function (a, b) { return (b.site ? 1 : 0) - (a.site ? 1 : 0); });
   var nFeat = cs.filter(function (c) { return c.site; }).length;
@@ -1022,7 +1052,7 @@ var booted = false;
 function renderAll() {
   if (artIO) artIO.disconnect();
   renderHero(); renderGlance(); renderAbout(); renderAreas(); renderFeat(); renderFilters(); renderPubList();
-  renderProjects(); renderConsult(); renderPatents(); renderCourses(); renderLab(); renderCareer(); renderContact();
+  renderProjects(); renderConsult(); renderPatents(); renderCourses(); renderContent(); renderLab(); renderCareer(); renderContact();
   selectTab(labTab);
   if (booted) revealAll();
   observeArt();
